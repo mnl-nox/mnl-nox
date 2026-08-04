@@ -2,37 +2,25 @@
 
 <svg width="100%" height="260" viewBox="0 0 1200 260" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid meet">
   <defs>
-    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+    <linearGradient id="bg1" x1="0" y1="0" x2="1" y2="1">
       <stop offset="0%" stop-color="#0f172a" />
       <stop offset="100%" stop-color="#0d0221" />
     </linearGradient>
-    <linearGradient id="glow" x1="0" y1="0" x2="1" y2="0">
+    <linearGradient id="glow1" x1="0" y1="0" x2="1" y2="0">
       <stop offset="0%" stop-color="#a78bfa" />
       <stop offset="50%" stop-color="#f472b6" />
       <stop offset="100%" stop-color="#38bdf8" />
     </linearGradient>
-    <filter id="blur">
-      <feGaussianBlur stdDeviation="4" result="blur" />
-      <feColorMatrix in="blur" type="matrix" values="1 0 0 0 0  0 1 0 0 0  0 0 1 0 0  0 0 0 18 -7" />
-    </filter>
   </defs>
-  <rect width="1200" height="260" fill="url(#bg)" />
+  <rect width="1200" height="260" fill="url(#bg1)" />
   <g opacity="0.85">
-    <path d="M0 120 C300 80 450 190 760 130 S1200 140 1200 140" stroke="url(#glow)" stroke-width="3" fill="none" filter="url(#blur)">
-      <animate attributeName="d" dur="10s" repeatCount="indefinite" values="M0 120 C300 80 450 190 760 130 S1200 140 1200 140;M0 130 C280 100 470 160 760 120 S1200 150 1200 150;M0 110 C320 60 430 200 760 140 S1200 130 1200 130;M0 120 C300 80 450 190 760 130 S1200 140 1200 140" />
-    </path>
-    <path d="M0 170 C350 160 500 80 820 140 S1200 180 1200 180" stroke="#7c3aed" stroke-width="2" fill="none" opacity="0.7">
-      <animate attributeName="d" dur="12s" repeatCount="indefinite" values="M0 170 C350 160 500 80 820 140 S1200 180 1200 180;M0 180 C330 180 520 90 820 150 S1200 170 1200 170;M0 160 C370 150 480 70 820 130 S1200 190 1200 190;M0 170 C350 160 500 80 820 140 S1200 180 1200 180" />
-    </path>
+    <path d="M0 120 C300 80 450 190 760 130 S1200 140 1200 140" stroke="url(#glow1)" stroke-width="3" fill="none" />
+    <path d="M0 170 C350 160 500 80 820 140 S1200 180 1200 180" stroke="#7c3aed" stroke-width="2" fill="none" opacity="0.7" />
   </g>
   <text x="50%" y="45%" text-anchor="middle" fill="#e0e7ff" font-family="Inter, sans-serif" font-size="48" font-weight="800" letter-spacing="3">MNL-NOX</text>
   <text x="50%" y="65%" text-anchor="middle" fill="#c4b5fd" font-family="Inter, sans-serif" font-size="24" font-weight="600" letter-spacing="2">SYSTEM CONSOLE</text>
-  <circle cx="185" cy="95" r="6" fill="#f472b6">
-    <animate attributeName="r" values="6;12;6" dur="2.5s" repeatCount="indefinite" />
-  </circle>
-  <circle cx="1020" cy="75" r="5" fill="#38bdf8">
-    <animate attributeName="r" values="5;11;5" dur="3s" repeatCount="indefinite" />
-  </circle>
+  <circle cx="185" cy="95" r="6" fill="#f472b6" />
+  <circle cx="1020" cy="75" r="5" fill="#38bdf8" />
 </svg>
 
 ```text
@@ -59,24 +47,20 @@
 <div align="center">
   <svg width="100%" height="40" viewBox="0 0 1200 40" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="none">
     <defs>
-      <linearGradient id="glow" x1="0%" y1="0%" x2="100%" y2="0%">
+      <linearGradient id="glow2a" x1="0%" y1="0%" x2="100%" y2="0%">
         <stop offset="0%" stop-color="#7c3aed"/>
         <stop offset="50%" stop-color="#8b5cf6"/>
         <stop offset="100%" stop-color="#ec4899"/>
       </linearGradient>
-      <linearGradient id="glow2" x1="0%" y1="0%" x2="100%" y2="0%">
+      <linearGradient id="glow2b" x1="0%" y1="0%" x2="100%" y2="0%">
         <stop offset="0%" stop-color="#ec4899" stop-opacity="0"/>
         <stop offset="50%" stop-color="#8b5cf6" stop-opacity="1"/>
         <stop offset="100%" stop-color="#ec4899" stop-opacity="0"/>
       </linearGradient>
     </defs>
-    <rect x="0" y="18" width="1200" height="4" fill="url(#glow)" opacity="0.35"/>
-    <rect x="-1200" y="15" width="1200" height="10" fill="url(#glow2)">
-      <animate attributeName="x" from="-1200" to="1200" dur="3s" repeatCount="indefinite" />
-    </rect>
-    <circle cx="600" cy="20" r="6" fill="#ffffff">
-      <animate attributeName="r" values="6;10;6" dur="2s" repeatCount="indefinite"/>
-    </circle>
+    <rect x="0" y="18" width="1200" height="4" fill="url(#glow2a)" opacity="0.35"/>
+    <rect x="0" y="15" width="1200" height="10" fill="url(#glow2b)"/>
+    <circle cx="600" cy="20" r="6" fill="#ffffff" />
   </svg>
 </div>
 
@@ -98,26 +82,20 @@
 <div align="center">
   <svg width="100%" height="170" viewBox="0 0 1200 170" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid meet">
     <defs>
-      <linearGradient id="skillsBg" x1="0" y1="0" x2="1" y2="1">
+      <linearGradient id="skillsBg3" x1="0" y1="0" x2="1" y2="1">
         <stop offset="0%" stop-color="#1e293b" />
         <stop offset="100%" stop-color="#0f172a" />
       </linearGradient>
-      <linearGradient id="skillsGlow" x1="0" y1="0" x2="1" y2="0">
+      <linearGradient id="skillsGlow3" x1="0" y1="0" x2="1" y2="0">
         <stop offset="0%" stop-color="#8b5cf6" />
         <stop offset="50%" stop-color="#f472b6" />
         <stop offset="100%" stop-color="#38bdf8" />
       </linearGradient>
     </defs>
-    <rect x="0" y="0" width="1200" height="170" rx="18" fill="url(#skillsBg)" />
-    <path d="M40 120 C220 90 380 140 560 100 S940 120 1160 80" stroke="url(#skillsGlow)" stroke-width="4" fill="none" opacity="0.85">
-      <animate attributeName="d" dur="10s" repeatCount="indefinite" values="M40 120 C220 90 380 140 560 100 S940 120 1160 80;M40 110 C220 70 380 130 560 90 S940 110 1160 70;M40 130 C220 110 380 150 560 110 S940 130 1160 90;M40 120 C220 90 380 140 560 100 S940 120 1160 80" />
-    </path>
-    <circle cx="1100" cy="40" r="10" fill="#e879f9">
-      <animate attributeName="r" values="10;16;10" dur="3s" repeatCount="indefinite" />
-    </circle>
-    <circle cx="80" cy="50" r="8" fill="#38bdf8">
-      <animate attributeName="r" values="8;14;8" dur="2.5s" repeatCount="indefinite" />
-    </circle>
+    <rect x="0" y="0" width="1200" height="170" rx="18" fill="url(#skillsBg3)" />
+    <path d="M40 120 C220 90 380 140 560 100 S940 120 1160 80" stroke="url(#skillsGlow3)" stroke-width="4" fill="none" opacity="0.85" />
+    <circle cx="1100" cy="40" r="10" fill="#e879f9" />
+    <circle cx="80" cy="50" r="8" fill="#38bdf8" />
     <text x="50%" y="45" text-anchor="middle" fill="#e2e8f0" font-family="Inter, sans-serif" font-size="32" font-weight="800">SKILLS INDEX</text>
     <text x="50%" y="84" text-anchor="middle" fill="#cbd5e1" font-family="Inter, sans-serif" font-size="16" letter-spacing="1.2">software-engineering · frontend · backend · creative</text>
     <rect x="180" y="105" width="240" height="8" rx="4" fill="#8b5cf6" opacity="0.8" />
@@ -160,22 +138,16 @@
 <div align="center" style="margin: 36px 0 16px 0;">
   <svg width="100%" height="90" viewBox="0 0 1200 90" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid meet">
     <defs>
-      <linearGradient id="toolGlow" x1="0" y1="0" x2="1" y2="0">
+      <linearGradient id="toolGlow4" x1="0" y1="0" x2="1" y2="0">
         <stop offset="0%" stop-color="#8b5cf6" />
         <stop offset="50%" stop-color="#f472b6" />
         <stop offset="100%" stop-color="#38bdf8" />
       </linearGradient>
     </defs>
     <rect x="0" y="0" width="1200" height="90" fill="#0b1220" rx="18" />
-    <path d="M40 62 C280 28 520 80 760 38 S1160 70 1160 70" stroke="url(#toolGlow)" stroke-width="3" fill="none" opacity="0.75">
-      <animate attributeName="d" dur="8s" repeatCount="indefinite" values="M40 62 C280 28 520 80 760 38 S1160 70 1160 70;M40 58 C280 22 520 72 760 32 S1160 64 1160 64;M40 66 C280 34 520 88 760 44 S1160 76 1160 76;M40 62 C280 28 520 80 760 38 S1160 70 1160 70" />
-    </path>
-    <circle cx="170" cy="45" r="10" fill="#a78bfa">
-      <animate attributeName="r" values="10;14;10" dur="2.5s" repeatCount="indefinite" />
-    </circle>
-    <circle cx="1030" cy="35" r="8" fill="#38bdf8">
-      <animate attributeName="r" values="8;12;8" dur="2.8s" repeatCount="indefinite" />
-    </circle>
+    <path d="M40 62 C280 28 520 80 760 38 S1160 70 1160 70" stroke="url(#toolGlow4)" stroke-width="3" fill="none" opacity="0.75" />
+    <circle cx="170" cy="45" r="10" fill="#a78bfa" />
+    <circle cx="1030" cy="35" r="8" fill="#38bdf8" />
     <text x="50%" y="42" text-anchor="middle" fill="#f8fafc" font-family="Inter, sans-serif" font-size="24" font-weight="700">DEV TOOLS / PLATFORM</text>
     <text x="50%" y="68" text-anchor="middle" fill="#cbd5e1" font-family="Inter, sans-serif" font-size="14" letter-spacing="1.2">Linux · Google Workspace · Development Essentials</text>
   </svg>
@@ -208,61 +180,38 @@
 <div align="center">
   <svg width="100%" height="250" viewBox="0 0 1200 250" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid meet">
     <defs>
-      <linearGradient id="loadingGlow" x1="0" y1="0" x2="1" y2="0">
+      <linearGradient id="loadingGlow5" x1="0" y1="0" x2="1" y2="0">
         <stop offset="0%" stop-color="#8b5cf6" />
         <stop offset="50%" stop-color="#f472b6" />
         <stop offset="100%" stop-color="#38bdf8" />
       </linearGradient>
-      <linearGradient id="barGlow" x1="0" y1="0" x2="1" y2="0">
+      <linearGradient id="barGlow5" x1="0" y1="0" x2="1" y2="0">
         <stop offset="0%" stop-color="#a78bfa" />
         <stop offset="100%" stop-color="#60a5fa" />
       </linearGradient>
-      <filter id="blurGlow" x="-20%" y="-20%" width="140%" height="140%">
-        <feGaussianBlur stdDeviation="6" result="blur" />
-        <feMerge>
-          <feMergeNode in="blur" />
-          <feMergeNode in="SourceGraphic" />
-        </feMerge>
-      </filter>
     </defs>
     <rect width="1200" height="250" rx="22" fill="#020617" opacity="0.95" />
     <text x="50%" y="40" text-anchor="middle" fill="#e2e8f0" font-family="Inter, sans-serif" font-size="24" font-weight="700">SYSTEM MONITOR</text>
     <g opacity="0.9">
       <text x="90" y="90" fill="#a5b4fc" font-family="Inter, sans-serif" font-size="16">ENGINEERING</text>
       <rect x="250" y="78" width="760" height="20" rx="10" fill="#1e293b" />
-      <rect x="250" y="78" width="684" height="20" rx="10" fill="url(#barGlow)">
-        <animate attributeName="width" values="0;684" dur="1.8s" begin="0.2s" fill="freeze" />
-      </rect>
-      <circle cx="950" cy="88" r="9" fill="#8b5cf6" filter="url(#blurGlow)">
-        <animate attributeName="r" values="9;14;9" dur="2.5s" repeatCount="indefinite" />
-      </circle>
+      <rect x="250" y="78" width="684" height="20" rx="10" fill="url(#barGlow5)" />
+      <circle cx="950" cy="88" r="9" fill="#8b5cf6" />
       <text x="1020" y="93" fill="#ede9fe" font-family="Inter, sans-serif" font-size="14">95%</text>
       <text x="90" y="132" fill="#a5b4fc" font-family="Inter, sans-serif" font-size="16">DESIGN</text>
       <rect x="250" y="120" width="760" height="20" rx="10" fill="#1e293b" />
-      <rect x="250" y="120" width="684" height="20" rx="10" fill="url(#barGlow)">
-        <animate attributeName="width" values="0;684" dur="1.8s" begin="0.4s" fill="freeze" />
-      </rect>
-      <circle cx="930" cy="130" r="9" fill="#f472b6" filter="url(#blurGlow)">
-        <animate attributeName="r" values="9;14;9" dur="2.7s" repeatCount="indefinite" />
-      </circle>
+      <rect x="250" y="120" width="684" height="20" rx="10" fill="url(#barGlow5)" />
+      <circle cx="930" cy="130" r="9" fill="#f472b6" />
       <text x="1020" y="135" fill="#ede9fe" font-family="Inter, sans-serif" font-size="14">90%</text>
       <text x="90" y="174" fill="#a5b4fc" font-family="Inter, sans-serif" font-size="16">RESEARCH</text>
       <rect x="250" y="162" width="760" height="20" rx="10" fill="#1e293b" />
-      <rect x="250" y="162" width="701" height="20" rx="10" fill="url(#barGlow)">
-        <animate attributeName="width" values="0;701" dur="1.8s" begin="0.6s" fill="freeze" />
-      </rect>
-      <circle cx="947" cy="172" r="9" fill="#38bdf8" filter="url(#blurGlow)">
-        <animate attributeName="r" values="9;14;9" dur="2.3s" repeatCount="indefinite" />
-      </circle>
+      <rect x="250" y="162" width="701" height="20" rx="10" fill="url(#barGlow5)" />
+      <circle cx="947" cy="172" r="9" fill="#38bdf8" />
       <text x="1020" y="177" fill="#ede9fe" font-family="Inter, sans-serif" font-size="14">92%</text>
       <text x="90" y="216" fill="#a5b4fc" font-family="Inter, sans-serif" font-size="16">AUTOMATION</text>
       <rect x="250" y="204" width="760" height="20" rx="10" fill="#1e293b" />
-      <rect x="250" y="204" width="655" height="20" rx="10" fill="url(#barGlow)">
-        <animate attributeName="width" values="0;655" dur="1.8s" begin="0.8s" fill="freeze" />
-      </rect>
-      <circle cx="901" cy="214" r="9" fill="#c084fc" filter="url(#blurGlow)">
-        <animate attributeName="r" values="9;14;9" dur="2.9s" repeatCount="indefinite" />
-      </circle>
+      <rect x="250" y="204" width="655" height="20" rx="10" fill="url(#barGlow5)" />
+      <circle cx="901" cy="214" r="9" fill="#c084fc" />
       <text x="1020" y="219" fill="#ede9fe" font-family="Inter, sans-serif" font-size="14">86%</text>
     </g>
   </svg>
@@ -295,25 +244,17 @@
 <div align="center" style="margin-top: 18px;">
   <svg width="100%" height="80" viewBox="0 0 1200 80" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid meet">
     <defs>
-      <linearGradient id="contactWave" x1="0" y1="0" x2="1" y2="0">
+      <linearGradient id="contactWave6" x1="0" y1="0" x2="1" y2="0">
         <stop offset="0%" stop-color="#8b5cf6" />
         <stop offset="50%" stop-color="#ec4899" />
         <stop offset="100%" stop-color="#38bdf8" />
       </linearGradient>
     </defs>
     <rect width="1200" height="80" fill="#020617" rx="20" />
-    <path d="M0 40 C300 10 500 70 900 40 S1200 30 1200 30" fill="none" stroke="url(#contactWave)" stroke-width="4">
-      <animate attributeName="d" dur="6s" repeatCount="indefinite" values="M0 40 C300 10 500 70 900 40 S1200 30 1200 30;M0 36 C300 50 500 20 900 50 S1200 60 1200 60;M0 40 C300 10 500 70 900 40 S1200 30 1200 30" />
-    </path>
-    <circle cx="260" cy="46" r="6" fill="#8b5cf6">
-      <animate attributeName="r" values="6;10;6" dur="1.8s" repeatCount="indefinite" />
-    </circle>
-    <circle cx="620" cy="46" r="6" fill="#ec4899">
-      <animate attributeName="r" values="6;10;6" dur="2.2s" repeatCount="indefinite" />
-    </circle>
-    <circle cx="980" cy="46" r="6" fill="#38bdf8">
-      <animate attributeName="r" values="6;10;6" dur="2.6s" repeatCount="indefinite" />
-    </circle>
+    <path d="M0 40 C300 10 500 70 900 40 S1200 30 1200 30" fill="none" stroke="url(#contactWave6)" stroke-width="4" />
+    <circle cx="260" cy="46" r="6" fill="#8b5cf6" />
+    <circle cx="620" cy="46" r="6" fill="#ec4899" />
+    <circle cx="980" cy="46" r="6" fill="#38bdf8" />
   </svg>
 </div>
 
@@ -346,7 +287,7 @@
 <div align="center" style="margin-top: 20px;">
   <svg width="100%" height="180" viewBox="0 0 1200 180" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid meet">
     <defs>
-      <linearGradient id="finalGlow" x1="0" y1="0" x2="1" y2="0">
+      <linearGradient id="finalGlow7" x1="0" y1="0" x2="1" y2="0">
         <stop offset="0%" stop-color="#8b5cf6" />
         <stop offset="50%" stop-color="#f472b6" />
         <stop offset="100%" stop-color="#38bdf8" />
@@ -356,9 +297,7 @@
     <text x="50%" y="52" text-anchor="middle" fill="#e2e8f0" font-family="Inter, sans-serif" font-size="26" font-weight="800">終わりではない。始めである。</text>
     <text x="50%" y="90" text-anchor="middle" fill="#cbd5e1" font-family="Inter, sans-serif" font-size="16">“終わりとは、始まりである。”</text>
     <text x="50%" y="120" text-anchor="middle" fill="#a5b4fc" font-family="Inter, sans-serif" font-size="14">– 宮本武蔵 (Miyamoto Musashi)</text>
-    <path d="M150 150 C300 110 500 170 650 130 S1050 150 1050 150" fill="none" stroke="url(#finalGlow)" stroke-width="4">
-      <animate attributeName="d" dur="8s" repeatCount="indefinite" values="M150 150 C300 110 500 170 650 130 S1050 150 1050 150;M150 145 C300 120 500 180 650 140 S1050 150 1050 150;M150 150 C300 110 500 170 650 130 S1050 150 1050 150" />
-    </path>
+    <path d="M150 150 C300 110 500 170 650 130 S1050 150 1050 150" fill="none" stroke="url(#finalGlow7)" stroke-width="4" />
   </svg>
 </div>
 
