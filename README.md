@@ -188,7 +188,7 @@
   <img src="https://github-readme-stats.vercel.app/api?username=mnl-nox&show_icons=true&theme=midnight-purple&hide_border=true&cache_seconds=1800" alt="GitHub Stats" width="520" style="border-radius: 20px;" />
   <img src="https://github-readme-streak-stats.herokuapp.com?user=mnl-nox&theme=midnight-purple&hide_border=true&cache_seconds=1800" alt="GitHub Streak Stats" width="520" style="border-radius: 20px;" />
 </div>
-
+<br>
 <div align="center" style="margin-top: 18px;">
   <img src="https://img.shields.io/badge/Live%20Rewards-GitHub%20Trophies-6333ff?style=for-the-badge&logo=github&logoColor=white" alt="GitHub Trophies" style="margin:4px; display:inline-block;" />
   <img src="https://img.shields.io/badge/Realtime%20Feed-Achievements%20Synced-2f855a?style=for-the-badge&logo=github&logoColor=white" alt="Realtime Feed" style="margin:4px; display:inline-block;" />
