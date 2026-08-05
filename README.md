@@ -1,47 +1,17 @@
-<div align="center">
+# Manoel E. S. S 
 
-<svg width="100%" height="260" viewBox="0 0 1200 260" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid meet">
-  <defs>
-    <linearGradient id="bg1" x1="0" y1="0" x2="1" y2="1">
-      <stop offset="0%" stop-color="#0f172a" />
-      <stop offset="100%" stop-color="#0d0221" />
-    </linearGradient>
-    <linearGradient id="glow1" x1="0" y1="0" x2="1" y2="0">
-      <stop offset="0%" stop-color="#a78bfa" />
-      <stop offset="50%" stop-color="#f472b6" />
-      <stop offset="100%" stop-color="#38bdf8" />
-    </linearGradient>
-  </defs>
-  <rect width="1200" height="260" fill="url(#bg1)" />
-  <g opacity="0.85">
-    <path d="M0 120 C300 80 450 190 760 130 S1200 140 1200 140" stroke="url(#glow1)" stroke-width="3" fill="none" />
-    <path d="M0 170 C350 160 500 80 820 140 S1200 180 1200 180" stroke="#7c3aed" stroke-width="2" fill="none" opacity="0.7" />
-  </g>
-  <text x="50%" y="45%" text-anchor="middle" fill="#e0e7ff" font-family="Inter, sans-serif" font-size="48" font-weight="800" letter-spacing="3">MNL-NOX</text>
-  <text x="50%" y="65%" text-anchor="middle" fill="#c4b5fd" font-family="Inter, sans-serif" font-size="24" font-weight="600" letter-spacing="2">SYSTEM CONSOLE</text>
-  <circle cx="185" cy="95" r="6" fill="#f472b6" />
-  <circle cx="1020" cy="75" r="5" fill="#38bdf8" />
-</svg>
+# About Me 
 
-```text
-╔══════════════════════════════════════════════════════════════════════════╗
-║  __  __ _   _ _ _   _   _   _   _   _   _   _   _   _   _   _   _   _  ║
-║ |  \/  | \ | | \ \ | | | | | | | | | | | | | | | | | | | | | | | | | | ║
-║ | \  / |  \| |  \ \| | | | | | | | | | | | | | | | | | | | | | | | | | ║
-║ | |\/| | . ` | . ` | | | | | | | | | | | | | | | | | | | | | | | | | | ║
-║ | |  | | |\  | |\  | |_| |_| |_| |_| |_| |_| |_| |_| |_| |_| |_| |_| | ║
-║ |_|  |_|_| \_|_| \_|\___/ \___/ \___/ \___/ \___/ \___/ \___/ \___/  ║
-╠══════════════════════════════════════════════════════════════════════════╣
-║  MNL-NOX :: SYSTEM CONSOLE                                              ║
-╠══════════════════════════════════════════════════════════════════════════╣
-║ STATUS          ▓▓▓▓▓▓▓▓▓▓  ONLINE                                      ║
-║ PROFILE         Developer • Software • Design • Engineering             ║
-║ LOCATION        Brazil-SP                                               ║
-║ TERMINAL        Linux / Git / Open Source / Google                      ║
-║ VERSION         v2026.08                                                ║
-╚══════════════════════════════════════════════════════════════════════════╝
-```
+Estudante de Análise e Desenvolvimento de Sistemas (ADS) e Engenharia de Software, com formação técnica em Desenvolvimento de Sistemas e foco em Cybersecurity. Tenho interesse em arquitetura de software, desenvolvimento full stack, segurança da informação, automação, computação e engenharia de sistemas.
+Busco aplicar boas práticas de desenvolvimento, versionamento, documentação e segurança para criar soluções eficientes, escaláveis e confiáveis. Estou em constante evolução técnica, desenvolvendo projetos práticos, explorando novas tecnologias e aprofundando conhecimentos em programação, infraestrutura, DevSecOps e pesquisa aplicada.
 
+---
+
+## Áreas de interesse: 
+
+Engenharia de Software • Cybersecurity • Desenvolvimento Full Stack • DevOps/DevSecOps • Automação • Arquitetura de Software • Inteligência Artificial • Open Source.
+
+---
 </div>
 
 <div align="center">
