@@ -79,31 +79,6 @@
 
 # $ ls skills/
 
-<div align="center">
-  <svg width="100%" height="170" viewBox="0 0 1200 170" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid meet">
-    <defs>
-      <linearGradient id="skillsBg3" x1="0" y1="0" x2="1" y2="1">
-        <stop offset="0%" stop-color="#1e293b" />
-        <stop offset="100%" stop-color="#0f172a" />
-      </linearGradient>
-      <linearGradient id="skillsGlow3" x1="0" y1="0" x2="1" y2="0">
-        <stop offset="0%" stop-color="#8b5cf6" />
-        <stop offset="50%" stop-color="#f472b6" />
-        <stop offset="100%" stop-color="#38bdf8" />
-      </linearGradient>
-    </defs>
-    <rect x="0" y="0" width="1200" height="170" rx="18" fill="url(#skillsBg3)" />
-    <path d="M40 120 C220 90 380 140 560 100 S940 120 1160 80" stroke="url(#skillsGlow3)" stroke-width="4" fill="none" opacity="0.85" />
-    <circle cx="1100" cy="40" r="10" fill="#e879f9" />
-    <circle cx="80" cy="50" r="8" fill="#38bdf8" />
-    <text x="50%" y="45" text-anchor="middle" fill="#e2e8f0" font-family="Inter, sans-serif" font-size="32" font-weight="800">SKILLS INDEX</text>
-    <text x="50%" y="84" text-anchor="middle" fill="#cbd5e1" font-family="Inter, sans-serif" font-size="16" letter-spacing="1.2">software-engineering · frontend · backend · creative</text>
-    <rect x="180" y="105" width="240" height="8" rx="4" fill="#8b5cf6" opacity="0.8" />
-    <rect x="420" y="105" width="240" height="8" rx="4" fill="#f472b6" opacity="0.8" />
-    <rect x="660" y="105" width="240" height="8" rx="4" fill="#38bdf8" opacity="0.8" />
-  </svg>
-</div>
-
 <div align="center" style="margin-top: 16px;">
   <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white" alt="Python" style="margin:4px; display:inline-block;" />
   <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black" alt="JavaScript" style="margin:4px; display:inline-block;" />
@@ -135,23 +110,9 @@
   <img src="https://img.shields.io/badge/Motion%20Graphics-EC4899?style=for-the-badge&logo=aftereffects&logoColor=white" alt="Motion Graphics" style="margin:4px; display:inline-block;" />
 </div>
 
-<div align="center" style="margin: 36px 0 16px 0;">
-  <svg width="100%" height="90" viewBox="0 0 1200 90" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid meet">
-    <defs>
-      <linearGradient id="toolGlow4" x1="0" y1="0" x2="1" y2="0">
-        <stop offset="0%" stop-color="#8b5cf6" />
-        <stop offset="50%" stop-color="#f472b6" />
-        <stop offset="100%" stop-color="#38bdf8" />
-      </linearGradient>
-    </defs>
-    <rect x="0" y="0" width="1200" height="90" fill="#0b1220" rx="18" />
-    <path d="M40 62 C280 28 520 80 760 38 S1160 70 1160 70" stroke="url(#toolGlow4)" stroke-width="3" fill="none" opacity="0.75" />
-    <circle cx="170" cy="45" r="10" fill="#a78bfa" />
-    <circle cx="1030" cy="35" r="8" fill="#38bdf8" />
-    <text x="50%" y="42" text-anchor="middle" fill="#f8fafc" font-family="Inter, sans-serif" font-size="24" font-weight="700">DEV TOOLS / PLATFORM</text>
-    <text x="50%" y="68" text-anchor="middle" fill="#cbd5e1" font-family="Inter, sans-serif" font-size="14" letter-spacing="1.2">Linux · Google Workspace · Development Essentials</text>
-  </svg>
-</div>
+---
+
+# Tools
 
 <div align="center" style="margin-top: 16px;">
   <img src="https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black" alt="Linux" style="margin:4px; display:inline-block;" />
@@ -172,50 +133,6 @@
   <img src="https://img.shields.io/badge/YAML-000000?style=for-the-badge&logo=yaml&logoColor=white" alt="YAML" style="margin:4px; display:inline-block;" />
   <img src="https://img.shields.io/badge/draw.io-0e76a8?style=for-the-badge&logo=draw.io&logoColor=white" alt="draw.io" style="margin:4px; display:inline-block;" />
   <img src="https://img.shields.io/badge/GitHub%20Actions-2088FF?style=for-the-badge&logo=githubactions&logoColor=white" alt="GitHub Actions" style="margin:4px; display:inline-block;" />
-
----
-
-# $ system-monitor
-
-<div align="center">
-  <svg width="100%" height="250" viewBox="0 0 1200 250" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid meet">
-    <defs>
-      <linearGradient id="loadingGlow5" x1="0" y1="0" x2="1" y2="0">
-        <stop offset="0%" stop-color="#8b5cf6" />
-        <stop offset="50%" stop-color="#f472b6" />
-        <stop offset="100%" stop-color="#38bdf8" />
-      </linearGradient>
-      <linearGradient id="barGlow5" x1="0" y1="0" x2="1" y2="0">
-        <stop offset="0%" stop-color="#a78bfa" />
-        <stop offset="100%" stop-color="#60a5fa" />
-      </linearGradient>
-    </defs>
-    <rect width="1200" height="250" rx="22" fill="#020617" opacity="0.95" />
-    <text x="50%" y="40" text-anchor="middle" fill="#e2e8f0" font-family="Inter, sans-serif" font-size="24" font-weight="700">SYSTEM MONITOR</text>
-    <g opacity="0.9">
-      <text x="90" y="90" fill="#a5b4fc" font-family="Inter, sans-serif" font-size="16">ENGINEERING</text>
-      <rect x="250" y="78" width="760" height="20" rx="10" fill="#1e293b" />
-      <rect x="250" y="78" width="684" height="20" rx="10" fill="url(#barGlow5)" />
-      <circle cx="950" cy="88" r="9" fill="#8b5cf6" />
-      <text x="1020" y="93" fill="#ede9fe" font-family="Inter, sans-serif" font-size="14">95%</text>
-      <text x="90" y="132" fill="#a5b4fc" font-family="Inter, sans-serif" font-size="16">DESIGN</text>
-      <rect x="250" y="120" width="760" height="20" rx="10" fill="#1e293b" />
-      <rect x="250" y="120" width="684" height="20" rx="10" fill="url(#barGlow5)" />
-      <circle cx="930" cy="130" r="9" fill="#f472b6" />
-      <text x="1020" y="135" fill="#ede9fe" font-family="Inter, sans-serif" font-size="14">90%</text>
-      <text x="90" y="174" fill="#a5b4fc" font-family="Inter, sans-serif" font-size="16">RESEARCH</text>
-      <rect x="250" y="162" width="760" height="20" rx="10" fill="#1e293b" />
-      <rect x="250" y="162" width="701" height="20" rx="10" fill="url(#barGlow5)" />
-      <circle cx="947" cy="172" r="9" fill="#38bdf8" />
-      <text x="1020" y="177" fill="#ede9fe" font-family="Inter, sans-serif" font-size="14">92%</text>
-      <text x="90" y="216" fill="#a5b4fc" font-family="Inter, sans-serif" font-size="16">AUTOMATION</text>
-      <rect x="250" y="204" width="760" height="20" rx="10" fill="#1e293b" />
-      <rect x="250" y="204" width="655" height="20" rx="10" fill="url(#barGlow5)" />
-      <circle cx="901" cy="214" r="9" fill="#c084fc" />
-      <text x="1020" y="219" fill="#ede9fe" font-family="Inter, sans-serif" font-size="14">86%</text>
-    </g>
-  </svg>
-</div>
 
 ---
 # $ github status
@@ -262,10 +179,6 @@
 
 # $ hall-of-trophies
 
-<div align="center">
-  <h2 style="margin-bottom: 10px; color: #f8fafc;">GitHub Ranked Achievements</h2>
-  <p style="margin-top: 0; color: #94a3b8;">Live GitHub milestone cards updated in real time from your profile</p>
-</div>
 
 <div align="center" style="margin-top: 18px;">
   <img src="https://github-profile-trophy.vercel.app/?username=mnl-nox&theme=midnight-purple&row=1&column=4&margin-w=10&margin-h=10" alt="GitHub Trophy Cards" width="100%" style="max-width:1100px; border-radius: 20px; box-shadow: 0 20px 50px rgba(15, 23, 42, 0.5);" />
@@ -292,8 +205,8 @@
         <stop offset="50%" stop-color="#f472b6" />
         <stop offset="100%" stop-color="#38bdf8" />
       </linearGradient>
-    </defs>
-    <rect width="1200" height="180" rx="24" fill="#020617" />
+    </defs> 
+<rect width="1200" height="180" rx="24" fill="#020617" />
     <text x="50%" y="52" text-anchor="middle" fill="#e2e8f0" font-family="Inter, sans-serif" font-size="26" font-weight="800">終わりではない。始めである。</text>
     <text x="50%" y="90" text-anchor="middle" fill="#cbd5e1" font-family="Inter, sans-serif" font-size="16">“終わりとは、始まりである。”</text>
     <text x="50%" y="120" text-anchor="middle" fill="#a5b4fc" font-family="Inter, sans-serif" font-size="14">– 宮本武蔵 (Miyamoto Musashi)</text>
