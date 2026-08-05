@@ -2,7 +2,7 @@
 
 # About Me 
 
-Estudante de Análise e Desenvolvimento de Sistemas (ADS) e Engenharia de Software, com formação técnica em Desenvolvimento de Sistemas e foco em Cybersecurity. Tenho interesse em arquitetura de software, desenvolvimento full stack, segurança da informação, automação, computação e engenharia de sistemas.
+Estudante de Análise e Desenvolvimento de Sistemas (ADS) e Sistemas da Informação (BSI), com formação técnica em Desenvolvimento de Sistemas e foco em Cybersecurity. Tenho interesse em arquitetura de software, desenvolvimento full stack, segurança da informação, automação, computação e engenharia de sistemas.
 Busco aplicar boas práticas de desenvolvimento, versionamento, documentação e segurança para criar soluções eficientes, escaláveis e confiáveis. Estou em constante evolução técnica, desenvolvendo projetos práticos, explorando novas tecnologias e aprofundando conhecimentos em programação, infraestrutura, DevSecOps e pesquisa aplicada.
 
 ---
