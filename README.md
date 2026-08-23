@@ -1,6 +1,3 @@
-<img src="/assets/img/banner.png">
-
----
 
 <p align="center">
 
