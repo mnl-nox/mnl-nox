@@ -1,39 +1,55 @@
 
 <p align="center">
+  <img src="./assets/img/slime-banner.png" alt="Blue slime in a moonlit fantasy forest" />
+</p>
+
+<h1 align="center">Manoel E. S. S</h1>
+
+<p align="center">
+  <em>Building systems, absorbing knowledge, and evolving one skill at a time.</em>
+</p>
+
+<p align="center">
 
 <a href="https://nox-website-topaz.vercel.app/" target="_blank">
-  <img src="https://img.shields.io/badge/Portfolio-111111?style=for-the-badge&logo=vercel&logoColor=white" alt="Portfolio"/>
+  <img src="https://img.shields.io/badge/Portfolio-081426?style=for-the-badge&logo=vercel&logoColor=5CD6FF" alt="Portfolio"/>
 </a>
 
 <a href="https://www.linkedin.com/in/manoel-e-s-s-042691426/" target="_blank">
-  <img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"/>
+  <img src="https://img.shields.io/badge/LinkedIn-0B6FA4?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"/>
 </a>
 
 <a href="mailto:ghostnether82@gmail.com">
-  <img src="https://img.shields.io/badge/Gmail-EA4335?style=for-the-badge&logo=gmail&logoColor=white" alt="Email"/>
+  <img src="https://img.shields.io/badge/Gmail-145A7A?style=for-the-badge&logo=gmail&logoColor=white" alt="Email"/>
 </a>
 
 <a href="https://wa.me/5511913548544" target="_blank">
-  <img src="https://img.shields.io/badge/WhatsApp-25D366?style=for-the-badge&logo=whatsapp&logoColor=white" alt="WhatsApp"/>
+  <img src="https://img.shields.io/badge/WhatsApp-008F9C?style=for-the-badge&logo=whatsapp&logoColor=white" alt="WhatsApp"/>
 </a>
 
 </p>
 
---- 
-## About Me 
+---
+
+## Adventurer's Log
 
 I'm an Information Technology student pursuing a **Bachelor's degree in Information Systems (B.S. in Information Systems)** and a **Technology Degree in Systems Analysis and Development (ADS)**.
 
-My learning approach is strongly **self-taught**, with a focus on software engineering, computer science, low-level programming, Linux, cybersecurity, artificial intelligence, and open-source technologies. I enjoy building practical projects to deepen my understanding of systems and software architecture.
+My learning path is strongly **self-taught**. I collect skills in software engineering, computer science, low-level programming, Linux, cybersecurity, artificial intelligence, and open-source technologies, then turn them into practical projects.
 
-Currently, I am seeking my **first professional opportunity** to begin my career in the technology industry, where I can apply my technical knowledge, continue learning from experienced professionals, and contribute to meaningful projects.
+Currently, I am seeking my **first professional opportunity** in technology, where I can contribute to meaningful projects, learn from experienced people, and keep evolving my craft.
 
+<p align="center">
+  <img src="./assets/img/slime-emerald.png" width="96" alt="Emerald slime familiar" />
+</p>
 
 ---
 
-## Languages
 
-<p align="center">
+<div p align="center">
+
+## Skills Absorbed
+
   <img src="https://img.shields.io/badge/C-A8B9CC?style=for-the-badge&logo=c&logoColor=black"/>
   <img src="https://img.shields.io/badge/C++-00599C?style=for-the-badge&logo=cplusplus&logoColor=white"/>
   <img src="https://img.shields.io/badge/C%23-512BD4?style=for-the-badge&logo=csharp&logoColor=white"/>
@@ -48,7 +64,7 @@ Currently, I am seeking my **first professional opportunity** to begin my career
   
 </p>
 
-## Development
+### Development
 
 <p align="center">
   <img src="https://img.shields.io/badge/GCC-FF9900?style=for-the-badge&logo=gnu&logoColor=white"/>
@@ -63,7 +79,7 @@ Currently, I am seeking my **first professional opportunity** to begin my career
   <img src="https://img.shields.io/badge/VS_Code-007ACC?style=for-the-badge&logo=visualstudiocode&logoColor=white"/>
 </p>
 
-## Linux
+### Linux Realms
 
 <p align="center">
   <img src="https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black"/>
@@ -74,7 +90,7 @@ Currently, I am seeking my **first professional opportunity** to begin my career
   <img src="https://img.shields.io/badge/Parrot_OS-15E0ED?style=for-the-badge&logo=parrotsecurity&logoColor=black"/>
 </p>
 
-## Interests
+### Fields of Study
 
 <p align="center">
   <img src="https://img.shields.io/badge/Software_Engineering-00599C?style=for-the-badge"/>
@@ -85,36 +101,68 @@ Currently, I am seeking my **first professional opportunity** to begin my career
   <img src="https://img.shields.io/badge/Artificial_Intelligence-412991?style=for-the-badge&logo=openai&logoColor=white"/>
 </p>
 
----
 <p align="center">
-  <img height="170" src="https://github-readme-stats.vercel.app/api?username=mnl-nox&show_icons=true&theme=github_dark&hide_border=true&rank_icon=github"/>
-  <img height="170" src="https://github-readme-stats.vercel.app/api/top-langs/?username=mnl-nox&layout=compact&theme=github_dark&hide_border=true"/>
-</p>
-
-<p align="center">
-  <img src="https://github-readme-streak-stats.herokuapp.com?user=mnl-nox&theme=github-dark&hide_border=true"/>
+  <img src="./assets/img/slime-amber.png" width="96" alt="Amber slime familiar" />
 </p>
 
 ---
 
+## Great Sage: GitHub Stats
+
 <p align="center">
-  <img src="https://github-readme-stats.vercel.app/api/wakatime?username=axl_m&theme=github_dark&hide_border=true"/>
+  <img height="170" src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=mnl-nox&theme=tokyonight"/>
+  <img height="170" src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=mnl-nox&theme=tokyonight"/>
 </p>
 
 ---
 
 <p align="center">
-  <img src="https://github-profile-trophy.vercel.app/?username=mnl-nox&theme=algolia&no-frame=true&no-bg=true&row=1&column=6"/>
+  <img src="https://streak-stats.demolab.com?user=mnl-nox&theme=tokyonight&hide_border=true"/>
 </p>
-
----
-
-## Activity Graph
 
 <p align="center">
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=mnl-nox&theme=github-dark&hide_border=true"/>
+  <img src="./assets/img/slime-violet.png" width="96" alt="Violet slime familiar" />
 </p>
 
 ---
 
->***"Programs must be written for people to read, and only incidentally for machines to execute." — Harold Abelson***
+## Mana Reserve
+
+<p align="center">
+  <a href="https://wakatime.com/@axl_m" target="_blank">
+    <img src="https://wakatime.com/badge/user/f0cee84b-cabc-4752-96f9-c44a200a8cf4.svg?style=for-the-badge" alt="WakaTime coding activity"/>
+  </a>
+</p>
+
+---
+
+## Achievements Unlocked
+
+<p align="center">
+  <img src="https://trophy.ryglcloud.net/?username=mnl-nox&theme=tokyonight&no-frame=true&no-bg=true&row=1&column=6"/>
+</p>
+
+---
+
+## Magicalule Activity
+
+<p align="center">
+  <img src="./assets/img/slime-magicalule.png" width="78" alt="Cyan magicalule slime familiar" />
+  <img src="./assets/img/slime-familiar.gif" width="68" alt="Floating blue slime familiar" />
+</p>
+
+<p align="center">
+  <img src="https://img.shields.io/badge/Magicalules-turned_into_code-071426?style=for-the-badge&labelColor=051B3A&color=00C2FF" alt="Magicalules turned into code" />
+</p>
+
+<p align="center">
+  <a href="https://github.com/mnl-nox">
+    <img src="https://ghchart.xqsit94.in/dark:00c2ff/mnl-nox" alt="GitHub contribution graph in magical cyan" />
+  </a>
+  <br/>
+  <sub>✦ Every contribution is a fragment of mana gathered through code. ✦</sub>
+</p>
+
+---
+
+> *Evolution starts with curiosity, then becomes a habit.*
