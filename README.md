@@ -261,3 +261,53 @@ A C99 library and monitor for Linux that reads CPU model and topology, calculate
 <p align="center">
   <sub>Evolution starts with curiosity, then becomes a habit.</sub>
 </p>
+
+
+---
+
+## `06 // LIVE PROFILE // EXTENDED TELEMETRY`
+
+<p align="center">
+  <img src="./assets/img/underground-signal-loop.svg" width="100%" alt="Animated underground signal monitor" />
+</p>
+
+<p align="center">
+  <img src="https://img.shields.io/github/followers/mnl-nox?style=for-the-badge&logo=github&label=FOLLOWERS&color=00FF9C&labelColor=0A0A0A" alt="GitHub followers" />
+  <img src="https://img.shields.io/github/repos/mnl-nox?style=for-the-badge&logo=github&label=PUBLIC%20REPOSITORIES&color=FF2B2B&labelColor=0A0A0A" alt="Public repositories" />
+  <img src="https://img.shields.io/github/stars/mnl-nox/cpu-reader?style=for-the-badge&logo=github&label=CPU-READER%20STARS&color=00FF9C&labelColor=0A0A0A" alt="CPU Reader stars" />
+  <img src="https://img.shields.io/github/last-commit/mnl-nox/mnl-nox?style=for-the-badge&logo=git&label=PROFILE%20UPDATED&color=FF2B2B&labelColor=0A0A0A" alt="Profile repository last commit" />
+</p>
+
+### `ENGINEERING ACTIVITY // CONTRIBUTION SIGNALS`
+
+<p align="center">
+  <img src="https://github-readme-stats.vercel.app/api?username=mnl-nox&show_icons=true&include_all_commits=true&hide_border=true&bg_color=0A0A0A&title_color=FF2B2B&text_color=C9D1D9&icon_color=00FF9C&rank_icon=github&show=reviews,prs_merged,prs_merged_percentage,discussions_started,discussions_answered" width="100%" alt="Extended GitHub engineering activity metrics including pull requests, reviews and discussions" />
+</p>
+
+<p align="center">
+  <img src="https://github-readme-stats.vercel.app/api?username=mnl-nox&hide=issues&show_icons=true&include_all_commits=true&hide_border=true&bg_color=0A0A0A&title_color=00FF9C&text_color=C9D1D9&icon_color=FF2B2B&custom_title=ACCOUNT%20ACTIVITY%20%2F%2F%20ALL-TIME" height="180" alt="All-time account activity summary" />
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=mnl-nox&layout=compact&langs_count=12&hide_border=true&bg_color=0A0A0A&title_color=FF2B2B&text_color=C9D1D9" height="180" alt="Compact language distribution across public repositories" />
+</p>
+
+### `REPOSITORY HEALTH // BUILD & CHANGE FLOW`
+
+<p align="center">
+  <a href="https://github.com/mnl-nox/cpu-reader"><img src="https://img.shields.io/github/commit-activity/y/mnl-nox/cpu-reader?style=for-the-badge&label=CPU-READER%20COMMITS%2FYEAR&color=00FF9C&labelColor=0A0A0A" alt="CPU Reader yearly commit activity" /></a>
+  <a href="https://github.com/mnl-nox/file-manager"><img src="https://img.shields.io/github/commit-activity/y/mnl-nox/file-manager?style=for-the-badge&label=FILE-MANAGER%20COMMITS%2FYEAR&color=FF2B2B&labelColor=0A0A0A" alt="File Manager yearly commit activity" /></a>
+  <a href="https://github.com/mnl-nox/BinLab"><img src="https://img.shields.io/github/commit-activity/y/mnl-nox/BinLab?style=for-the-badge&label=BINLAB%20COMMITS%2FYEAR&color=00FF9C&labelColor=0A0A0A" alt="BinLab yearly commit activity" /></a>
+  <a href="https://github.com/mnl-nox/simpleBash"><img src="https://img.shields.io/github/commit-activity/y/mnl-nox/simpleBash?style=for-the-badge&label=SIMPLEBASH%20COMMITS%2FYEAR&color=FF2B2B&labelColor=0A0A0A" alt="simpleBash yearly commit activity" /></a>
+</p>
+
+<p align="center">
+  <img src="./assets/img/underground-terminal-loop.svg" width="100%" alt="Animated underground terminal prompt" />
+</p>
+
+### `SYSTEM CORE // VISUAL TELEMETRY`
+
+<p align="center">
+  <img src="./assets/img/underground-core-loop.svg" width="180" alt="Animated terminal-green CPU core illustration" />
+</p>
+
+<p align="center">
+  <code>LIVE METRICS ARE SERVICE-DEPENDENT // PUBLIC DATA ONLY // CACHE AND RATE LIMITS MAY APPLY</code>
+</p>
