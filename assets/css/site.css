@@ -17,3 +17,16 @@
 
 /* Keyboard navigation: keep focus visible against the dark palette. */
 a:focus-visible, button:focus-visible { outline: 2px solid var(--green); outline-offset: 4px; }
+
+
+/* GitHub dashboard: consistent card sizing, spacing, and responsive layout. */
+.dashboard-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:16px;align-items:stretch}
+.dashboard-card{min-width:0;padding:20px;border:1px solid var(--line);background:linear-gradient(145deg,rgba(255,255,255,.025),rgba(255,255,255,.008))}
+.dashboard-card-head{display:flex;align-items:center;justify-content:space-between;gap:12px;margin-bottom:16px}
+.dashboard-card-head h3{font-size:.98rem;line-height:1.35;margin:0;font-weight:600}
+.dashboard-card-head span{font: .62rem var(--mono);letter-spacing:.06em;color:var(--muted);text-align:right}
+.dashboard-card img{display:block;width:100%;max-width:100%;height:auto;object-fit:contain}
+.dashboard-card-wide{grid-column:1/-1}
+.dashboard-card-streak{grid-column:1/-1;width:min(100%,760px);justify-self:center}
+.dashboard-note{max-width:850px;margin:18px auto 0;color:var(--muted);font-size:.78rem;line-height:1.7;text-align:center}
+@media(max-width:640px){.dashboard-grid{grid-template-columns:minmax(0,1fr);gap:12px}.dashboard-card{padding:14px}.dashboard-card-wide,.dashboard-card-streak{grid-column:auto;width:100%}.dashboard-card-head{align-items:flex-start;flex-direction:column;gap:5px}.dashboard-card-head span{text-align:left}.dashboard-note{text-align:left}}
