@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="180" viewBox="0 0 1200 180" role="img" aria-labelledby="title desc">
+<title id="title">Underground terminal prompt</title><desc id="desc">A minimalist animated shell prompt with a blinking cursor and a subtle red signal line.</desc>
+<rect width="1200" height="180" rx="14" fill="#080808" stroke="#303030"/><rect x="1" y="1" width="1198" height="178" rx="13" fill="none" stroke="#191919"/>
+<g font-family="monospace"><text x="36" y="38" fill="#777" font-size="12" letter-spacing="3">TTY // SESSION 0x01</text><circle cx="1132" cy="31" r="4" fill="#ff2b2b"/><circle cx="1150" cy="31" r="4" fill="#555"/><circle cx="1168" cy="31" r="4" fill="#00ff9c"/><path d="M36 53H1164" stroke="#292929"/><text x="38" y="99" fill="#00ff9c" font-size="23">$</text><text x="66" y="99" fill="#d8d8d8" font-size="23">inspect --profile mnl-nox</text><rect x="422" y="78" width="12" height="27" fill="#ff2b2b"><animate attributeName="opacity" values="1;0;1" dur="1.05s" repeatCount="indefinite"/></rect><text x="38" y="139" fill="#777" font-size="13">STATUS: LEARNING IN PUBLIC  /  LINUX · C99 · OPEN SOURCE</text></g>
+<path d="M0 165H1200" stroke="#ff2b2b" stroke-width="1" opacity=".75"><animate attributeName="opacity" values=".25;.85;.25" dur="3s" repeatCount="indefinite"/></path>
+</svg>
