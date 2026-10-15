@@ -51,17 +51,23 @@ I prefer understanding what happens below the abstraction: how programs are comp
 
 ## `02 // LIVE PROFILE DASHBOARD`
 
+<table width="100%">
+  <tr>
+    <td width="50%" align="center" valign="top">
+      <img src="https://github-readme-stats.vercel.app/api?username=mnl-nox&show_icons=true&hide_border=true&bg_color=0A0A0A&title_color=FF2B2B&text_color=C9D1D9&icon_color=00FF9C&include_all_commits=true&rank_icon=github" width="100%" alt="GitHub profile statistics: stars, commits, and account rank"/>
+    </td>
+    <td width="50%" align="center" valign="top">
+      <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=mnl-nox&layout=compact&langs_count=6&hide_border=true&bg_color=0A0A0A&title_color=FF2B2B&text_color=C9D1D9" width="100%" alt="Most-used programming languages across public repositories"/>
+    </td>
+  </tr>
+</table>
+
 <p align="center">
-  <img height="170" src="https://github-readme-stats.vercel.app/api?username=mnl-nox&show_icons=true&hide_border=true&bg_color=0A0A0A&title_color=FF2B2B&text_color=C9D1D9&icon_color=00FF9C&include_all_commits=true&rank_icon=github" alt="GitHub profile statistics"/>
-  <img height="170" src="https://github-readme-stats.vercel.app/api/top-langs/?username=mnl-nox&layout=donut&langs_count=10&size_weight=0.5&count_weight=0.5&hide_border=true&bg_color=0A0A0A&title_color=FF2B2B&text_color=C9D1D9" alt="Language usage across public repositories"/>
+  <img src="https://github-readme-activity-graph.vercel.app/graph?username=mnl-nox&bg_color=0A0A0A&color=00FF9C&line=FF2B2B&point=FFFFFF&area=true&hide_border=true&custom_title=COMMIT%20ACTIVITY" width="100%" alt="GitHub commit activity over time"/>
 </p>
 
 <p align="center">
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=mnl-nox&bg_color=0A0A0A&color=00FF9C&line=FF2B2B&point=FFFFFF&area=true&hide_border=true&custom_title=COMMIT%20SIGNAL%20%2F%2F%20ACTIVITY%20TRACKER" width="100%" alt="Commit activity graph"/>
-</p>
-
-<p align="center">
-  <img src="https://streak-stats.demolab.com?user=mnl-nox&theme=dark&hide_border=true&background=0A0A0A&ring=FF2B2B&fire=FF2B2B&currStreakLabel=00FF9C&sideLabels=00FF9C&dates=8A8A8A" width="75%" alt="Contribution streak tracker"/>
+  <img src="https://streak-stats.demolab.com?user=mnl-nox&theme=dark&hide_border=true&background=0A0A0A&ring=FF2B2B&fire=FF2B2B&currStreakLabel=00FF9C&sideLabels=00FF9C&dates=8A8A8A" width="100%" alt="Current and longest contribution streak"/>
 </p>
 
 ### `LIVE TELEMETRY // SIGNAL MONITOR`
@@ -75,17 +81,6 @@ I prefer understanding what happens below the abstraction: how programs are comp
   <img src="https://img.shields.io/github/repos/mnl-nox?style=for-the-badge&logo=github&label=PUBLIC%20REPOSITORIES&color=FF2B2B&labelColor=0A0A0A" alt="Public repositories" />
   <img src="https://img.shields.io/github/stars/mnl-nox/cpu-reader?style=for-the-badge&logo=github&label=CPU-READER%20STARS&color=00FF9C&labelColor=0A0A0A" alt="CPU Reader stars" />
   <img src="https://img.shields.io/github/last-commit/mnl-nox/mnl-nox?style=for-the-badge&logo=git&label=PROFILE%20UPDATED&color=FF2B2B&labelColor=0A0A0A" alt="Profile repository last commit" />
-</p>
-
-### `ENGINEERING ACTIVITY // CONTRIBUTION SIGNALS`
-
-<p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=mnl-nox&show_icons=true&include_all_commits=true&hide_border=true&bg_color=0A0A0A&title_color=FF2B2B&text_color=C9D1D9&icon_color=00FF9C&rank_icon=github&show=reviews,prs_merged,prs_merged_percentage,discussions_started,discussions_answered" width="100%" alt="Extended GitHub engineering activity metrics including pull requests, reviews and discussions" />
-</p>
-
-<p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=mnl-nox&hide=issues&show_icons=true&include_all_commits=true&hide_border=true&bg_color=0A0A0A&title_color=00FF9C&text_color=C9D1D9&icon_color=FF2B2B&custom_title=ACCOUNT%20ACTIVITY%20%2F%2F%20ALL-TIME" height="180" alt="All-time account activity summary" />
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=mnl-nox&layout=compact&langs_count=12&hide_border=true&bg_color=0A0A0A&title_color=FF2B2B&text_color=C9D1D9" height="180" alt="Compact language distribution across public repositories" />
 </p>
 
 ### `REPOSITORY HEALTH // BUILD & CHANGE FLOW`
@@ -121,28 +116,6 @@ I prefer understanding what happens below the abstraction: how programs are comp
   <a href="https://github.com/mnl-nox/BinLab"><img height="130" src="https://github-readme-stats.vercel.app/api/pin/?username=mnl-nox&repo=BinLab&hide_border=true&bg_color=0A0A0A&title_color=FF2B2B&text_color=C9D1D9&icon_color=00FF9C" alt="BinLab project card"/></a>
   <a href="https://github.com/mnl-nox/simpleBash"><img height="130" src="https://github-readme-stats.vercel.app/api/pin/?username=mnl-nox&repo=simpleBash&hide_border=true&bg_color=0A0A0A&title_color=00FF9C&text_color=C9D1D9&icon_color=FF2B2B" alt="simpleBash project card"/></a>
 </p>
-
-### `ACCOUNT SIGNALS // PROFILE SUMMARY`
-
-<p align="center">
-  <img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=mnl-nox&theme=github_dark" width="100%" alt="Profile summary and contribution overview"/>
-</p>
-
-<table width="100%">
-  <tr>
-    <td align="center" width="33%">
-      <img src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=mnl-nox&theme=github_dark" width="100%" alt="Repository languages summary"/>
-    </td>
-    <td align="center" width="33%">
-      <img src="https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=mnl-nox&theme=github_dark" width="100%" alt="Most committed languages summary"/>
-    </td>
-    <td align="center" width="33%">
-      <img src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=mnl-nox&theme=github_dark" width="100%" alt="Additional GitHub account statistics"/>
-    </td>
-  </tr>
-</table>
-
-> **Metric note:** language cards estimate code volume in public repositories; they do not measure proficiency. Third-party cards may cache results or hit rate limits.
 
 ---
 
