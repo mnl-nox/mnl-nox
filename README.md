@@ -122,14 +122,25 @@ I prefer understanding what happens below the abstraction: how programs are comp
   <a href="https://github.com/mnl-nox/simpleBash"><img height="130" src="https://github-readme-stats.vercel.app/api/pin/?username=mnl-nox&repo=simpleBash&hide_border=true&bg_color=0A0A0A&title_color=00FF9C&text_color=C9D1D9&icon_color=FF2B2B" alt="simpleBash project card"/></a>
 </p>
 
+### `ACCOUNT SIGNALS // PROFILE SUMMARY`
+
 <p align="center">
   <img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=mnl-nox&theme=github_dark" width="100%" alt="Profile summary and contribution overview"/>
 </p>
-<p align="center">
-  <img height="160" src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=mnl-nox&theme=github_dark" alt="Repository languages summary"/>
-  <img height="160" src="https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=mnl-nox&theme=github_dark" alt="Most committed languages summary"/>
-  <img height="160" src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=mnl-nox&theme=github_dark" alt="Additional GitHub account statistics"/>
-</p>
+
+<table width="100%">
+  <tr>
+    <td align="center" width="33%">
+      <img src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=mnl-nox&theme=github_dark" width="100%" alt="Repository languages summary"/>
+    </td>
+    <td align="center" width="33%">
+      <img src="https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=mnl-nox&theme=github_dark" width="100%" alt="Most committed languages summary"/>
+    </td>
+    <td align="center" width="33%">
+      <img src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=mnl-nox&theme=github_dark" width="100%" alt="Additional GitHub account statistics"/>
+    </td>
+  </tr>
+</table>
 
 > **Metric note:** language cards estimate code volume in public repositories; they do not measure proficiency. Third-party cards may cache results or hit rate limits.
 
