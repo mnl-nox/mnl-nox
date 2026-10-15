@@ -15,7 +15,7 @@
 </p>
 
 <p align="center">
-  <a href="https://mnl-nox.github.io/"><img src="https://img.shields.io/badge/LIVE%20PORTFOLIO-0A0A0A?style=for-the-badge&logo=githubpages&logoColor=00FF9C" alt="Live portfolio"/></a>
+  <a href="https://mnl-nox.github.io/mnl-nox/"><img src="https://img.shields.io/badge/LIVE%20PORTFOLIO-0A0A0A?style=for-the-badge&logo=githubpages&logoColor=00FF9C" alt="Live portfolio"/></a>
   <a href="https://www.linkedin.com/in/manoel-e-s-s-042691426/"><img src="https://img.shields.io/badge/LINKEDIN-0A0A0A?style=for-the-badge&logo=linkedin&logoColor=FF2B2B" alt="LinkedIn"/></a>
   <a href="mailto:ghostnether82@gmail.com"><img src="https://img.shields.io/badge/EMAIL-0A0A0A?style=for-the-badge&logo=gmail&logoColor=00FF9C" alt="Email"/></a>
   <a href="https://github.com/mnl-nox"><img src="https://img.shields.io/badge/GITHUB-0A0A0A?style=for-the-badge&logo=github&logoColor=FF2B2B" alt="GitHub profile"/></a>
@@ -31,7 +31,7 @@
 ## `00 // LIVE WEBSITE`
 
 <p align="center">
-  <a href="https://mnl-nox.github.io/"><img src="https://img.shields.io/badge/OPEN-LIVE%20PORTFOLIO-0A0A0A?style=for-the-badge&logo=githubpages&logoColor=00FF9C" alt="Open live portfolio"/></a>
+  <a href="https://mnl-nox.github.io/mnl-nox/"><img src="https://img.shields.io/badge/OPEN-LIVE%20PORTFOLIO-0A0A0A?style=for-the-badge&logo=githubpages&logoColor=00FF9C" alt="Open live portfolio"/></a>
   <a href="./index.html"><img src="https://img.shields.io/badge/SOURCE-INDEX.HTML-0A0A0A?style=for-the-badge&logo=html5&logoColor=FF2B2B" alt="Website source code"/></a>
 </p>
 
