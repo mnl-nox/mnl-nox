@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="260" viewBox="0 0 1200 260" role="img" aria-labelledby="title desc">
+<title id="title">Underground signal loop</title><desc id="desc">A minimal animated terminal panel with scanning green signal and crimson trace lines.</desc>
+<defs><pattern id="grid" width="24" height="24" patternUnits="userSpaceOnUse"><path d="M24 0H0V24" fill="none" stroke="#202020" stroke-width="1"/></pattern><linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#050505"/><stop offset="1" stop-color="#101010"/></linearGradient><linearGradient id="scan" x1="0" y1="0" x2="1" y2="0"><stop stop-color="#00ff9c" stop-opacity="0"/><stop offset=".5" stop-color="#00ff9c" stop-opacity=".22"/><stop offset="1" stop-color="#00ff9c" stop-opacity="0"/></linearGradient></defs>
+<rect width="1200" height="260" rx="14" fill="url(#bg)"/><rect width="1200" height="260" rx="14" fill="url(#grid)"/>
+<path d="M0 70H120L150 100H260M0 190H180L210 160H310M1200 64H1080L1050 94H940M1200 196H1050L1020 166H910" fill="none" stroke="#ff2b2b" stroke-width="2" opacity=".8"/>
+<path d="M0 80H120M1200 74H1080" stroke="#00ff9c" stroke-width="1.5" opacity=".6"/>
+<rect x="0" y="0" width="180" height="260" fill="url(#scan)"><animate attributeName="x" values="-220;1200;-220" dur="7s" repeatCount="indefinite"/></rect>
+<g font-family="monospace"><text x="62" y="52" fill="#777" font-size="13" letter-spacing="3">SIGNAL MONITOR // LIVE</text><text x="62" y="125" fill="#f2f2f2" font-size="31" font-weight="700" letter-spacing="2">SYSTEMS ONLINE</text><text x="62" y="155" fill="#00ff9c" font-size="14" letter-spacing="3">TRACE / OBSERVE / BUILD</text><text x="1138" y="224" fill="#666" font-size="12" text-anchor="end">MNL-NOX :: 001</text></g>
+<circle cx="1120" cy="44" r="5" fill="#00ff9c"><animate attributeName="opacity" values="1;.2;1" dur="1.6s" repeatCount="indefinite"/></circle><circle cx="1140" cy="44" r="5" fill="#ff2b2b"><animate attributeName="opacity" values=".2;1;.2" dur="1.6s" repeatCount="indefinite"/></circle>
+<rect x="1" y="1" width="1198" height="258" rx="13" fill="none" stroke="#303030"/>
+</svg>
