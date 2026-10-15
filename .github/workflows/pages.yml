@@ -6,6 +6,7 @@ on:
     paths:
       - "index.html"
       - "assets/**"
+      - ".nojekyll"
       - ".github/workflows/pages.yml"
   workflow_dispatch:
 
@@ -15,7 +16,7 @@ permissions:
   id-token: write
 
 concurrency:
-  group: "pages"
+  group: "github-pages"
   cancel-in-progress: true
 
 jobs:
@@ -25,14 +26,14 @@ jobs:
       url: ${{ steps.deployment.outputs.page_url }}
     runs-on: ubuntu-latest
     steps:
-      - name: Checkout
+      - name: Checkout repository
         uses: actions/checkout@v4
       - name: Configure GitHub Pages
         uses: actions/configure-pages@v5
-      - name: Upload site artifact
+      - name: Upload static site
         uses: actions/upload-pages-artifact@v3
         with:
           path: "."
-      - name: Deploy
+      - name: Deploy to GitHub Pages
         id: deployment
         uses: actions/deploy-pages@v4
