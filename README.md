@@ -58,7 +58,27 @@ I prefer understanding what happens below the abstraction: how programs are comp
   <img src="https://streak-stats.demolab.com?user=mnl-nox&theme=dark&hide_border=true&background=0A0A0A&ring=FF2B2B&fire=FF2B2B&currStreakLabel=00FF9C&sideLabels=00FF9C&dates=8A8A8A" width="75%" alt="Contribution streak tracker"/>
 </p>
 
-> **Metric note:** language cards estimate code volume in public repositories; they do not measure proficiency. Public stats services may cache results or hit rate limits.
+### `DASHBOARD // PROJECT SIGNALS`
+
+<p align="center">
+  <a href="https://github.com/mnl-nox/cpu-reader"><img height="130" src="https://github-readme-stats.vercel.app/api/pin/?username=mnl-nox&repo=cpu-reader&hide_border=true&bg_color=0A0A0A&title_color=FF2B2B&text_color=C9D1D9&icon_color=00FF9C" alt="CPU Reader project card"/></a>
+  <a href="https://github.com/mnl-nox/file-manager"><img height="130" src="https://github-readme-stats.vercel.app/api/pin/?username=mnl-nox&repo=file-manager&hide_border=true&bg_color=0A0A0A&title_color=00FF9C&text_color=C9D1D9&icon_color=FF2B2B" alt="File Manager project card"/></a>
+</p>
+<p align="center">
+  <a href="https://github.com/mnl-nox/BinLab"><img height="130" src="https://github-readme-stats.vercel.app/api/pin/?username=mnl-nox&repo=BinLab&hide_border=true&bg_color=0A0A0A&title_color=FF2B2B&text_color=C9D1D9&icon_color=00FF9C" alt="BinLab project card"/></a>
+  <a href="https://github.com/mnl-nox/simpleBash"><img height="130" src="https://github-readme-stats.vercel.app/api/pin/?username=mnl-nox&repo=simpleBash&hide_border=true&bg_color=0A0A0A&title_color=00FF9C&text_color=C9D1D9&icon_color=FF2B2B" alt="simpleBash project card"/></a>
+</p>
+
+<p align="center">
+  <img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=mnl-nox&theme=github_dark" width="100%" alt="Profile summary and contribution overview"/>
+</p>
+<p align="center">
+  <img height="160" src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=mnl-nox&theme=github_dark" alt="Repository languages summary"/>
+  <img height="160" src="https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=mnl-nox&theme=github_dark" alt="Most committed languages summary"/>
+  <img height="160" src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=mnl-nox&theme=github_dark" alt="Additional GitHub account statistics"/>
+</p>
+
+> **Metric note:** language cards estimate code volume in public repositories; they do not measure proficiency. Third-party cards may cache results or hit rate limits.
 
 ---
 
@@ -212,7 +232,15 @@ A C99 library and monitor for Linux that reads CPU model and topology, calculate
 </p>
 
 <p align="center">
-  <img src="https://trophy.ryglcloud.net/?username=mnl-nox&theme=darkhub&no-frame=true&no-bg=true&row=1&column=6" width="100%" alt="GitHub trophies"/>
+  <code>ACHIEVEMENT VAULT // UNLOCKED BY CONTRIBUTION</code>
+</p>
+<p align="center">
+  <img src="https://github-profile-trophy.vercel.app/?username=mnl-nox&theme=matrix&no-frame=true&no-bg=true&margin-w=8&margin-h=8&row=2&column=4&rank=SSS,SS,S,AAA,AA,A,B,C" width="100%" alt="MNL-NOX achievement vault — customized matrix terminal theme"/>
+</p>
+<p align="center">
+  <img src="./assets/img/glitch-ghost.svg" width="58" alt="Glitch ghost guarding the achievement vault"/>
+  <code>XP + CONTRIBUTIONS + CONSISTENCY</code>
+  <img src="./assets/img/slime-cpu-core.svg" width="58" alt="CPU slime guarding the achievement vault"/>
 </p>
 
 <p align="center">
