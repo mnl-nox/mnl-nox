@@ -7,7 +7,6 @@ on:
       - "index.html"
       - "assets/**"
       - ".nojekyll"
-      - ".github/workflows/pages.yml"
   workflow_dispatch:
 
 permissions:
