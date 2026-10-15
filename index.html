@@ -1,0 +1,126 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#08090b">
+  <meta name="description" content="Portfólio de Manoel E. S. S. — sistemas de baixo nível, Linux, C, ferramentas de terminal e desenvolvimento open source.">
+  <meta property="og:title" content="MNL-NOX — Systems & Software">
+  <meta property="og:description" content="Low-level systems, Linux, open source and software engineering.">
+  <meta property="og:type" content="website">
+  <title>MNL-NOX // Systems & Software</title>
+  <link rel="icon" href="./assets/img/glitch-ghost.svg" type="image/svg+xml">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <style>
+    :root{color-scheme:dark;--bg:#08090b;--panel:#0e1013;--panel2:#121519;--line:#24282e;--text:#edf0f2;--muted:#929aa4;--red:#ff2b2b;--green:#00ff9c;--mono:"DM Mono",monospace;--sans:"Space Grotesk",sans-serif;--max:1160px}
+    *{box-sizing:border-box}html{scroll-behavior:smooth;scroll-padding-top:90px}body{margin:0;background:var(--bg);color:var(--text);font-family:var(--sans);line-height:1.6;overflow-x:hidden}body:before{content:"";position:fixed;inset:0;pointer-events:none;z-index:-1;background:radial-gradient(ellipse at 15% 0%,rgba(255,43,43,.09),transparent 35%),radial-gradient(ellipse at 85% 28%,rgba(0,255,156,.045),transparent 30%),linear-gradient(rgba(255,255,255,.018) 1px,transparent 1px),linear-gradient(90deg,rgba(255,255,255,.018) 1px,transparent 1px);background-size:auto,auto,44px 44px,44px 44px}
+    a{color:inherit;text-decoration:none}button,a{ -webkit-tap-highlight-color:transparent}button{font:inherit}.wrap{width:min(var(--max),calc(100% - 44px));margin-inline:auto}.mono,.eyebrow,.nav-link,.pill,.metric-label,.card-index,.terminal-bar,.tag,.footer-line{font-family:var(--mono)}.eyebrow{color:var(--green);font-size:.75rem;letter-spacing:.16em;text-transform:uppercase}.red{color:var(--red)}.green{color:var(--green)}.muted{color:var(--muted)}
+    .topbar{position:sticky;top:0;z-index:20;background:rgba(8,9,11,.84);backdrop-filter:blur(18px);border-bottom:1px solid rgba(255,255,255,.08)}.nav{height:72px;display:flex;align-items:center;justify-content:space-between;gap:24px}.brand{display:flex;align-items:center;gap:11px;font-weight:700;letter-spacing:.02em}.brand-mark{width:34px;height:34px;border:1px solid rgba(0,255,156,.6);display:grid;place-items:center;color:var(--green);font-family:var(--mono);font-size:.8rem;box-shadow:0 0 22px rgba(0,255,156,.08)}.brand small{display:block;font: .65rem var(--mono);color:var(--muted);letter-spacing:.12em}.nav-links{display:flex;align-items:center;gap:26px}.nav-link{font-size:.75rem;color:#aeb5bd;transition:color .2s}.nav-link:hover{color:var(--green)}.nav-cta{border:1px solid rgba(0,255,156,.45);padding:9px 13px;color:var(--green);font: .72rem var(--mono);letter-spacing:.06em}.menu-toggle{display:none;background:none;color:var(--text);border:1px solid var(--line);padding:8px 10px}
+    .hero{padding:95px 0 72px;position:relative}.hero-grid{display:grid;grid-template-columns:1.15fr .85fr;gap:70px;align-items:center}.status{display:inline-flex;align-items:center;gap:9px;padding:7px 11px;border:1px solid #29332f;background:rgba(0,255,156,.045);color:#b6c6bf;font: .7rem var(--mono);letter-spacing:.04em}.dot{width:7px;height:7px;background:var(--green);border-radius:50%;box-shadow:0 0 12px var(--green);animation:pulse 2s infinite}@keyframes pulse{50%{opacity:.35;box-shadow:0 0 2px var(--green)}}h1{font-size:clamp(3.2rem,7vw,6.6rem);line-height:.93;letter-spacing:-.075em;margin:26px 0 22px;font-weight:700}h1 span{display:block;color:transparent;-webkit-text-stroke:1px #69717a}.hero-copy{max-width:590px;font-size:1.08rem;color:#a9b0b8;line-height:1.85}.hero-copy strong{color:var(--text);font-weight:500}.hero-actions{display:flex;gap:12px;flex-wrap:wrap;margin-top:30px}.button{display:inline-flex;align-items:center;justify-content:center;gap:10px;padding:13px 17px;border:1px solid var(--line);font: .76rem var(--mono);letter-spacing:.03em;transition:transform .2s,border-color .2s,background .2s}.button:hover{transform:translateY(-2px);border-color:var(--green)}.button-primary{background:var(--green);color:#06110c;border-color:var(--green);font-weight:500}.button-primary:hover{background:#8affcb;border-color:#8affcb}.button-arrow{font-size:1.1rem}.hero-meta{display:flex;gap:24px;flex-wrap:wrap;margin-top:38px;padding-top:20px;border-top:1px solid var(--line)}.hero-meta div{font: .7rem var(--mono);color:var(--muted)}.hero-meta b{display:block;color:var(--text);font-size:.85rem;font-weight:400;margin-bottom:3px}
+    .terminal{border:1px solid #30353c;background:rgba(12,14,17,.94);box-shadow:0 25px 80px rgba(0,0,0,.35),0 0 70px rgba(0,255,156,.035);transform:rotate(1deg)}.terminal-bar{height:43px;border-bottom:1px solid #252a30;display:flex;align-items:center;padding:0 15px;gap:7px;color:#727b85;font-size:.68rem}.window-dot{width:8px;height:8px;border-radius:50%;background:#3a4047}.window-dot:first-child{background:var(--red)}.window-dot:nth-child(2){background:#d5a64c}.window-dot:nth-child(3){background:var(--green)}.terminal-title{margin-left:auto}.terminal-body{padding:24px 24px 27px;font: .78rem/2 var(--mono);min-height:315px}.terminal-line{color:#aeb6be}.prompt{color:var(--green)}.terminal-output{padding-left:17px;color:#8e989f}.terminal-output b{color:var(--text);font-weight:400}.terminal-output .value{color:var(--green)}.cursor{display:inline-block;width:8px;height:15px;background:var(--green);vertical-align:middle;animation:blink 1s steps(2,start) infinite}@keyframes blink{to{visibility:hidden}}.terminal-foot{display:flex;justify-content:space-between;padding:10px 15px;border-top:1px solid #252a30;color:#77818a;font: .62rem var(--mono);letter-spacing:.08em}
+    section{padding:78px 0;border-top:1px solid rgba(255,255,255,.07)}.section-head{display:flex;align-items:end;justify-content:space-between;gap:24px;margin-bottom:35px}.section-head h2{font-size:clamp(2rem,4vw,3.25rem);letter-spacing:-.06em;line-height:1.05;margin:12px 0 0}.section-note{max-width:320px;color:var(--muted);font-size:.9rem;margin:0}.about-grid{display:grid;grid-template-columns:.8fr 1.2fr;gap:28px}.about-card,.about-copy,.project-card,.skill-panel,.contact-panel{border:1px solid var(--line);background:linear-gradient(145deg,rgba(255,255,255,.025),rgba(255,255,255,.008))}.about-card{padding:28px;display:flex;flex-direction:column;justify-content:space-between;min-height:260px}.about-card img{width:85px;height:85px;object-fit:contain;align-self:flex-end;opacity:.9}.about-card .big-code{font:clamp(2rem,4vw,3.4rem) var(--mono);color:var(--green);letter-spacing:-.08em}.about-card p{margin:6px 0 0;color:var(--muted);font-size:.84rem}.about-copy{padding:30px;color:#adb4bc}.about-copy p{margin:0 0 17px}.about-copy p:last-child{margin-bottom:0}.about-copy strong{color:var(--text);font-weight:500}
+    .metrics{display:grid;grid-template-columns:repeat(4,1fr);border:1px solid var(--line);margin-top:28px}.metric{padding:21px;border-right:1px solid var(--line)}.metric:last-child{border-right:0}.metric-value{font:1.55rem var(--mono);color:var(--green);letter-spacing:-.05em}.metric-label{display:block;font-size:.63rem;color:var(--muted);letter-spacing:.08em;margin-top:5px;text-transform:uppercase}
+    .projects-grid{display:grid;grid-template-columns:repeat(2,1fr);gap:16px}.project-card{padding:25px;position:relative;overflow:hidden;transition:border-color .2s,transform .2s}.project-card:hover{border-color:#59645f;transform:translateY(-3px)}.project-card:after{content:"";position:absolute;right:-35px;top:-45px;width:120px;height:120px;border:1px solid rgba(0,255,156,.12);transform:rotate(35deg);pointer-events:none}.project-top{display:flex;align-items:center;justify-content:space-between;margin-bottom:27px}.project-icon{width:40px;height:40px;display:grid;place-items:center;background:#121c17;border:1px solid #234032;color:var(--green);font:1rem var(--mono)}.card-index{font-size:.67rem;color:#737d85}.project-card h3{font-size:1.35rem;margin:0 0 9px;letter-spacing:-.035em}.project-card p{color:var(--muted);font-size:.88rem;min-height:70px;margin:0 0 20px;max-width:470px}.tags{display:flex;flex-wrap:wrap;gap:7px}.tag{font-size:.64rem;color:#aab3ba;border:1px solid #2a3036;padding:5px 8px}.project-bottom{display:flex;align-items:center;justify-content:space-between;margin-top:24px;padding-top:15px;border-top:1px solid #252a30}.project-link{font: .72rem var(--mono);color:var(--green)}.project-link span{padding-left:6px}
+    .skills-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:14px}.skill-panel{padding:24px}.skill-panel h3{margin:0 0 19px;font-size:1rem;font-weight:600}.skill-panel h3:before{content:"// ";font: .8rem var(--mono);color:var(--red)}.skill-list{display:flex;flex-wrap:wrap;gap:8px}.skill-chip{padding:8px 10px;background:#111418;border:1px solid #292e34;color:#c0c6cc;font: .7rem var(--mono)}.skill-chip.highlight{border-color:#275640;color:var(--green);background:rgba(0,255,156,.04)}
+    .approach-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:14px}.approach-item{padding:24px 23px;border-left:2px solid var(--red);background:rgba(255,255,255,.018)}.approach-item:nth-child(2){border-color:var(--green)}.approach-item:nth-child(3){border-color:#6977ff}.approach-number{font: .72rem var(--mono);color:var(--muted)}.approach-item h3{font-size:1.08rem;margin:13px 0 8px}.approach-item p{margin:0;color:var(--muted);font-size:.85rem}
+    .contact-panel{padding:clamp(26px,5vw,55px);display:grid;grid-template-columns:1fr auto;gap:35px;align-items:center;background:radial-gradient(ellipse at 100% 0%,rgba(0,255,156,.07),transparent 40%),#0c0e11}.contact-panel h2{font-size:clamp(2rem,5vw,4rem);letter-spacing:-.065em;line-height:1.05;margin:12px 0}.contact-panel p{color:var(--muted);max-width:570px;margin:0}.contact-actions{display:flex;flex-direction:column;gap:10px;min-width:190px}.contact-actions .button{width:100%}
+    footer{padding:25px 0 35px}.footer-line{display:flex;align-items:center;justify-content:space-between;gap:18px;color:#6f7881;font-size:.67rem;letter-spacing:.04em}.footer-links{display:flex;gap:18px}.footer-links a:hover{color:var(--green)}.reveal{opacity:0;transform:translateY(15px);transition:opacity .6s ease,transform .6s ease}.reveal.visible{opacity:1;transform:translateY(0)}
+    @media(max-width:900px){.hero-grid{grid-template-columns:1fr;gap:42px}.hero{padding-top:70px}.terminal{max-width:650px;transform:none}.about-grid{grid-template-columns:1fr}.about-card{min-height:190px}.about-card img{width:65px;height:65px}.skills-grid{grid-template-columns:1fr 1fr}.contact-panel{grid-template-columns:1fr}.contact-actions{flex-direction:row;flex-wrap:wrap}.contact-actions .button{width:auto}.section-head{align-items:start;flex-direction:column}.section-note{max-width:600px}}
+    @media(max-width:640px){.wrap{width:min(var(--max),calc(100% - 30px))}.nav{height:64px}.menu-toggle{display:block}.nav-links{display:none;position:absolute;left:0;right:0;top:64px;background:#0b0d10;border-bottom:1px solid var(--line);padding:18px 22px 22px;flex-direction:column;align-items:stretch;gap:18px}.nav-links.open{display:flex}.nav-cta{text-align:center}.hero{padding:58px 0 50px}h1{font-size:clamp(3rem,17vw,5rem)}.hero-copy{font-size:1rem}.hero-meta{gap:15px}.terminal-body{padding:18px 15px;font-size:.67rem;min-height:285px}.section-head h2{font-size:2.3rem}section{padding:58px 0}.metrics{grid-template-columns:1fr 1fr}.metric{border-bottom:1px solid var(--line)}.metric:nth-child(2){border-right:0}.metric:nth-child(3),.metric:nth-child(4){border-bottom:0}.projects-grid,.skills-grid,.approach-grid{grid-template-columns:1fr}.project-card p{min-height:0}.contact-actions{flex-direction:column}.contact-actions .button{width:100%}.footer-line{align-items:flex-start;flex-direction:column}.footer-links{flex-wrap:wrap}}
+    @media(prefers-reduced-motion:reduce){*,*:before,*:after{scroll-behavior:auto!important;animation-duration:.01ms!important;transition-duration:.01ms!important}.reveal{opacity:1;transform:none}}
+  </style>
+</head>
+<body>
+  <header class="topbar">
+    <nav class="nav wrap" aria-label="Navegação principal">
+      <a class="brand" href="#inicio" aria-label="MNL-NOX, início"><span class="brand-mark">N/</span><span>MNL-NOX<small>SYSTEMS & SOFTWARE</small></span></a>
+      <button class="menu-toggle" id="menuToggle" aria-expanded="false" aria-controls="navLinks">MENU +</button>
+      <div class="nav-links" id="navLinks">
+        <a class="nav-link" href="#sobre">SOBRE</a><a class="nav-link" href="#projetos">PROJETOS</a><a class="nav-link" href="#stack">STACK</a><a class="nav-link" href="#abordagem">ABORDAGEM</a><a class="nav-cta" href="#contato">CONTATO ↗</a>
+      </div>
+    </nav>
+  </header>
+  <main>
+    <section class="hero" id="inicio" style="border-top:0">
+      <div class="wrap hero-grid">
+        <div class="reveal">
+          <div class="status"><span class="dot"></span> OPEN TO LEARNING // BUILDING IN PUBLIC</div>
+          <p class="eyebrow" style="margin:25px 0 0">PORTFÓLIO · DESENVOLVIMENTO & SISTEMAS</p>
+          <h1>UNDERSTAND<br><span>THE SYSTEM.</span><br>BUILD WHAT'S NEXT.</h1>
+          <p class="hero-copy">Sou <strong>Manoel E. S. S.</strong>, estudante de tecnologia com foco em <strong>Linux, programação C, arquitetura de computadores e software open source.</strong> Exploro o que existe por baixo das abstrações — do hardware às ferramentas que usamos todos os dias.</p>
+          <div class="hero-actions"><a class="button button-primary" href="#projetos">EXPLORAR PROJETOS <span class="button-arrow">↘</span></a><a class="button" href="https://github.com/mnl-nox" target="_blank" rel="noreferrer">GITHUB ↗</a></div>
+          <div class="hero-meta"><div><b>LOW-LEVEL</b>ÁREA DE EXPLORAÇÃO</div><div><b>OPEN SOURCE</b>BUILD IN PUBLIC</div><div><b>ALWAYS LEARNING</b>PROCESSO CONTÍNUO</div></div>
+        </div>
+        <div class="terminal reveal" aria-label="Terminal ilustrativo com perfil técnico">
+          <div class="terminal-bar"><i class="window-dot"></i><i class="window-dot"></i><i class="window-dot"></i><span class="terminal-title">mnl-nox@devbox:~</span></div>
+          <div class="terminal-body">
+            <div class="terminal-line"><span class="prompt">manoel@devbox</span>:~$ whoami</div><div class="terminal-output"><b>mnl-nox</b> — systems explorer</div>
+            <div class="terminal-line"><span class="prompt">manoel@devbox</span>:~$ cat /etc/focus</div><div class="terminal-output"><span class="value">linux</span><br><span class="value">c / low-level</span><br><span class="value">computer architecture</span><br><span class="value">open-source tooling</span></div>
+            <div class="terminal-line"><span class="prompt">manoel@devbox</span>:~$ git status --short</div><div class="terminal-output">M learning.log<br>?? next-experiment/</div>
+            <div class="terminal-line"><span class="prompt">manoel@devbox</span>:~$ <span class="cursor"></span></div>
+          </div>
+          <div class="terminal-foot"><span>SESSION: ACTIVE</span><span>UTF-8 · x86_64 · GNU/LINUX</span></div>
+        </div>
+      </div>
+    </section>
+    <section id="sobre">
+      <div class="wrap">
+        <div class="section-head"><div><div class="eyebrow">01 // OPERATOR PROFILE</div><h2>Curiosidade que vira<br><span class="red">implementação.</span></h2></div><p class="section-note">Aprender não é só consumir abstrações. É investigar, testar, depurar e documentar o que acontece por baixo.</p></div>
+        <div class="about-grid">
+          <div class="about-card reveal"><div><div class="eyebrow">CURRENT MODE</div><div class="big-code">STUDY<span class="red">_</span>BUILD</div><p>Teoria → laboratório → código → revisão.</p></div><img src="./assets/img/slime-emerald-terminal.svg" alt="Mascote slime verde em estilo terminal" loading="lazy"></div>
+          <div class="about-copy reveal"><p>Minha formação combina graduação em <strong>Sistemas de Informação</strong> e estudos em <strong>Análise e Desenvolvimento de Sistemas</strong>, complementados por experimentos próprios e aprendizado independente.</p><p>Tenho interesse especial em entender como programas são compilados, como sistemas operacionais expõem o hardware e como ferramentas simples podem resolver problemas reais. Uso projetos pessoais como laboratórios para consolidar fundamentos.</p><p class="muted">O objetivo é evoluir com consistência: código legível, experimentos reproduzíveis, documentação útil e uma compreensão cada vez mais profunda dos sistemas.</p></div>
+        </div>
+        <div class="metrics reveal"><div class="metric"><div class="metric-value">C / SYS</div><span class="metric-label">Foco técnico</span></div><div class="metric"><div class="metric-value">GNU/Linux</div><span class="metric-label">Ambiente de trabalho</span></div><div class="metric"><div class="metric-value">OSS</div><span class="metric-label">Mentalidade</span></div><div class="metric"><div class="metric-value">∞</div><span class="metric-label">Experimentos pela frente</span></div></div>
+      </div>
+    </section>
+    <section id="projetos">
+      <div class="wrap">
+        <div class="section-head"><div><div class="eyebrow">02 // SELECTED WORK</div><h2>Projetos em <span class="green">execução.</span></h2></div><p class="section-note">Repositórios que transformam estudo em ferramentas concretas. Consulte o código, acompanhe a evolução e explore os detalhes técnicos.</p></div>
+        <div class="projects-grid">
+          <article class="project-card reveal"><div class="project-top"><div class="project-icon">CPU</div><span class="card-index">PROJECT_001</span></div><h3>CPU Reader</h3><p>Exploração de informações do processador e do hardware a partir do ambiente Linux, aproximando software, sistema operacional e arquitetura.</p><div class="tags"><span class="tag">C</span><span class="tag">LINUX</span><span class="tag">HARDWARE</span><span class="tag">SYSTEMS</span></div><div class="project-bottom"><span class="muted mono" style="font-size:.68rem">SYSTEM INSPECTION</span><a class="project-link" href="https://github.com/mnl-nox/cpu-reader" target="_blank" rel="noreferrer">VER REPOSITÓRIO <span>↗</span></a></div></article>
+          <article class="project-card reveal"><div class="project-top"><div class="project-icon">FM</div><span class="card-index">PROJECT_002</span></div><h3>File Manager</h3><p>Projeto de gerenciamento de arquivos para estudar operações do sistema, organização de código e construção de utilitários de uso direto.</p><div class="tags"><span class="tag">SYSTEM TOOLS</span><span class="tag">FILESYSTEM</span><span class="tag">CLI</span></div><div class="project-bottom"><span class="muted mono" style="font-size:.68rem">FILE OPERATIONS</span><a class="project-link" href="https://github.com/mnl-nox/file-manager" target="_blank" rel="noreferrer">VER REPOSITÓRIO <span>↗</span></a></div></article>
+          <article class="project-card reveal"><div class="project-top"><div class="project-icon">BIN</div><span class="card-index">PROJECT_003</span></div><h3>BinLab</h3><p>Espaço de experimentação com binários e fundamentos de sistemas, voltado à investigação prática e ao aprendizado por testes.</p><div class="tags"><span class="tag">LOW-LEVEL</span><span class="tag">EXPERIMENTS</span><span class="tag">COMPUTER SCIENCE</span></div><div class="project-bottom"><span class="muted mono" style="font-size:.68rem">BINARY LAB</span><a class="project-link" href="https://github.com/mnl-nox/BinLab" target="_blank" rel="noreferrer">VER REPOSITÓRIO <span>↗</span></a></div></article>
+          <article class="project-card reveal"><div class="project-top"><div class="project-icon">$ _</div><span class="card-index">PROJECT_004</span></div><h3>simpleBash</h3><p>Projeto focado em shell e automação: uma forma de explorar o terminal, comandos e a composição de pequenos fluxos de trabalho.</p><div class="tags"><span class="tag">BASH</span><span class="tag">LINUX</span><span class="tag">AUTOMATION</span></div><div class="project-bottom"><span class="muted mono" style="font-size:.68rem">SHELL TOOLING</span><a class="project-link" href="https://github.com/mnl-nox/simpleBash" target="_blank" rel="noreferrer">VER REPOSITÓRIO <span>↗</span></a></div></article>
+        </div>
+      </div>
+    </section>
+    <section id="stack">
+      <div class="wrap">
+        <div class="section-head"><div><div class="eyebrow">03 // SKILL TREE</div><h2>Ferramentas e <span class="red">fundamentos.</span></h2></div><p class="section-note">Um mapa de estudos em evolução — não uma lista de domínio absoluto. A prática e a documentação fazem parte do processo.</p></div>
+        <div class="skills-grid">
+          <div class="skill-panel reveal"><h3>Programming</h3><div class="skill-list"><span class="skill-chip highlight">C</span><span class="skill-chip">Bash</span><span class="skill-chip">Python</span><span class="skill-chip">Git</span><span class="skill-chip">Debugging</span></div></div>
+          <div class="skill-panel reveal"><h3>Systems</h3><div class="skill-list"><span class="skill-chip highlight">GNU/Linux</span><span class="skill-chip">Hardware</span><span class="skill-chip">CPU Architecture</span><span class="skill-chip">Processes</span><span class="skill-chip">Filesystems</span></div></div>
+          <div class="skill-panel reveal"><h3>Workflow</h3><div class="skill-list"><span class="skill-chip highlight">CLI</span><span class="skill-chip">Open Source</span><span class="skill-chip">Documentation</span><span class="skill-chip">Testing</span><span class="skill-chip">Problem Solving</span></div></div>
+        </div>
+      </div>
+    </section>
+    <section id="abordagem">
+      <div class="wrap">
+        <div class="section-head"><div><div class="eyebrow">04 // ENGINEERING MINDSET</div><h2>Como eu <span class="green">trabalho.</span></h2></div></div>
+        <div class="approach-grid">
+          <article class="approach-item reveal"><span class="approach-number">01 / INVESTIGATE</span><h3>Entender antes de abstrair</h3><p>Investigar documentação, inspecionar o comportamento do sistema e construir um modelo mental antes de depender de uma solução pronta.</p></article>
+          <article class="approach-item reveal"><span class="approach-number">02 / EXPERIMENT</span><h3>Testar no ambiente real</h3><p>Transformar dúvidas em pequenos experimentos, comparar resultados e aprender com erros reproduzíveis.</p></article>
+          <article class="approach-item reveal"><span class="approach-number">03 / DOCUMENT</span><h3>Compartilhar o processo</h3><p>Manter projetos públicos, registrar decisões e evoluir com feedback, revisão e consistência.</p></article>
+        </div>
+      </div>
+    </section>
+    <section id="contato">
+      <div class="wrap">
+        <div class="contact-panel reveal"><div><div class="eyebrow">05 // ESTABLISH CONNECTION</div><h2>Vamos construir<br>algo <span class="green">útil.</span></h2><p>Para conversar sobre projetos open source, tecnologia, sistemas Linux ou oportunidades de aprendizado e colaboração, entre em contato pelos canais abaixo.</p></div><div class="contact-actions"><a class="button button-primary" href="mailto:ghostnether82@gmail.com">ENVIAR E-MAIL ↗</a><a class="button" href="https://www.linkedin.com/in/manoel-e-s-s-042691426/" target="_blank" rel="noreferrer">LINKEDIN ↗</a><a class="button" href="https://github.com/mnl-nox" target="_blank" rel="noreferrer">GITHUB ↗</a></div></div>
+      </div>
+    </section>
+  </main>
+  <footer><div class="wrap footer-line"><span>© <span id="year"></span> MNL-NOX // BUILT WITH CURIOSITY.</span><div class="footer-links"><a href="#inicio">VOLTAR AO TOPO ↑</a><a href="https://github.com/mnl-nox/mnl-nox" target="_blank" rel="noreferrer">SOURCE CODE ↗</a></div><span>STATUS: <span class="green">LEARNING</span></span></div></footer>
+  <script>
+    const menuToggle=document.getElementById('menuToggle');
+    const navLinks=document.getElementById('navLinks');
+    menuToggle.addEventListener('click',()=>{const open=navLinks.classList.toggle('open');menuToggle.setAttribute('aria-expanded',String(open));menuToggle.textContent=open?'FECHAR −':'MENU +';});
+    navLinks.querySelectorAll('a').forEach(link=>link.addEventListener('click',()=>{navLinks.classList.remove('open');menuToggle.setAttribute('aria-expanded','false');menuToggle.textContent='MENU +';}));
+    document.getElementById('year').textContent=new Date().getFullYear();
+    const observer=new IntersectionObserver(entries=>entries.forEach(entry=>{if(entry.isIntersecting){entry.target.classList.add('visible');observer.unobserve(entry.target);}}),{threshold:.12});
+    document.querySelectorAll('.reveal').forEach(el=>observer.observe(el));
+  </script>
+</body>
+</html>
