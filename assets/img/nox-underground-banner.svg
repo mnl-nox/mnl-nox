@@ -1,29 +1,34 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="1200" height="360" viewBox="0 0 1200 360" role="img" aria-labelledby="title desc">
-<title id="title">mnl-nox // underground systems</title>
-<desc id="desc">Minimal dark underground banner with crimson signal lines, terminal-green glow, a ghost-like slime emblem, and monospaced text.</desc>
+<title id="title">MNL-NOX // underground systems</title>
+<desc id="desc">Minimal underground terminal banner with a near-black grid, crimson signal paths, terminal-green highlights, and monospaced typography.</desc>
 <defs>
-  <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#050505"/><stop offset=".58" stop-color="#101010"/><stop offset="1" stop-color="#170707"/></linearGradient>
-  <linearGradient id="slime" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#c4ffd9"/><stop offset=".55" stop-color="#00ff9c"/><stop offset="1" stop-color="#087a50"/></linearGradient>
-  <filter id="glow"><feGaussianBlur stdDeviation="5" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
-  <pattern id="grid" width="36" height="36" patternUnits="userSpaceOnUse"><path d="M36 0H0V36" fill="none" stroke="#2b2b2b" stroke-width=".7"/></pattern>
+  <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#050505"/><stop offset=".56" stop-color="#101010"/><stop offset="1" stop-color="#070707"/></linearGradient>
+  <pattern id="grid" width="28" height="28" patternUnits="userSpaceOnUse"><path d="M28 0H0V28" fill="none" stroke="#252525" stroke-width="1"/></pattern>
+  <linearGradient id="fade" x1="0" y1="0" x2="1" y2="0"><stop stop-color="#050505" stop-opacity=".1"/><stop offset=".5" stop-color="#050505" stop-opacity=".06"/><stop offset="1" stop-color="#050505" stop-opacity=".72"/></linearGradient>
+  <filter id="glow"><feGaussianBlur stdDeviation="4" result="blur"/><feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
 </defs>
-<rect width="1200" height="360" fill="url(#bg)"/><rect width="1200" height="360" fill="url(#grid)" opacity=".48"/>
-<path d="M0 270H260l20-20h90l18 18h130M720 72h90l18 18h78l22-22h272" fill="none" stroke="#ff2b2b" stroke-width="2" opacity=".5"/>
-<path d="M0 286H210M920 290h280M0 54h120M1010 45h190" stroke="#00ff9c" stroke-width="1" opacity=".55"/>
-<g opacity=".38" stroke="#ff2b2b" fill="none"><path d="M60 0v360M66 0v360M1130 0v360M1136 0v360" stroke-width="1"/><path d="M0 312h1200M0 316h1200" stroke-dasharray="2 8"/></g>
-<g transform="translate(845 70)" filter="url(#glow)">
-  <path d="M105 22C75 22 58 44 55 71L36 93l19 3c-4 22 2 43 15 58 18 20 47 25 70 17 23-8 39-29 41-52l18-12-17-11C178 57 151 22 105 22Z" fill="url(#slime)" stroke="#d8ffe8" stroke-width="2"/>
-  <ellipse cx="91" cy="91" rx="6" ry="10" fill="#06120d"/><ellipse cx="133" cy="91" rx="6" ry="10" fill="#06120d"/>
-  <path d="M98 115q14 11 28 0" fill="none" stroke="#06120d" stroke-width="4" stroke-linecap="round"/>
-  <path d="M62 62l-12 9M160 52l11-8" stroke="#ff2b2b" stroke-width="3"/>
+<rect width="1200" height="360" rx="16" fill="url(#bg)"/>
+<rect width="1200" height="360" rx="16" fill="url(#grid)" opacity=".82"/>
+<path d="M0 72H170L205 107H320M0 278H135L164 249H246M1200 62H1088L1055 95H990M1200 290H1082L1040 248H980" fill="none" stroke="#ff2b2b" stroke-width="2" opacity=".75"/>
+<path d="M0 88H162M0 262H130M1200 78H1098M1200 274H1095" stroke="#00ff9c" stroke-width="1.5" opacity=".65"/>
+<path d="M82 0V46L108 72V104M1110 360V320L1080 290V268" fill="none" stroke="#00ff9c" stroke-width="1.5" opacity=".5"/>
+<g fill="#ff2b2b"><circle cx="170" cy="72" r="3"/><circle cx="135" cy="278" r="3"/><circle cx="1088" cy="62" r="3"/><circle cx="1082" cy="290" r="3"/></g>
+<g transform="translate(94 104)">
+  <rect x="0" y="0" width="150" height="150" rx="18" fill="#090909" stroke="#303030" stroke-width="1.5"/>
+  <rect x="10" y="10" width="130" height="130" rx="12" fill="none" stroke="#ff2b2b" stroke-width="1.5" stroke-dasharray="3 8"/>
+  <path d="M48 104V61C48 41 60 28 75 28S102 41 102 61V104L88 96L75 105L62 96Z" fill="#0b1711" stroke="#00ff9c" stroke-width="2.5"/>
+  <path d="M61 62h8M81 62h8" stroke="#00ff9c" stroke-width="3" stroke-linecap="round"/>
+  <path d="M67 77q8 6 16 0" fill="none" stroke="#ff2b2b" stroke-width="2" stroke-linecap="round"/>
+  <path d="M30 24h16M30 30h9M104 120h16M111 126h9" stroke="#666" stroke-width="1.5"/>
 </g>
 <g font-family="monospace">
-  <text x="72" y="92" fill="#00ff9c" font-size="15" letter-spacing="5">// SYSTEM PROFILE</text>
-  <text x="68" y="165" fill="#f2f2f2" font-size="62" font-weight="700" letter-spacing="2">MNL-NOX</text>
-  <text x="72" y="204" fill="#ff3b3b" font-size="20" letter-spacing="4">LOW-LEVEL // LINUX // OPEN SOURCE</text>
-  <text x="73" y="245" fill="#a7a7a7" font-size="15">BUILDING SYSTEMS. READING HARDWARE. LEARNING IN PUBLIC.</text>
-  <text x="73" y="324" fill="#00ff9c" font-size="13" letter-spacing="3">[ STATUS: LEARNING ]</text>
-  <text x="265" y="324" fill="#ff2b2b" font-size="13" letter-spacing="3">[ ROOTED IN CURIOSITY ]</text>
+  <text x="294" y="139" fill="#777" font-size="15" letter-spacing="5">PROFILE SYSTEM // 001</text>
+  <text x="290" y="198" fill="#f2f2f2" font-size="52" font-weight="700" letter-spacing="2">MNL-NOX</text>
+  <rect x="294" y="218" width="52" height="3" fill="#ff2b2b"/>
+  <rect x="354" y="218" width="22" height="3" fill="#00ff9c"/>
+  <text x="294" y="254" fill="#00ff9c" font-size="17" letter-spacing="3">LOW-LEVEL SYSTEMS</text>
+  <text x="294" y="284" fill="#8d8d8d" font-size="13" letter-spacing="2">LINUX  /  C99  /  OPEN SOURCE</text>
+  <text x="1085" y="326" fill="#666" font-size="10" text-anchor="end" letter-spacing="2">BUILD // DEBUG // REPEAT</text>
 </g>
-<g fill="#fff" opacity=".15"><rect x="0" y="20" width="1200" height="2"/><rect x="0" y="335" width="1200" height="1"/><rect x="520" y="0" width="32" height="5"/><rect x="700" y="352" width="55" height="3"/></g>
+<rect x="1" y="1" width="1198" height="358" rx="15" fill="none" stroke="#292929" stroke-width="2"/>
 </svg>
