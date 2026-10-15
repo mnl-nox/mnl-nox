@@ -15,7 +15,7 @@
 </p>
 
 <p align="center">
-  <a href="https://nox-website-topaz.vercel.app/"><img src="https://img.shields.io/badge/PORTFOLIO-0A0A0A?style=for-the-badge&logo=vercel&logoColor=00FF9C" alt="Portfolio"/></a>
+  <a href="https://mnl-nox.github.io/"><img src="https://img.shields.io/badge/LIVE%20PORTFOLIO-0A0A0A?style=for-the-badge&logo=githubpages&logoColor=00FF9C" alt="Live portfolio"/></a>
   <a href="https://www.linkedin.com/in/manoel-e-s-s-042691426/"><img src="https://img.shields.io/badge/LINKEDIN-0A0A0A?style=for-the-badge&logo=linkedin&logoColor=FF2B2B" alt="LinkedIn"/></a>
   <a href="mailto:ghostnether82@gmail.com"><img src="https://img.shields.io/badge/EMAIL-0A0A0A?style=for-the-badge&logo=gmail&logoColor=00FF9C" alt="Email"/></a>
   <a href="https://github.com/mnl-nox"><img src="https://img.shields.io/badge/GITHUB-0A0A0A?style=for-the-badge&logo=github&logoColor=FF2B2B" alt="GitHub profile"/></a>
@@ -26,6 +26,16 @@
   <img src="https://img.shields.io/badge/STATUS-LEARNING_IN_PUBLIC-0A0A0A?style=flat-square&labelColor=300707&color=FF2B2B" alt="Learning in public"/>
   <img src="https://komarev.com/ghpvc/?username=mnl-nox&style=flat-square&color=00ff9c&label=PROFILE+SCANS" alt="Profile views"/>
 </p>
+
+
+## `00 // LIVE WEBSITE`
+
+<p align="center">
+  <a href="https://mnl-nox.github.io/"><img src="https://img.shields.io/badge/OPEN-LIVE%20PORTFOLIO-0A0A0A?style=for-the-badge&logo=githubpages&logoColor=00FF9C" alt="Open live portfolio"/></a>
+  <a href="./index.html"><img src="https://img.shields.io/badge/SOURCE-INDEX.HTML-0A0A0A?style=for-the-badge&logo=html5&logoColor=FF2B2B" alt="Website source code"/></a>
+</p>
+
+The portfolio site brings this profile's underground visual system into a responsive website: operator profile, selected projects, technical focus, engineering approach, and contact links. The static site lives in `index.html`; GitHub Actions deploys it through GitHub Pages.
 
 ---
 
