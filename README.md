@@ -79,7 +79,6 @@ I prefer understanding what happens below the abstraction: how programs are comp
 <p align="center">
   <img src="https://img.shields.io/github/followers/mnl-nox?style=for-the-badge&logo=github&label=FOLLOWERS&color=00FF9C&labelColor=0A0A0A" alt="GitHub followers" />
   <img src="https://img.shields.io/github/repos/mnl-nox?style=for-the-badge&logo=github&label=PUBLIC%20REPOSITORIES&color=FF2B2B&labelColor=0A0A0A" alt="Public repositories" />
-  <img src="https://img.shields.io/github/stars/mnl-nox/cpu-reader?style=for-the-badge&logo=github&label=CPU-READER%20STARS&color=00FF9C&labelColor=0A0A0A" alt="CPU Reader stars" />
   <img src="https://img.shields.io/github/last-commit/mnl-nox/mnl-nox?style=for-the-badge&logo=git&label=PROFILE%20UPDATED&color=FF2B2B&labelColor=0A0A0A" alt="Profile repository last commit" />
 </p>
 
