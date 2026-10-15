@@ -35,21 +35,6 @@
   <a href="./index.html"><img src="https://img.shields.io/badge/SOURCE-INDEX.HTML-0A0A0A?style=for-the-badge&logo=html5&logoColor=FF2B2B" alt="Website source code"/></a>
 </p>
 
-The portfolio is a static, responsive website built to match this profile's underground visual system. It separates content, styling, interactions, artwork, and deployment configuration for easier maintenance.
-
-```text
-index.html                     # Page structure and content
-assets/css/site.css            # Design tokens, layout and responsive styles
-assets/js/site.js              # Navigation and small UI interactions
-assets/img/                    # Reusable SVG artwork
-.github/workflows/pages.yml    # GitHub Pages deployment
-docs/website-architecture.md   # Maintenance guide
-```
-
-For editing conventions, local preview, and deployment checks, see [the website architecture guide](./docs/website-architecture.md). The live URL becomes available after GitHub Pages is configured to use **GitHub Actions** and a deployment workflow succeeds.
-
----
-
 ## `01 // OPERATOR PROFILE`
 
 IT student pursuing a **Bachelor's degree in Information Systems** and a **Technology Degree in Systems Analysis and Development (ADS)**. My path combines structured study with self-directed experiments in software engineering, Linux, computer architecture, C programming, and open-source development.
