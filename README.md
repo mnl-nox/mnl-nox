@@ -37,7 +37,7 @@
 
 ## `01 // OPERATOR PROFILE`
 
-IT student pursuing a **Bachelor's degree in Information Systems** and a **Technology Degree in Systems Analysis and Development (ADS)**. My path combines structured study with self-directed experiments in software engineering, Linux, computer architecture, C programming, and open-source development.
+IT student pursuing a **Bachelor's degree in Information Systems** and a **Technology Degree in Systems Analysis and Development (ADS)**, alongside **parallel studies in Computer Science**. My learning path combines formal education with independent study of computer science fundamentals, software engineering, Linux, computer architecture, C programming, and open-source development.
 
 I prefer understanding what happens below the abstraction: how programs are compiled, how operating systems expose hardware, how errors should be handled, and how small tools become maintainable projects.
 
