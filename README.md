@@ -27,7 +27,20 @@
   <img src="https://komarev.com/ghpvc/?username=mnl-nox&style=flat-square&color=00ff9c&label=PROFILE+SCANS" alt="Profile views"/>
 </p>
 
+## `INDEX // NAVIGATION`
 
+<p align="center">
+  <a href="#live-website">WEBSITE</a> &nbsp;·&nbsp;
+  <a href="#operator-profile">PROFILE</a> &nbsp;·&nbsp;
+  <a href="#live-profile-dashboard">LIVE DASHBOARD</a> &nbsp;·&nbsp;
+  <a href="#repository-control-room">PROJECTS</a> &nbsp;·&nbsp;
+  <a href="#skill-tree">SKILLS</a> &nbsp;·&nbsp;
+  <a href="#activity-trophies">ACTIVITY</a>
+</p>
+
+---
+
+<a id="live-website"></a>
 ## `00 // LIVE WEBSITE`
 
 <p align="center">
@@ -35,6 +48,7 @@
   <a href="./index.html"><img src="https://img.shields.io/badge/SOURCE-INDEX.HTML-0A0A0A?style=for-the-badge&logo=html5&logoColor=FF2B2B" alt="Website source code"/></a>
 </p>
 
+<a id="operator-profile"></a>
 ## `01 // OPERATOR PROFILE`
 
 IT student pursuing a **Bachelor's degree in Information Systems** and a **Technology Degree in Systems Analysis and Development (ADS)**, alongside **parallel studies in Computer Science**. My learning path combines formal education with independent study of computer science fundamentals, software engineering, Linux, computer architecture, C programming, and open-source development.
@@ -49,6 +63,7 @@ I prefer understanding what happens below the abstraction: how programs are comp
   <img src="./assets/img/slime-cpu-core.svg" width="86" alt="CPU core slime character" />
 </p>
 
+<a id="live-profile-dashboard"></a>
 ## `02 // LIVE PROFILE DASHBOARD`
 
 <table width="100%">
@@ -70,7 +85,7 @@ I prefer understanding what happens below the abstraction: how programs are comp
   <img src="https://streak-stats.demolab.com?user=mnl-nox&theme=dark&hide_border=true&background=0A0A0A&ring=FF2B2B&fire=FF2B2B&currStreakLabel=00FF9C&sideLabels=00FF9C&dates=8A8A8A" width="100%" alt="Current and longest contribution streak"/>
 </p>
 
-### `LIVE TELEMETRY // SIGNAL MONITOR`
+### `SIGNAL MONITOR // LIVE TELEMETRY`
 
 <p align="center">
   <img src="./assets/img/underground-signal-loop.svg" width="100%" alt="Animated underground signal monitor" />
@@ -82,7 +97,7 @@ I prefer understanding what happens below the abstraction: how programs are comp
   <img src="https://img.shields.io/github/last-commit/mnl-nox/mnl-nox?style=for-the-badge&logo=git&label=PROFILE%20UPDATED&color=FF2B2B&labelColor=0A0A0A" alt="Profile repository last commit" />
 </p>
 
-### `REPOSITORY HEALTH // BUILD & CHANGE FLOW`
+### `REPOSITORY HEALTH // CHANGE FLOW`
 
 <p align="center">
   <a href="https://github.com/mnl-nox/cpu-reader"><img src="https://img.shields.io/github/commit-activity/y/mnl-nox/cpu-reader?style=for-the-badge&label=CPU-READER%20COMMITS%2FYEAR&color=00FF9C&labelColor=0A0A0A" alt="CPU Reader yearly commit activity" /></a>
@@ -95,7 +110,7 @@ I prefer understanding what happens below the abstraction: how programs are comp
   <img src="./assets/img/underground-terminal-loop.svg" width="100%" alt="Animated underground terminal prompt" />
 </p>
 
-### `SYSTEM CORE // VISUAL TELEMETRY`
+### `SYSTEM CORE // TELEMETRY`
 
 <p align="center">
   <img src="./assets/img/underground-core-loop.svg" width="180" alt="Animated terminal-green CPU core illustration" />
@@ -105,7 +120,7 @@ I prefer understanding what happens below the abstraction: how programs are comp
   <code>LIVE METRICS ARE SERVICE-DEPENDENT // PUBLIC DATA ONLY // CACHE AND RATE LIMITS MAY APPLY</code>
 </p>
 
-### `DASHBOARD // PROJECT SIGNALS`
+### `PROJECT SIGNALS // QUICK ACCESS`
 
 <p align="center">
   <a href="https://github.com/mnl-nox/cpu-reader"><img height="130" src="https://github-readme-stats.vercel.app/api/pin/?username=mnl-nox&repo=cpu-reader&hide_border=true&bg_color=0A0A0A&title_color=FF2B2B&text_color=C9D1D9&icon_color=00FF9C" alt="CPU Reader project card"/></a>
@@ -118,6 +133,7 @@ I prefer understanding what happens below the abstraction: how programs are comp
 
 ---
 
+<a id="repository-control-room"></a>
 ## `03 // REPOSITORY CONTROL ROOM`
 
 Live badges below track public repository metadata. Click a project name to open its source; click the issue/PR badges to inspect the current queue.
@@ -178,6 +194,7 @@ A C99 library and monitor for Linux that reads CPU model and topology, calculate
 
 ---
 
+<a id="skill-tree"></a>
 ## `04 // SKILL TREE`
 
 *The tags below describe technologies used in projects or currently being studied. They are not a claim of expert-level proficiency.*
@@ -261,7 +278,8 @@ A C99 library and monitor for Linux that reads CPU model and topology, calculate
 
 ---
 
-## `05 // MANA RESERVE & TROPHIES`
+<a id="activity-trophies"></a>
+## `05 // ACTIVITY & TROPHIES`
 
 <p align="center">
   <a href="https://wakatime.com/@axl_m"><img src="https://wakatime.com/badge/user/f0cee84b-cabc-4752-96f9-c44a200a8cf4.svg?style=for-the-badge" alt="WakaTime coding activity"/></a>
