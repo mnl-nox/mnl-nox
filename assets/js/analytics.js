@@ -12,6 +12,15 @@
   window.gtag = gtag;
   gtag('js', new Date());
   gtag('config', MEASUREMENT_ID, { anonymize_ip: true });
+  document.addEventListener('click', event => {
+    const link = event.target.closest('a[href]');
+    if (!link || link.href.startsWith('javascript:')) return;
+    const url = new URL(link.href, window.location.href);
+    const linkType = url.origin !== window.location.origin ? 'external' : 'internal';
+    const linkText = (link.innerText || link.getAttribute('aria-label') || link.title || 'link').trim().slice(0, 100);
+    const isCta = link.matches('.button, .nav-cta, .project-link');
+    gtag('event', 'portfolio_click', { link_url: url.href, link_text: linkText, link_type: linkType, link_area: isCta ? 'cta' : 'content' });
+  });
   const script = document.createElement('script');
   script.async = true;
   script.src = 'https://www.googletagmanager.com/gtag/js?id=' + encodeURIComponent(MEASUREMENT_ID);
