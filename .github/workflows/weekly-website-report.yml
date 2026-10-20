@@ -10,6 +10,7 @@ permissions:
 
 jobs:
   send-report:
+    if: ${{ vars.ANALYTICS_REPORT_ENABLED == 'true' }}
     runs-on: ubuntu-latest
     timeout-minutes: 10
     steps:
