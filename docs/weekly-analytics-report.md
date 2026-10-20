@@ -7,7 +7,7 @@ O relatório inclui sessões, usuários, visualizações, sessões engajadas, ta
 ## 1. Ativar GA4 e Search Console
 
 1. Crie ou selecione uma propriedade do Google Analytics 4 para `https://mnl-nox.github.io/mnl-nox/`.
-2. Adicione a tag de medição do GA4 ao site usando o ID no formato `G-XXXXXXXXXX`. O site ainda não envia eventos de analytics até esse ID ser configurado.
+2. Obtenha o ID de medição da web no formato `G-XXXXXXXXXX` e substitua a string vazia `MEASUREMENT_ID` em `assets/js/analytics.js`. O site registra cliques em links e CTAs como o evento `portfolio_click` depois que esse ID estiver configurado.
 3. Adicione/verifique `https://mnl-nox.github.io/mnl-nox/` no Google Search Console. Para essa URL de propriedade, mantenha a URL exata com a barra final.
 4. Crie uma conta de serviço no Google Cloud e habilite **Google Analytics Data API** e **Google Search Console API**.
 5. Conceda o e-mail da conta de serviço acesso de leitor à propriedade GA4 e permissão adequada de leitura à propriedade Search Console.
@@ -28,8 +28,9 @@ Crie as seguintes *variables* (não são credenciais):
 
 - `GA4_PROPERTY_ID`: ID numérico da propriedade GA4, sem o prefixo `properties/`.
 - `GSC_SITE_URL`: `https://mnl-nox.github.io/mnl-nox/`.
+- `ANALYTICS_REPORT_ENABLED` (variable): defina como `true` somente depois de configurar e testar todos os itens acima. Até então, o workflow agendado fica inativo.
 
-O relatório só é enviado quando todas as configurações e permissões estão válidas. O workflow falha explicitamente se faltar alguma variável ou se as APIs recusarem acesso.
+O relatório só é enviado quando `ANALYTICS_REPORT_ENABLED` está definido como `true` e todas as configurações e permissões estão válidas. O workflow falha explicitamente se faltar alguma variável ou se as APIs recusarem acesso.
 
 ## 3. Métricas e limites
 
