@@ -3,29 +3,55 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="theme-color" content="#08090b">
+  <meta name="theme-color" content="#08090b" id="themeColorMeta">
+  <meta name="author" content="Manoel E. S. S.">
+  <meta name="robots" content="index,follow,max-image-preview:large">
+  <link rel="canonical" href="https://mnl-nox.github.io/mnl-nox/">
   <meta name="description" content="Portfólio de Manoel E. S. S. — sistemas de baixo nível, Linux, C, ferramentas de terminal e desenvolvimento open source.">
-  <meta property="og:title" content="MNL-NOX — Systems & Software">
-  <meta property="og:description" content="Low-level systems, Linux, open source and software engineering.">
+  <meta property="og:locale" content="pt_BR">
+  <meta property="og:site_name" content="MNL-NOX">
+  <meta property="og:title" content="Manoel E. S. S. | Sistemas, Linux e Software Open Source">
+  <meta property="og:description" content="Portfólio técnico de Manoel E. S. S.: programação C, Linux, arquitetura de computadores, ferramentas de sistema e projetos open source.">
   <meta property="og:type" content="website">
-  <title>MNL-NOX // Systems & Software</title>
+  <meta property="og:url" content="https://mnl-nox.github.io/mnl-nox/">
+  <meta property="og:image" content="https://mnl-nox.github.io/mnl-nox/assets/img/nox-underground-banner.svg">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Manoel E. S. S. | Sistemas, Linux e Software Open Source">
+  <meta name="twitter:description" content="Projetos em C, Linux, arquitetura de computadores e desenvolvimento open source.">
+  <meta name="twitter:image" content="https://mnl-nox.github.io/mnl-nox/assets/img/nox-underground-banner.svg">
+  <title>Manoel E. S. S. | Linux, C e Sistemas de Baixo Nível — MNL-NOX</title>
   <link rel="icon" href="./assets/img/glitch-ghost.svg" type="image/svg+xml">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500;600&family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="./assets/css/site.css">
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Person",
+    "name": "Manoel E. S. S.",
+    "alternateName": "mnl-nox",
+    "url": "https://mnl-nox.github.io/mnl-nox/",
+    "sameAs": [
+      "https://github.com/mnl-nox",
+      "https://www.linkedin.com/in/manoel-e-s-s-042691426/"
+    ],
+    "knowsAbout": ["GNU/Linux", "C programming", "computer architecture", "systems programming", "open-source software"]
+  }
+  </script>
 </head>
 <body>
+  <a class="skip-link" href="#conteudo">Pular para o conteúdo</a>
   <header class="topbar">
     <nav class="nav wrap" aria-label="Navegação principal">
       <a class="brand" href="#inicio" aria-label="MNL-NOX, início"><span class="brand-mark">N/</span><span>MNL-NOX<small>SYSTEMS & SOFTWARE</small></span></a>
-      <button class="menu-toggle" id="menuToggle" aria-expanded="false" aria-controls="navLinks">MENU +</button>
+      <div class="nav-controls"><button class="theme-toggle" id="themeToggle" type="button" aria-label="Alternar entre tema claro e escuro" title="Alternar tema">TEMA: ESCURO</button><button class="menu-toggle" id="menuToggle" type="button" aria-label="Abrir menu de navegação" aria-expanded="false" aria-controls="navLinks">MENU +</button></div>
       <div class="nav-links" id="navLinks">
         <a class="nav-link" href="#sobre">SOBRE</a><a class="nav-link" href="#projetos">PROJETOS</a><a class="nav-link" href="#dashboard">DASHBOARD</a><a class="nav-link" href="#stack">STACK</a><a class="nav-link" href="#abordagem">ABORDAGEM</a><a class="nav-cta" href="#contato">CONTATO ↗</a>
       </div>
     </nav>
   </header>
-  <main>
+  <main id="conteudo">
     <section class="hero" id="inicio">
       <div class="wrap hero-grid">
         <div class="reveal">
@@ -33,7 +59,7 @@
           <p class="eyebrow">PORTFÓLIO · DESENVOLVIMENTO & SISTEMAS</p>
           <h1>UNDERSTAND<br><span>THE SYSTEM.</span><br>BUILD WHAT'S NEXT.</h1>
           <p class="hero-copy">Sou <strong>Manoel E. S. S.</strong>, estudante de tecnologia com foco em <strong>Linux, programação C, arquitetura de computadores e software open source.</strong> Exploro o que existe por baixo das abstrações — do hardware às ferramentas que usamos todos os dias.</p>
-          <div class="hero-actions"><a class="button button-primary" href="#projetos">EXPLORAR PROJETOS <span class="button-arrow">↘</span></a><a class="button" href="https://github.com/mnl-nox" target="_blank" rel="noreferrer">GITHUB ↗</a></div>
+          <div class="hero-actions"><a class="button button-primary" href="#projetos">EXPLORAR PROJETOS <span class="button-arrow">↘</span></a><a class="button" href="https://github.com/mnl-nox" target="_blank" rel="noopener noreferrer">GITHUB ↗</a></div>
           <div class="hero-meta"><div><b>LOW-LEVEL</b>ÁREA DE EXPLORAÇÃO</div><div><b>OPEN SOURCE</b>BUILD IN PUBLIC</div><div><b>ALWAYS LEARNING</b>PROCESSO CONTÍNUO</div></div>
         </div>
         <div class="terminal reveal" aria-label="Terminal ilustrativo com perfil técnico">
