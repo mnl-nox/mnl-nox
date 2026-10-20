@@ -36,14 +36,24 @@ def service_credentials():
 
 def ga_report(client, property_id: str, start: str, end: str, metrics: list[str], dimensions: list[str] | None = None, event_name: str | None = None):
     from google.analytics.data_v1beta.types import RunReportRequest
-    request = RunReportRequest(
-        property=f"properties/{property_id}",
-        date_ranges=[DateRange(start_date=start, end_date=end)],
-        dimensions=[Dimension(name=name) for name in (dimensions or [])],
-        metrics=[Metric(name=name) for name in metrics],
-        limit=10 if dimensions else 1,
-        dimension_filter=FilterExpression(filter=Filter(field_name="eventName", string_filter=Filter.StringFilter(value=event_name, match_type=Filter.StringFilter.MatchType.EXACT))) if event_name else None,
-    )
+    request_args = {
+        "property": f"properties/{property_id}",
+        "date_ranges": [DateRange(start_date=start, end_date=end)],
+        "dimensions": [Dimension(name=name) for name in (dimensions or [])],
+        "metrics": [Metric(name=name) for name in metrics],
+        "limit": 10 if dimensions else 1,
+    }
+    if event_name:
+        request_args["dimension_filter"] = FilterExpression(
+            filter=Filter(
+                field_name="eventName",
+                string_filter=Filter.StringFilter(
+                    value=event_name,
+                    match_type=Filter.StringFilter.MatchType.EXACT,
+                ),
+            )
+        )
+    request = RunReportRequest(**request_args)
     response = client.run_report(request)
     return [
         {
