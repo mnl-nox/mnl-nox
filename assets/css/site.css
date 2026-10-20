@@ -30,3 +30,18 @@ a:focus-visible, button:focus-visible { outline: 2px solid var(--green); outline
 .dashboard-card-streak{grid-column:1/-1;width:min(100%,760px);justify-self:center}
 .dashboard-note{max-width:850px;margin:18px auto 0;color:var(--muted);font-size:.78rem;line-height:1.7;text-align:center}
 @media(max-width:640px){.dashboard-grid{grid-template-columns:minmax(0,1fr);gap:12px}.dashboard-card{padding:14px}.dashboard-card-wide,.dashboard-card-streak{grid-column:auto;width:100%}.dashboard-card-head{align-items:flex-start;flex-direction:column;gap:5px}.dashboard-card-head span{text-align:left}.dashboard-note{text-align:left}}
+
+
+/* Profile alignment: shared telemetry language, consistent panels, and robust image sizing. */
+.signal-strip{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:12px;margin-top:24px}
+.signal-strip a{min-width:0;display:flex;flex-direction:column;justify-content:space-between;gap:12px;padding:16px;border:1px solid var(--line);background:rgba(255,255,255,.018);transition:border-color .2s,transform .2s}
+.signal-strip a:hover{border-color:#3d6653;transform:translateY(-2px)}
+.signal-strip a span{font:.62rem var(--mono);letter-spacing:.08em;color:var(--muted)}
+.signal-strip img{max-width:100%;height:auto;align-self:flex-start}
+.trophy-panel{margin-top:16px;min-width:0;padding:20px;border:1px solid var(--line);background:linear-gradient(145deg,rgba(255,255,255,.025),rgba(255,255,255,.008))}
+.trophy-image,.contribution-image{display:block;width:100%;max-width:100%;height:auto;object-fit:contain}
+.trophy-image{margin:6px auto 20px}
+.contribution-image{margin-top:12px}
+.trophy-panel .dashboard-note{margin-bottom:0}
+@media(max-width:640px){.signal-strip{grid-template-columns:1fr}.signal-strip a{flex-direction:row;align-items:center;flex-wrap:wrap}.trophy-panel{padding:14px}.trophy-panel .dashboard-card-head{align-items:flex-start;flex-direction:column}.trophy-image{margin-bottom:12px}}
+@media(prefers-reduced-motion:reduce){.signal-strip a{transition:none}}
