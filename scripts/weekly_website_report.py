@@ -11,7 +11,7 @@ from email.message import EmailMessage
 from html import escape
 
 from google.analytics.data_v1beta import BetaAnalyticsDataClient
-from google.analytics.data_v1beta.types import DateRange, Dimension, Metric
+from google.analytics.data_v1beta.types import DateRange, Dimension, Metric, Filter, FilterExpression
 from google.oauth2 import service_account
 from googleapiclient.discovery import build
 
@@ -34,7 +34,7 @@ def service_credentials():
     return service_account.Credentials.from_service_account_info(info, scopes=SCOPES)
 
 
-def ga_report(client, property_id: str, start: str, end: str, metrics: list[str], dimensions: list[str] | None = None):
+def ga_report(client, property_id: str, start: str, end: str, metrics: list[str], dimensions: list[str] | None = None, event_name: str | None = None):
     from google.analytics.data_v1beta.types import RunReportRequest
     request = RunReportRequest(
         property=f"properties/{property_id}",
@@ -42,6 +42,7 @@ def ga_report(client, property_id: str, start: str, end: str, metrics: list[str]
         dimensions=[Dimension(name=name) for name in (dimensions or [])],
         metrics=[Metric(name=name) for name in metrics],
         limit=10 if dimensions else 1,
+        dimension_filter=FilterExpression(filter=Filter(field_name="eventName", string_filter=Filter.StringFilter(value=event_name, match_type=Filter.StringFilter.MatchType.EXACT))) if event_name else None,
     )
     response = client.run_report(request)
     return [
@@ -97,7 +98,7 @@ def main():
     smtp_host = required("SMTP_HOST")
     smtp_user = required("SMTP_USERNAME")
     smtp_password = required("SMTP_PASSWORD")
-    smtp_port = int(os.environ.get("SMTP_PORT", "465"))
+    smtp_port = int(os.environ.get("SMTP_PORT") or "465")
     property_id = required("GA4_PROPERTY_ID")
     site_url = required("GSC_SITE_URL")
 
@@ -117,12 +118,24 @@ def main():
     previous = ga_report(ga, property_id, prev_start_s, prev_end_s, ga_metrics)
     cur = current[0]["metrics"] if current else ["0", "0", "0", "0", "0"]
     prev = previous[0]["metrics"] if previous else ["0", "0", "0", "0", "0"]
+    current_click_rows = ga_report(ga, property_id, start, end, ["eventCount"], event_name="portfolio_click")
+    previous_click_rows = ga_report(ga, property_id, prev_start_s, prev_end_s, ["eventCount"], event_name="portfolio_click")
+    current_clicks = float(current_click_rows[0]["metrics"][0]) if current_click_rows else 0
+    previous_clicks = float(previous_click_rows[0]["metrics"][0]) if previous_click_rows else 0
+    current_sessions = float(cur[0]) if cur else 0
+    previous_sessions = float(prev[0]) if prev else 0
+    click_rate = current_clicks / current_sessions if current_sessions else 0
+    previous_click_rate = previous_clicks / previous_sessions if previous_sessions else 0
     labels = ["Sessões", "Usuários", "Visualizações de página", "Sessões engajadas", "Taxa de engajamento"]
     ga_rows = []
     for i, label in enumerate(labels):
         value = fmt_pct(cur[i]) if i == 4 else fmt_int(cur[i])
         before = fmt_pct(prev[i]) if i == 4 else fmt_int(prev[i])
         ga_rows.append([label, value, before, delta(cur[i], prev[i])])
+    ga_rows.extend([
+        ["Cliques em links rastreados", fmt_int(current_clicks), fmt_int(previous_clicks), delta(current_clicks, previous_clicks)],
+        ["Cliques por sessão (taxa de interação)", fmt_pct(click_rate), fmt_pct(previous_click_rate), delta(click_rate, previous_click_rate)],
+    ])
 
     channels = ga_report(ga, property_id, start, end, ["sessions", "totalUsers"], ["sessionDefaultChannelGroup"])
     channel_rows = [[row["dimensions"][0], fmt_int(row["metrics"][0]), fmt_int(row["metrics"][1])] for row in channels]
