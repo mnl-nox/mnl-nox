@@ -14,11 +14,14 @@
     if (themeColorMeta) themeColorMeta.setAttribute('content', theme === 'light' ? '#f4f6f8' : '#08090b');
   };
   applyTheme(storedTheme === 'light' || storedTheme === 'dark' ? storedTheme : systemTheme);
-  themeToggle?.addEventListener('click', () => {
-    const next = root.dataset.theme === 'light' ? 'dark' : 'light';
-    applyTheme(next);
-    try { localStorage.setItem('mnl-nox-theme', next); } catch (_) {}
-  });
+  if (themeToggle) {
+    themeToggle.addEventListener('click', (event) => {
+      event.preventDefault();
+      const next = root.dataset.theme === 'light' ? 'dark' : 'light';
+      applyTheme(next);
+      try { localStorage.setItem('mnl-nox-theme', next); } catch (_) {}
+    });
+  }
 
   const menuToggle = document.getElementById('menuToggle');
   const navLinks = document.getElementById('navLinks');
