@@ -7,9 +7,10 @@
   const applyTheme = (theme) => {
     root.dataset.theme = theme;
     if (themeToggle) {
-      themeToggle.textContent = theme === 'light' ? 'TEMA: CLARO' : 'TEMA: ESCURO';
+      themeToggle.innerHTML = theme === 'light' ? '☾ <span>TEMA ESCURO</span>' : '☼ <span>TEMA CLARO</span>';
       themeToggle.setAttribute('aria-label', theme === 'light' ? 'Ativar tema escuro' : 'Ativar tema claro');
       themeToggle.setAttribute('aria-pressed', String(theme === 'light'));
+      themeToggle.setAttribute('title', theme === 'light' ? 'Ativar tema escuro' : 'Ativar tema claro');
     }
     if (themeColorMeta) themeColorMeta.setAttribute('content', theme === 'light' ? '#f4f6f8' : '#08090b');
   };
