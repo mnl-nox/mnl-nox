@@ -152,7 +152,7 @@ section[id]{scroll-margin-top:92px}
 [data-theme="light"] .nav-link{color:#263746}
 [data-theme="light"] .metric-value{color:#075c3a}
 [data-theme="light"] .eyebrow{color:#075c3a}
-[data-theme="light"] .green,. [data-theme="light"] .project-link{color:#075c3a}
+[data-theme="light"] .green,[data-theme="light"] .project-link{color:#075c3a}
 [data-theme="light"] .skill-chip.highlight{color:#064b30;background:#e5f4eb;border-color:#80b99a}
 [data-theme="light"] .project-bottom{border-color:#d2dbe2}
 [data-theme="light"] .terminal-output .value{color:#075c3a}
