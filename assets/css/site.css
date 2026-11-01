@@ -387,3 +387,12 @@ button,a{touch-action:manipulation}
 [data-theme="light"] .assistant-message{background:rgba(8,123,75,.06)}
 @media(max-width:640px){.nox-assistant{right:14px;bottom:14px}.assistant-avatar{width:56px;height:56px}}
 @media(prefers-reduced-motion:reduce){.assistant-avatar{transition:none}}
+
+/* Categorized stack panels and editorial SVG section banners */
+.stack-banner{margin:26px 0 14px;overflow:hidden;border:1px solid var(--line);background:var(--panel)}
+.stack-banner img{display:block;width:100%;height:auto;aspect-ratio:8/1;object-fit:cover}
+.security-panel{padding:24px;border:1px solid var(--line);background:linear-gradient(135deg,rgba(212,154,203,.055),transparent 65%)}
+.security-panel h3{margin:0 0 12px;font-size:1.1rem}
+.security-panel p{max-width:900px;color:var(--muted);font-size:.88rem;line-height:1.8}
+.security-panel p:last-child{margin-bottom:0;font-size:.76rem}
+@media(max-width:640px){.stack-banner img{aspect-ratio:5/1}.security-panel{padding:18px}}
