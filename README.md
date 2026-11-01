@@ -25,6 +25,10 @@ My interests are centered on understanding software close to the machine: C prog
 
 I value clear documentation, deliberate experimentation and learning by building.
 
+## Independent Computer Science Study
+
+Alongside formal education, I maintain an independent Computer Science study path focused on fundamentals and implementation: logic and mathematics, algorithms and data structures, C programming, computer architecture, operating systems, networks, web technologies and cybersecurity. The goal is to understand systems from first principles, validate concepts through practical experiments, and document the results in public projects.
+
 ## Current focus
 
 - Systems programming in C and Linux
@@ -43,27 +47,33 @@ I value clear documentation, deliberate experimentation and learning by building
 
 [Browse all repositories →](https://github.com/mnl-nox?tab=repositories)
 
-## Technologies
+## Languages
 
-**Working with**
+<p><img src="./assets/img/banner-languages.svg" alt="Languages — mnl-nox" width="100%"></p>
 
-<p>
-  <img src="https://img.shields.io/badge/C-171326?style=flat-square&logo=c&logoColor=C9A7FF" alt="C" />
-  <img src="https://img.shields.io/badge/Linux-171326?style=flat-square&logo=linux&logoColor=C9A7FF" alt="Linux" />
-  <img src="https://img.shields.io/badge/Bash-171326?style=flat-square&logo=gnubash&logoColor=C9A7FF" alt="Bash" />
-  <img src="https://img.shields.io/badge/Git-171326?style=flat-square&logo=git&logoColor=C9A7FF" alt="Git" />
-  <img src="https://img.shields.io/badge/GitHub-171326?style=flat-square&logo=github&logoColor=C9A7FF" alt="GitHub" />
-</p>
+**Primary / practical focus:** C, Bash.
 
-**Also studying**
+**Also studying:** C++, Python, Assembly, C#, JavaScript and SQL.
 
-<p>
-  <img src="https://img.shields.io/badge/C%2B%2B-171326?style=flat-square&logo=cplusplus&logoColor=EFADDC" alt="C++" />
-  <img src="https://img.shields.io/badge/Python-171326?style=flat-square&logo=python&logoColor=EFADDC" alt="Python" />
-  <img src="https://img.shields.io/badge/Computer%20Architecture-171326?style=flat-square&logo=cpu&logoColor=EFADDC" alt="Computer architecture" />
-  <img src="https://img.shields.io/badge/Networking-171326?style=flat-square&logo=wireshark&logoColor=EFADDC" alt="Networking" />
-  <img src="https://img.shields.io/badge/Software%20Engineering-171326?style=flat-square&logo=opensourceinitiative&logoColor=EFADDC" alt="Software engineering" />
-</p>
+## Technologies & Engineering
+
+<p><img src="./assets/img/banner-technologies.svg" alt="Technologies — mnl-nox" width="100%"></p>
+
+**Operating systems & systems:** GNU/Linux, Debian, computer architecture, x86_64, memory, processes, filesystems, `/proc` and `/sys`.
+
+**Build & debugging:** GCC, Clang, GDB, CMake, Make, GTK4.
+
+**Development workflow:** Git, GitHub, CLI, documentation, unit testing, static analysis, sanitizers, CI/CD and reproducible builds.
+
+**Web & networking:** HTML, CSS, JavaScript, TCP/IP, HTTP and network diagnostics.
+
+## Security & Hacking Lab
+
+<p><img src="./assets/img/banner-security.svg" alt="Security Lab — mnl-nox" width="100%"></p>
+
+Study areas: networking and service enumeration, web security, vulnerability analysis, traffic inspection, Linux hardening, digital forensics and defensive testing in authorized environments.
+
+**Tool inventory:** the available conversation history does not preserve a reliable list of named hacking tools previously tested. I am not attributing tools such as scanners, proxies or exploitation frameworks to hands-on experience without confirmation. This section will list each tool with its actual lab use and repository notes as that inventory is documented.
 
 ---
 
