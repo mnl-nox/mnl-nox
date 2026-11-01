@@ -67,7 +67,7 @@ Alongside formal education, I maintain an independent Computer Science study pat
 
 **Build & debugging:** GCC, Clang, GDB, CMake, Make, GTK4.
 
-**Development workflow:** Git, GitHub, CLI, documentation, unit testing, static analysis, sanitizers, CI/CD and reproducible builds.
+**Development workflow:** Git, GitHub, GitHub Actions, CLI, documentation, unit testing, static analysis, sanitizers, CI/CD and reproducible builds. The portfolio pipeline adds HTML validation and link checking.
 
 **Web & networking:** HTML, CSS, JavaScript, TCP/IP, HTTP and network diagnostics.
 
