@@ -60,7 +60,7 @@ I value clear documentation, deliberate experimentation and learning by building
 <p>
   <img src="https://img.shields.io/badge/C%2B%2B-171326?style=flat-square&logo=cplusplus&logoColor=EFADDC" alt="C++" />
   <img src="https://img.shields.io/badge/Python-171326?style=flat-square&logo=python&logoColor=EFADDC" alt="Python" />
-  <img src="https://img.shields.io/badge/Computer%20Architecture-171326?style=flat-square&logo= intel&logoColor=EFADDC" alt="Computer architecture" />
+  <img src="https://img.shields.io/badge/Computer%20Architecture-171326?style=flat-square&logo=cpu&logoColor=EFADDC" alt="Computer architecture" />
   <img src="https://img.shields.io/badge/Networking-171326?style=flat-square&logo=wireshark&logoColor=EFADDC" alt="Networking" />
   <img src="https://img.shields.io/badge/Software%20Engineering-171326?style=flat-square&logo=opensourceinitiative&logoColor=EFADDC" alt="Software engineering" />
 </p>
