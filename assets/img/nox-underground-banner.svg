@@ -1,34 +1,40 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="1200" height="360" viewBox="0 0 1200 360" role="img" aria-labelledby="title desc">
 <title id="title">MNL-NOX // underground systems</title>
-<desc id="desc">Minimal underground terminal banner with a near-black grid, crimson signal paths, terminal-green highlights, and monospaced typography.</desc>
+<desc id="desc">Pastel Ghost inspired underground technology banner with a violet night sky, spectral moon, terminal typography and abstract network traces.</desc>
 <defs>
-  <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#050505"/><stop offset=".56" stop-color="#101010"/><stop offset="1" stop-color="#070707"/></linearGradient>
-  <pattern id="grid" width="28" height="28" patternUnits="userSpaceOnUse"><path d="M28 0H0V28" fill="none" stroke="#252525" stroke-width="1"/></pattern>
-  <linearGradient id="fade" x1="0" y1="0" x2="1" y2="0"><stop stop-color="#050505" stop-opacity=".1"/><stop offset=".5" stop-color="#050505" stop-opacity=".06"/><stop offset="1" stop-color="#050505" stop-opacity=".72"/></linearGradient>
-  <filter id="glow"><feGaussianBlur stdDeviation="4" result="blur"/><feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+  <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#090914"/><stop offset=".55" stop-color="#171326"/><stop offset="1" stop-color="#0b0b18"/></linearGradient>
+  <radialGradient id="moon"><stop stop-color="#f4c9ed"/><stop offset=".62" stop-color="#d4a9ef"/><stop offset="1" stop-color="#8d70bd"/></radialGradient>
+  <pattern id="grid" width="32" height="32" patternUnits="userSpaceOnUse"><path d="M32 0H0V32" fill="none" stroke="#b9a2d9" stroke-opacity=".10"/></pattern>
+  <filter id="blur"><feGaussianBlur stdDeviation="18"/></filter>
+  <filter id="grain"><feTurbulence type="fractalNoise" baseFrequency=".82" numOctaves="2" stitchTiles="stitch"/><feColorMatrix values="1 0 0 0 0 0 1 0 0 0 0 0 1 0 0 0 0 0 .12 0"/></filter>
 </defs>
 <rect width="1200" height="360" rx="16" fill="url(#bg)"/>
-<rect width="1200" height="360" rx="16" fill="url(#grid)" opacity=".82"/>
-<path d="M0 72H170L205 107H320M0 278H135L164 249H246M1200 62H1088L1055 95H990M1200 290H1082L1040 248H980" fill="none" stroke="#ff2b2b" stroke-width="2" opacity=".75"/>
-<path d="M0 88H162M0 262H130M1200 78H1098M1200 274H1095" stroke="#00ff9c" stroke-width="1.5" opacity=".65"/>
-<path d="M82 0V46L108 72V104M1110 360V320L1080 290V268" fill="none" stroke="#00ff9c" stroke-width="1.5" opacity=".5"/>
-<g fill="#ff2b2b"><circle cx="170" cy="72" r="3"/><circle cx="135" cy="278" r="3"/><circle cx="1088" cy="62" r="3"/><circle cx="1082" cy="290" r="3"/></g>
-<g transform="translate(94 104)">
-  <rect x="0" y="0" width="150" height="150" rx="18" fill="#090909" stroke="#303030" stroke-width="1.5"/>
-  <rect x="10" y="10" width="130" height="130" rx="12" fill="none" stroke="#ff2b2b" stroke-width="1.5" stroke-dasharray="3 8"/>
-  <path d="M48 104V61C48 41 60 28 75 28S102 41 102 61V104L88 96L75 105L62 96Z" fill="#0b1711" stroke="#00ff9c" stroke-width="2.5"/>
-  <path d="M61 62h8M81 62h8" stroke="#00ff9c" stroke-width="3" stroke-linecap="round"/>
-  <path d="M67 77q8 6 16 0" fill="none" stroke="#ff2b2b" stroke-width="2" stroke-linecap="round"/>
-  <path d="M30 24h16M30 30h9M104 120h16M111 126h9" stroke="#666" stroke-width="1.5"/>
+<circle cx="915" cy="108" r="112" fill="#c9a7ff" opacity=".24" filter="url(#blur)"/>
+<circle cx="915" cy="108" r="82" fill="url(#moon)" opacity=".92"/>
+<circle cx="943" cy="84" r="75" fill="#151225"/>
+<path d="M0 275L110 245 185 263 290 221 395 260 480 230 570 270 650 235 730 255 810 220 890 250 980 215 1080 258 1200 225V360H0Z" fill="#080812"/>
+<path d="M0 305H120L155 270H260M0 326H195L225 295H350M1200 300H1090L1058 268H1005M1200 328H1040L1015 302H960" fill="none" stroke="#c9a7ff" stroke-opacity=".55" stroke-width="1.5"/>
+<path d="M0 70H120L150 100H225M1200 65H1080L1050 95H1000" fill="none" stroke="#efaddc" stroke-opacity=".65" stroke-width="1.5"/>
+<g fill="#efaddc"><circle cx="120" cy="70" r="3"/><circle cx="1080" cy="65" r="3"/></g>
+<g transform="translate(82 104)">
+  <rect width="142" height="142" rx="14" fill="#111020" stroke="#786391"/>
+  <path d="M47 93V59C47 41 58 28 71 28S95 41 95 59V93L83 87 71 96 59 87Z" fill="#20192f" stroke="#c9a7ff" stroke-width="2"/>
+  <path d="M60 59h7M76 59h7" stroke="#f0c6e9" stroke-width="3" stroke-linecap="round"/>
+  <path d="M63 74q8 7 16 0" fill="none" stroke="#efaddc" stroke-width="2"/>
+  <path d="M14 14h22M14 20h12M106 122h22" stroke="#8d79a7" stroke-width="1"/>
 </g>
-<g font-family="monospace">
-  <text x="294" y="139" fill="#777" font-size="15" letter-spacing="5">PROFILE SYSTEM // 001</text>
-  <text x="290" y="198" fill="#f2f2f2" font-size="52" font-weight="700" letter-spacing="2">MNL-NOX</text>
-  <rect x="294" y="218" width="52" height="3" fill="#ff2b2b"/>
-  <rect x="354" y="218" width="22" height="3" fill="#00ff9c"/>
-  <text x="294" y="254" fill="#00ff9c" font-size="17" letter-spacing="3">LOW-LEVEL SYSTEMS</text>
-  <text x="294" y="284" fill="#8d8d8d" font-size="13" letter-spacing="2">LINUX  /  C99  /  OPEN SOURCE</text>
-  <text x="1085" y="326" fill="#666" font-size="10" text-anchor="end" letter-spacing="2">BUILD // DEBUG // REPEAT</text>
+<g font-family="'JetBrains Mono','Courier New',monospace">
+  <text x="270" y="115" fill="#c9a7ff" font-size="14" letter-spacing="4">PROFILE SYSTEM // 001</text>
+  <text x="266" y="178" fill="#f4efff" font-size="56" font-weight="700" letter-spacing="2">MNL-NOX</text>
+  <path d="M270 198h48" stroke="#efaddc" stroke-width="3"/><path d="M326 198h22" stroke="#c9a7ff" stroke-width="3"/>
+  <text x="270" y="235" fill="#d9c5f5" font-size="17" letter-spacing="3">LOW-LEVEL SYSTEMS</text>
+  <text x="270" y="266" fill="#b5a8c9" font-size="13" letter-spacing="2">LINUX / C99 / NETWORKS / OPEN SOURCE</text>
+  <text x="1110" y="326" fill="#c9a7ff" font-size="10" text-anchor="end" letter-spacing="2">INVESTIGATE // BUILD // REPEAT</text>
+  <rect x="850" y="226" width="260" height="72" rx="5" fill="#0b0a16" fill-opacity=".78" stroke="#80699e"/>
+  <text x="868" y="250" fill="#efaddc" font-size="12">root@mnl-nox:~$</text>
+  <text x="868" y="273" fill="#c9a7ff" font-size="11">[+] systems / security / code_</text>
 </g>
-<rect x="1" y="1" width="1198" height="358" rx="15" fill="none" stroke="#292929" stroke-width="2"/>
+<rect width="1200" height="360" rx="16" fill="url(#grid)"/>
+<rect width="1200" height="360" rx="16" filter="url(#grain)" opacity=".16"/>
+<rect x="1" y="1" width="1198" height="358" rx="15" fill="none" stroke="#5d4b76" stroke-opacity=".75"/>
 </svg>
