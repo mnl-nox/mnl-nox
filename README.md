@@ -25,6 +25,10 @@ My interests are centered on understanding software close to the machine: C prog
 
 I value clear documentation, deliberate experimentation and learning by building.
 
+## Independent Computer Science Study
+
+Alongside formal education, I maintain an independent Computer Science study path focused on fundamentals and implementation: logic and mathematics, algorithms and data structures, C programming, computer architecture, operating systems, networks, web technologies and cybersecurity. The goal is to understand systems from first principles, validate concepts through practical experiments, and document the results in public projects.
+
 ## Current focus
 
 - Systems programming in C and Linux
