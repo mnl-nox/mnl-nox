@@ -24,7 +24,7 @@ The portfolio is a static site deployed with GitHub Pages. It intentionally avoi
 ## Editing guide
 
 - **Content and semantics:** edit `index.html`. Keep headings hierarchical, links descriptive, and images supplied with alt text.
-- **Visual design:** edit `assets/css/site.css`. Shared colors, typography, and spacing are defined as CSS custom properties in `:root`.
+- **Visual design:** edit `assets/css/site.css`. Shared colors, typography, and spacing are defined as CSS custom properties in `:root`. The current visual direction is Pastel Ghost: midnight violet, spectral pink, lavender accents, subtle grain, and restrained terminal motifs.
 - **Interactions:** edit `assets/js/site.js`. Keep the page usable without JavaScript where possible; respect reduced-motion preferences in CSS.
 - **Artwork:** store reusable illustrations in `assets/img/` and reference them with relative paths.
 - **Deployment:** edit `.github/workflows/pages.yml` only when deployment requirements change. GitHub Pages must be configured to use **GitHub Actions** as its source.
@@ -36,7 +36,8 @@ Open `index.html` directly in a browser, or serve the repository root with a loc
 ## Publishing checklist
 
 1. Confirm the relative asset paths work from the repository root.
-2. Test the mobile navigation and all contact/project links.
-3. Commit changes to `main`.
-4. Check the **Actions** tab for the Pages deployment result.
-5. Confirm the published URL after the workflow succeeds.
+2. Test navigation at 360 px, 640 px, tablet, and desktop widths; verify Escape closes the mobile menu.
+3. Check theme switching, keyboard focus, reduced motion, image overflow, and external dashboard fallbacks.
+4. Commit changes to `main`.
+5. Check the **Actions** tab for the Pages deployment result.
+6. Confirm the published URL after the workflow succeeds.
