@@ -12,7 +12,7 @@
       themeToggle.setAttribute('aria-pressed', String(theme === 'light'));
       themeToggle.setAttribute('title', theme === 'light' ? 'Ativar tema escuro' : 'Ativar tema claro');
     }
-    if (themeColorMeta) themeColorMeta.setAttribute('content', theme === 'light' ? '#f4f6f8' : '#08090b');
+    if (themeColorMeta) themeColorMeta.setAttribute('content', theme === 'light' ? '#f4f6f8' : '#090914');
   };
   applyTheme(storedTheme === 'light' || storedTheme === 'dark' ? storedTheme : systemTheme);
   if (themeToggle) {
@@ -39,6 +39,15 @@
       menuToggle.setAttribute('aria-label', 'Abrir menu de navegação');
       menuToggle.textContent = 'MENU +';
     }));
+    document.addEventListener('keydown', event => {
+      if (event.key === 'Escape' && navLinks.classList.contains('open')) {
+        navLinks.classList.remove('open');
+        menuToggle.setAttribute('aria-expanded', 'false');
+        menuToggle.setAttribute('aria-label', 'Abrir menu de navegação');
+        menuToggle.textContent = 'MENU +';
+        menuToggle.focus();
+      }
+    });
   }
 
   const year = document.getElementById('year');
