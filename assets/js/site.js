@@ -50,6 +50,38 @@
     });
   }
 
+
+  const assistantToggle = document.getElementById('assistantToggle');
+  const assistantPanel = document.getElementById('assistantPanel');
+  const assistantClose = document.getElementById('assistantClose');
+  const assistantMessage = document.getElementById('assistantMessage');
+  const assistantReplies = {
+    study: 'O caderno acompanha um estudo independente de Ciência da Computação: lógica, matemática, algoritmos, estruturas de dados, C, arquitetura, sistemas operacionais, redes, Web e segurança.',
+    method: 'O método é baseado em primeiros princípios: estudar o conceito, formular uma hipótese, construir um experimento pequeno, observar o resultado, depurar e documentar. O avanço depende de prática verificável.',
+    projects: 'Os projetos estão na seção Projetos e nos repositórios públicos do GitHub. CPU Reader, File Manager, BinLab e simpleBash funcionam como laboratórios para transformar estudo em implementação.'
+  };
+  const setAssistantOpen = (open) => {
+    if (!assistantToggle || !assistantPanel) return;
+    assistantPanel.hidden = !open;
+    assistantToggle.setAttribute('aria-expanded', String(open));
+    assistantToggle.setAttribute('aria-label', open ? 'Fechar guia interativo NOX' : 'Abrir guia interativo NOX');
+    if (open && assistantClose) assistantClose.focus();
+    if (!open) assistantToggle.focus();
+  };
+  if (assistantToggle && assistantPanel) {
+    assistantToggle.addEventListener('click', () => setAssistantOpen(assistantPanel.hidden));
+    if (assistantClose) assistantClose.addEventListener('click', () => setAssistantOpen(false));
+    assistantPanel.querySelectorAll('[data-assistant-topic]').forEach(button => {
+      button.addEventListener('click', () => {
+        const topic = button.getAttribute('data-assistant-topic');
+        if (assistantMessage && assistantReplies[topic]) assistantMessage.textContent = assistantReplies[topic];
+      });
+    });
+    document.addEventListener('keydown', event => {
+      if (event.key === 'Escape' && !assistantPanel.hidden) setAssistantOpen(false);
+    });
+  }
+
   const year = document.getElementById('year');
   if (year) year.textContent = new Date().getFullYear();
 
