@@ -352,3 +352,38 @@ button,a{touch-action:manipulation}
   *,*:before,*:after{scroll-behavior:auto!important;animation:none!important;transition:none!important}
   .reveal{opacity:1;transform:none}
 }
+
+
+/* Independent Computer Science notebook */
+.journal-intro{display:flex;align-items:flex-start;justify-content:space-between;gap:28px;padding:25px 0;border-top:1px solid var(--line);border-bottom:1px solid var(--line)}
+.journal-intro p{max-width:760px;margin:0;color:var(--muted);font-size:1rem;line-height:1.85}
+.journal-intro strong{color:var(--text);font-weight:600}
+.journal-mark,.journal-index,.journal-meta{font: .66rem var(--mono);letter-spacing:.1em;color:var(--green)}
+.journal-mark{white-space:nowrap;padding-top:7px}
+.journal-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:14px;margin-top:18px}
+.journal-entry{min-width:0;padding:24px;border:1px solid var(--line);background:linear-gradient(145deg,rgba(255,255,255,.025),rgba(255,255,255,.008))}
+.journal-entry h3{margin:18px 0 10px;font-size:1.12rem;letter-spacing:-.025em}
+.journal-entry p{min-height:100px;margin:0 0 20px;color:var(--muted);font-size:.86rem;line-height:1.8}
+.journal-footnote{max-width:850px;margin:18px 0 0;color:var(--muted);font-size:.76rem;line-height:1.7}
+@media(max-width:760px){.journal-grid{grid-template-columns:1fr}.journal-entry p{min-height:0}.journal-intro{flex-direction:column;gap:12px}}
+
+/* Floating NOX guide: local scripted interaction, no remote AI/API dependency. */
+.nox-assistant{position:fixed;right:22px;bottom:22px;z-index:40;display:flex;flex-direction:column;align-items:flex-end;gap:12px}
+.assistant-avatar{position:relative;width:62px;height:62px;display:grid;place-items:center;border:1px solid rgba(201,167,255,.7);border-radius:50%;background:rgba(15,12,24,.94);box-shadow:0 8px 30px rgba(0,0,0,.35),0 0 26px rgba(201,167,255,.16);cursor:pointer;transition:transform .2s,border-color .2s}
+.assistant-avatar:hover{transform:translateY(-3px);border-color:var(--red)}
+.assistant-avatar img{display:block;width:43px;height:43px;object-fit:contain}
+.assistant-pulse{position:absolute;right:4px;bottom:5px;width:9px;height:9px;border-radius:50%;background:var(--green);box-shadow:0 0 10px var(--green)}
+.assistant-panel{width:min(350px,calc(100vw - 36px));padding:17px;border:1px solid var(--line);background:var(--panel);box-shadow:0 18px 55px rgba(0,0,0,.42)}
+.assistant-panel[hidden]{display:none}
+.assistant-panel-head{display:flex;align-items:center;justify-content:space-between;font: .68rem var(--mono);letter-spacing:.08em;color:var(--green)}
+.assistant-panel-head button{border:0;background:transparent;color:var(--muted);font-size:1.4rem;cursor:pointer}
+.assistant-live{display:inline-block;width:7px;height:7px;margin-right:7px;border-radius:50%;background:var(--green)}
+.assistant-disclaimer{margin:12px 0;color:var(--muted);font-size:.68rem;line-height:1.55}
+.assistant-message{padding:13px;border-left:2px solid var(--green);background:rgba(201,167,255,.06);font-size:.82rem;line-height:1.7;color:var(--text)}
+.assistant-choices{display:grid;gap:7px;margin-top:12px}
+.assistant-choices button{padding:9px 10px;text-align:left;border:1px solid var(--line);background:transparent;color:var(--text);font: .68rem var(--mono);cursor:pointer}
+.assistant-choices button:hover{border-color:var(--green);color:var(--green)}
+[data-theme="light"] .assistant-panel{background:var(--panel);border-color:var(--line)}
+[data-theme="light"] .assistant-message{background:rgba(8,123,75,.06)}
+@media(max-width:640px){.nox-assistant{right:14px;bottom:14px}.assistant-avatar{width:56px;height:56px}}
+@media(prefers-reduced-motion:reduce){.assistant-avatar{transition:none}}
