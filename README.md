@@ -5,6 +5,8 @@
 <h1 align="center">Manoel E. S. S.</h1>
 <p align="center"><strong>Computer Science · Systems Programming · Linux</strong></p>
 
+<p align="center"><img src="./assets/img/nox-anime-ghost.svg" width="100%" alt="NOX — mascote espectral em pixel art anime, animação violeta em loop" /></p>
+
 <p align="center">
   <a href="https://mnl-nox.github.io/mnl-nox/">Portfolio</a>
   &nbsp;·&nbsp;
@@ -53,7 +55,9 @@ Alongside formal education, I maintain an independent Computer Science study pat
 
 **Primary / practical focus:** C, Bash.
 
-**Also studying:** C++, Python, Assembly, C#, JavaScript and SQL.
+**Also studying:** C++, Python, Assembly, C#, JavaScript and SQL. Skill labels describe study focus; they are not proficiency claims.
+
+<p align="center"><img src="https://skillicons.dev/icons?i=c,bash,cpp,python,linux,git,github,html,css,js&theme=dark" alt="Ícones das tecnologias em estudo" /></p>
 
 ## Technologies & Engineering
 
@@ -63,9 +67,13 @@ Alongside formal education, I maintain an independent Computer Science study pat
 
 **Build & debugging:** GCC, Clang, GDB, CMake, Make, GTK4.
 
-**Development workflow:** Git, GitHub, CLI, documentation, unit testing, static analysis, sanitizers, CI/CD and reproducible builds.
+**Development workflow:** Git, GitHub, GitHub Actions, CLI, documentation, unit testing, static analysis, sanitizers, CI/CD and reproducible builds. The portfolio pipeline adds HTML validation and link checking.
 
 **Web & networking:** HTML, CSS, JavaScript, TCP/IP, HTTP and network diagnostics.
+
+## Reliability & Site Engineering
+
+The portfolio is a static GitHub Pages site. Reliability work prioritizes low operational complexity: version-controlled changes, automated HTML and link checks, responsive regression review, accessible motion, and clear separation between first-party assets and optional third-party widgets. External GitHub statistics are non-critical and may fail without affecting navigation or core content.
 
 ## Security & Hacking Lab
 
@@ -76,6 +84,10 @@ Study areas: networking and service enumeration, web security, vulnerability ana
 **Tool inventory:** the available conversation history does not preserve a reliable list of named hacking tools previously tested. I am not attributing tools such as scanners, proxies or exploitation frameworks to hands-on experience without confirmation. This section will list each tool with its actual lab use and repository notes as that inventory is documented.
 
 ---
+
+<p align="center">
+  <img src="./assets/img/nox-anime-ghost.svg" width="260" alt="NOX — mascote espectral" />
+</p>
 
 <p align="center">
   <sub>Build carefully. Understand deeply. Share what you learn.</sub>
