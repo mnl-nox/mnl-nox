@@ -1,6 +1,6 @@
 <!--
   MNL-NOX // PROFILE DASHBOARD
-  Visual system: near-black / crimson / terminal green
+  Visual system: midnight violet / spectral pink / lavender
   Live cards are provided by public GitHub stats and Shields.io endpoints.
 -->
 
@@ -15,16 +15,16 @@
 </p>
 
 <p align="center">
-  <a href="https://mnl-nox.github.io/mnl-nox/"><img src="https://img.shields.io/badge/LIVE%20PORTFOLIO-0A0A0A?style=for-the-badge&logo=githubpages&logoColor=00FF9C" alt="Live portfolio"/></a>
-  <a href="https://www.linkedin.com/in/manoel-e-s-s-042691426/"><img src="https://img.shields.io/badge/LINKEDIN-0A0A0A?style=for-the-badge&logo=linkedin&logoColor=FF2B2B" alt="LinkedIn"/></a>
-  <a href="mailto:ghostnether82@gmail.com"><img src="https://img.shields.io/badge/EMAIL-0A0A0A?style=for-the-badge&logo=gmail&logoColor=00FF9C" alt="Email"/></a>
-  <a href="https://github.com/mnl-nox"><img src="https://img.shields.io/badge/GITHUB-0A0A0A?style=for-the-badge&logo=github&logoColor=FF2B2B" alt="GitHub profile"/></a>
+  <a href="https://mnl-nox.github.io/mnl-nox/"><img src="https://img.shields.io/badge/LIVE%20PORTFOLIO-090914?style=for-the-badge&logo=githubpages&logoColor=C9A7FF" alt="Live portfolio"/></a>
+  <a href="https://www.linkedin.com/in/manoel-e-s-s-042691426/"><img src="https://img.shields.io/badge/LINKEDIN-090914?style=for-the-badge&logo=linkedin&logoColor=EFADDC" alt="LinkedIn"/></a>
+  <a href="mailto:ghostnether82@gmail.com"><img src="https://img.shields.io/badge/EMAIL-090914?style=for-the-badge&logo=gmail&logoColor=C9A7FF" alt="Email"/></a>
+  <a href="https://github.com/mnl-nox"><img src="https://img.shields.io/badge/GITHUB-090914?style=for-the-badge&logo=github&logoColor=EFADDC" alt="GitHub profile"/></a>
 </p>
 
 <p align="center">
-  <img src="https://img.shields.io/badge/PROFILE-ONLINE-0A0A0A?style=flat-square&labelColor=300707&color=00FF9C" alt="Profile online"/>
-  <img src="https://img.shields.io/badge/STATUS-LEARNING_IN_PUBLIC-0A0A0A?style=flat-square&labelColor=300707&color=FF2B2B" alt="Learning in public"/>
-  <img src="https://komarev.com/ghpvc/?username=mnl-nox&style=flat-square&color=00ff9c&label=PROFILE+SCANS" alt="Profile views"/>
+  <img src="https://img.shields.io/badge/PROFILE-ONLINE-090914?style=flat-square&labelColor=251b32&color=C9A7FF" alt="Profile online"/>
+  <img src="https://img.shields.io/badge/STATUS-LEARNING_IN_PUBLIC-090914?style=flat-square&labelColor=251b32&color=EFADDC" alt="Learning in public"/>
+  <img src="https://komarev.com/ghpvc/?username=mnl-nox&style=flat-square&color=C9A7FF&label=PROFILE+SCANS" alt="Profile views"/>
 </p>
 
 ## `INDEX // NAVIGATION`
@@ -44,8 +44,8 @@
 ## `00 // LIVE WEBSITE`
 
 <p align="center">
-  <a href="https://mnl-nox.github.io/mnl-nox/"><img src="https://img.shields.io/badge/OPEN-LIVE%20PORTFOLIO-0A0A0A?style=for-the-badge&logo=githubpages&logoColor=00FF9C" alt="Open live portfolio"/></a>
-  <a href="./index.html"><img src="https://img.shields.io/badge/SOURCE-INDEX.HTML-0A0A0A?style=for-the-badge&logo=html5&logoColor=FF2B2B" alt="Website source code"/></a>
+  <a href="https://mnl-nox.github.io/mnl-nox/"><img src="https://img.shields.io/badge/OPEN-LIVE%20PORTFOLIO-090914?style=for-the-badge&logo=githubpages&logoColor=C9A7FF" alt="Open live portfolio"/></a>
+  <a href="./index.html"><img src="https://img.shields.io/badge/SOURCE-INDEX.HTML-090914?style=for-the-badge&logo=html5&logoColor=EFADDC" alt="Website source code"/></a>
 </p>
 
 <a id="operator-profile"></a>
@@ -69,20 +69,20 @@ I prefer understanding what happens below the abstraction: how programs are comp
 <table width="100%">
   <tr>
     <td width="50%" align="center" valign="top">
-      <img src="https://github-readme-stats.vercel.app/api?username=mnl-nox&show_icons=true&hide_border=true&bg_color=0A0A0A&title_color=FF2B2B&text_color=C9D1D9&icon_color=00FF9C&include_all_commits=true&rank_icon=github" width="100%" alt="GitHub profile statistics: stars, commits, and account rank"/>
+      <img src="https://github-readme-stats.vercel.app/api?username=mnl-nox&show_icons=true&hide_border=true&bg_color=090914&title_color=EFADDC&text_color=C9D1D9&icon_color=C9A7FF&include_all_commits=true&rank_icon=github" width="100%" alt="GitHub profile statistics: stars, commits, and account rank"/>
     </td>
     <td width="50%" align="center" valign="top">
-      <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=mnl-nox&layout=compact&langs_count=6&hide_border=true&bg_color=0A0A0A&title_color=FF2B2B&text_color=C9D1D9" width="100%" alt="Most-used programming languages across public repositories"/>
+      <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=mnl-nox&layout=compact&langs_count=6&hide_border=true&bg_color=090914&title_color=EFADDC&text_color=C9D1D9" width="100%" alt="Most-used programming languages across public repositories"/>
     </td>
   </tr>
 </table>
 
 <p align="center">
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=mnl-nox&bg_color=0A0A0A&color=00FF9C&line=FF2B2B&point=FFFFFF&area=true&hide_border=true&custom_title=COMMIT%20ACTIVITY" width="100%" alt="GitHub commit activity over time"/>
+  <img src="https://github-readme-activity-graph.vercel.app/graph?username=mnl-nox&bg_color=090914&color=C9A7FF&line=EFADDC&point=FFFFFF&area=true&hide_border=true&custom_title=COMMIT%20ACTIVITY" width="100%" alt="GitHub commit activity over time"/>
 </p>
 
 <p align="center">
-  <img src="https://streak-stats.demolab.com?user=mnl-nox&theme=dark&hide_border=true&background=0A0A0A&ring=FF2B2B&fire=FF2B2B&currStreakLabel=00FF9C&sideLabels=00FF9C&dates=8A8A8A" width="100%" alt="Current and longest contribution streak"/>
+  <img src="https://streak-stats.demolab.com?user=mnl-nox&theme=dark&hide_border=true&background=090914&ring=EFADDC&fire=EFADDC&currStreakLabel=C9A7FF&sideLabels=C9A7FF&dates=8A8A8A" width="100%" alt="Current and longest contribution streak"/>
 </p>
 
 ### `SIGNAL MONITOR // LIVE TELEMETRY`
@@ -92,18 +92,18 @@ I prefer understanding what happens below the abstraction: how programs are comp
 </p>
 
 <p align="center">
-  <img src="https://img.shields.io/github/followers/mnl-nox?style=for-the-badge&logo=github&label=FOLLOWERS&color=00FF9C&labelColor=0A0A0A" alt="GitHub followers" />
-  <img src="https://img.shields.io/github/repos/mnl-nox?style=for-the-badge&logo=github&label=PUBLIC%20REPOSITORIES&color=FF2B2B&labelColor=0A0A0A" alt="Public repositories" />
-  <img src="https://img.shields.io/github/last-commit/mnl-nox/mnl-nox?style=for-the-badge&logo=git&label=PROFILE%20UPDATED&color=FF2B2B&labelColor=0A0A0A" alt="Profile repository last commit" />
+  <img src="https://img.shields.io/github/followers/mnl-nox?style=for-the-badge&logo=github&label=FOLLOWERS&color=C9A7FF&labelColor=090914" alt="GitHub followers" />
+  <img src="https://img.shields.io/github/repos/mnl-nox?style=for-the-badge&logo=github&label=PUBLIC%20REPOSITORIES&color=EFADDC&labelColor=090914" alt="Public repositories" />
+  <img src="https://img.shields.io/github/last-commit/mnl-nox/mnl-nox?style=for-the-badge&logo=git&label=PROFILE%20UPDATED&color=EFADDC&labelColor=090914" alt="Profile repository last commit" />
 </p>
 
 ### `REPOSITORY HEALTH // CHANGE FLOW`
 
 <p align="center">
-  <a href="https://github.com/mnl-nox/cpu-reader"><img src="https://img.shields.io/github/commit-activity/y/mnl-nox/cpu-reader?style=for-the-badge&label=CPU-READER%20COMMITS%2FYEAR&color=00FF9C&labelColor=0A0A0A" alt="CPU Reader yearly commit activity" /></a>
-  <a href="https://github.com/mnl-nox/file-manager"><img src="https://img.shields.io/github/commit-activity/y/mnl-nox/file-manager?style=for-the-badge&label=FILE-MANAGER%20COMMITS%2FYEAR&color=FF2B2B&labelColor=0A0A0A" alt="File Manager yearly commit activity" /></a>
-  <a href="https://github.com/mnl-nox/BinLab"><img src="https://img.shields.io/github/commit-activity/y/mnl-nox/BinLab?style=for-the-badge&label=BINLAB%20COMMITS%2FYEAR&color=00FF9C&labelColor=0A0A0A" alt="BinLab yearly commit activity" /></a>
-  <a href="https://github.com/mnl-nox/simpleBash"><img src="https://img.shields.io/github/commit-activity/y/mnl-nox/simpleBash?style=for-the-badge&label=SIMPLEBASH%20COMMITS%2FYEAR&color=FF2B2B&labelColor=0A0A0A" alt="simpleBash yearly commit activity" /></a>
+  <a href="https://github.com/mnl-nox/cpu-reader"><img src="https://img.shields.io/github/commit-activity/y/mnl-nox/cpu-reader?style=for-the-badge&label=CPU-READER%20COMMITS%2FYEAR&color=C9A7FF&labelColor=090914" alt="CPU Reader yearly commit activity" /></a>
+  <a href="https://github.com/mnl-nox/file-manager"><img src="https://img.shields.io/github/commit-activity/y/mnl-nox/file-manager?style=for-the-badge&label=FILE-MANAGER%20COMMITS%2FYEAR&color=EFADDC&labelColor=090914" alt="File Manager yearly commit activity" /></a>
+  <a href="https://github.com/mnl-nox/BinLab"><img src="https://img.shields.io/github/commit-activity/y/mnl-nox/BinLab?style=for-the-badge&label=BINLAB%20COMMITS%2FYEAR&color=C9A7FF&labelColor=090914" alt="BinLab yearly commit activity" /></a>
+  <a href="https://github.com/mnl-nox/simpleBash"><img src="https://img.shields.io/github/commit-activity/y/mnl-nox/simpleBash?style=for-the-badge&label=SIMPLEBASH%20COMMITS%2FYEAR&color=EFADDC&labelColor=090914" alt="simpleBash yearly commit activity" /></a>
 </p>
 
 <p align="center">
@@ -123,12 +123,12 @@ I prefer understanding what happens below the abstraction: how programs are comp
 ### `PROJECT SIGNALS // QUICK ACCESS`
 
 <p align="center">
-  <a href="https://github.com/mnl-nox/cpu-reader"><img height="130" src="https://github-readme-stats.vercel.app/api/pin/?username=mnl-nox&repo=cpu-reader&hide_border=true&bg_color=0A0A0A&title_color=FF2B2B&text_color=C9D1D9&icon_color=00FF9C" alt="CPU Reader project card"/></a>
-  <a href="https://github.com/mnl-nox/file-manager"><img height="130" src="https://github-readme-stats.vercel.app/api/pin/?username=mnl-nox&repo=file-manager&hide_border=true&bg_color=0A0A0A&title_color=00FF9C&text_color=C9D1D9&icon_color=FF2B2B" alt="File Manager project card"/></a>
+  <a href="https://github.com/mnl-nox/cpu-reader"><img height="130" src="https://github-readme-stats.vercel.app/api/pin/?username=mnl-nox&repo=cpu-reader&hide_border=true&bg_color=090914&title_color=EFADDC&text_color=C9D1D9&icon_color=C9A7FF" alt="CPU Reader project card"/></a>
+  <a href="https://github.com/mnl-nox/file-manager"><img height="130" src="https://github-readme-stats.vercel.app/api/pin/?username=mnl-nox&repo=file-manager&hide_border=true&bg_color=090914&title_color=C9A7FF&text_color=C9D1D9&icon_color=EFADDC" alt="File Manager project card"/></a>
 </p>
 <p align="center">
-  <a href="https://github.com/mnl-nox/BinLab"><img height="130" src="https://github-readme-stats.vercel.app/api/pin/?username=mnl-nox&repo=BinLab&hide_border=true&bg_color=0A0A0A&title_color=FF2B2B&text_color=C9D1D9&icon_color=00FF9C" alt="BinLab project card"/></a>
-  <a href="https://github.com/mnl-nox/simpleBash"><img height="130" src="https://github-readme-stats.vercel.app/api/pin/?username=mnl-nox&repo=simpleBash&hide_border=true&bg_color=0A0A0A&title_color=00FF9C&text_color=C9D1D9&icon_color=FF2B2B" alt="simpleBash project card"/></a>
+  <a href="https://github.com/mnl-nox/BinLab"><img height="130" src="https://github-readme-stats.vercel.app/api/pin/?username=mnl-nox&repo=BinLab&hide_border=true&bg_color=090914&title_color=EFADDC&text_color=C9D1D9&icon_color=C9A7FF" alt="BinLab project card"/></a>
+  <a href="https://github.com/mnl-nox/simpleBash"><img height="130" src="https://github-readme-stats.vercel.app/api/pin/?username=mnl-nox&repo=simpleBash&hide_border=true&bg_color=090914&title_color=C9A7FF&text_color=C9D1D9&icon_color=EFADDC" alt="simpleBash project card"/></a>
 </p>
 
 ---
@@ -143,53 +143,53 @@ Live badges below track public repository metadata. Click a project name to open
 A C99 library and monitor for Linux that reads CPU model and topology, calculates aggregate usage from `/proc/stat`, and checks temperature/frequency when compatible kernel interfaces are available. Includes terminal and GTK4 frontends, tests, and Debian packaging.
 
 <p>
-  <a href="https://github.com/mnl-nox/cpu-reader"><img src="https://img.shields.io/badge/REPOSITORY-CPU--READER-0A0A0A?style=for-the-badge&logo=linux&logoColor=00FF9C" alt="CPU Reader repository"/></a>
-  <img src="https://img.shields.io/github/languages/count/mnl-nox/cpu-reader?style=for-the-badge&label=LANGUAGES&color=00FF9C&labelColor=0A0A0A" alt="CPU Reader language count"/>
-  <img src="https://img.shields.io/github/stars/mnl-nox/cpu-reader?style=for-the-badge&label=STARS&color=FF2B2B&labelColor=0A0A0A" alt="CPU Reader stars"/>
-  <img src="https://img.shields.io/github/last-commit/mnl-nox/cpu-reader?style=for-the-badge&label=LAST%20COMMIT&color=00FF9C&labelColor=0A0A0A" alt="CPU Reader last commit"/>
+  <a href="https://github.com/mnl-nox/cpu-reader"><img src="https://img.shields.io/badge/REPOSITORY-CPU--READER-090914?style=for-the-badge&logo=linux&logoColor=C9A7FF" alt="CPU Reader repository"/></a>
+  <img src="https://img.shields.io/github/languages/count/mnl-nox/cpu-reader?style=for-the-badge&label=LANGUAGES&color=C9A7FF&labelColor=090914" alt="CPU Reader language count"/>
+  <img src="https://img.shields.io/github/stars/mnl-nox/cpu-reader?style=for-the-badge&label=STARS&color=EFADDC&labelColor=090914" alt="CPU Reader stars"/>
+  <img src="https://img.shields.io/github/last-commit/mnl-nox/cpu-reader?style=for-the-badge&label=LAST%20COMMIT&color=C9A7FF&labelColor=090914" alt="CPU Reader last commit"/>
 </p>
 <p>
-  <a href="https://github.com/mnl-nox/cpu-reader/issues"><img src="https://img.shields.io/github/issues/mnl-nox/cpu-reader?style=for-the-badge&label=OPEN%20ISSUES&color=FF2B2B&labelColor=0A0A0A" alt="CPU Reader open issues"/></a>
-  <a href="https://github.com/mnl-nox/cpu-reader/pulls"><img src="https://img.shields.io/github/issues-pr/mnl-nox/cpu-reader?style=for-the-badge&label=OPEN%20PULL%20REQUESTS&color=00FF9C&labelColor=0A0A0A" alt="CPU Reader open pull requests"/></a>
-  <img src="https://img.shields.io/github/commit-activity/m/mnl-nox/cpu-reader?style=for-the-badge&label=COMMITS%2FMONTH&color=FF2B2B&labelColor=0A0A0A" alt="CPU Reader monthly commit activity"/>
+  <a href="https://github.com/mnl-nox/cpu-reader/issues"><img src="https://img.shields.io/github/issues/mnl-nox/cpu-reader?style=for-the-badge&label=OPEN%20ISSUES&color=EFADDC&labelColor=090914" alt="CPU Reader open issues"/></a>
+  <a href="https://github.com/mnl-nox/cpu-reader/pulls"><img src="https://img.shields.io/github/issues-pr/mnl-nox/cpu-reader?style=for-the-badge&label=OPEN%20PULL%20REQUESTS&color=C9A7FF&labelColor=090914" alt="CPU Reader open pull requests"/></a>
+  <img src="https://img.shields.io/github/commit-activity/m/mnl-nox/cpu-reader?style=for-the-badge&label=COMMITS%2FMONTH&color=EFADDC&labelColor=090914" alt="CPU Reader monthly commit activity"/>
 </p>
 
 ### `FILE MANAGER` — file-management experiments
 
 <p>
-  <a href="https://github.com/mnl-nox/file-manager"><img src="https://img.shields.io/badge/REPOSITORY-FILE--MANAGER-0A0A0A?style=for-the-badge&logo=files&logoColor=FF2B2B" alt="File Manager repository"/></a>
-  <img src="https://img.shields.io/github/languages/count/mnl-nox/file-manager?style=for-the-badge&label=LANGUAGES&color=00FF9C&labelColor=0A0A0A" alt="File Manager language count"/>
-  <img src="https://img.shields.io/github/last-commit/mnl-nox/file-manager?style=for-the-badge&label=LAST%20COMMIT&color=FF2B2B&labelColor=0A0A0A" alt="File Manager last commit"/>
-  <a href="https://github.com/mnl-nox/file-manager/issues"><img src="https://img.shields.io/github/issues/mnl-nox/file-manager?style=for-the-badge&label=OPEN%20ISSUES&color=FF2B2B&labelColor=0A0A0A" alt="File Manager open issues"/></a>
-  <a href="https://github.com/mnl-nox/file-manager/pulls"><img src="https://img.shields.io/github/issues-pr/mnl-nox/file-manager?style=for-the-badge&label=OPEN%20PRS&color=00FF9C&labelColor=0A0A0A" alt="File Manager open pull requests"/></a>
-  <img src="https://img.shields.io/github/commit-activity/m/mnl-nox/file-manager?style=for-the-badge&label=COMMITS%2FMONTH&color=FF2B2B&labelColor=0A0A0A" alt="File Manager monthly commit activity"/>
+  <a href="https://github.com/mnl-nox/file-manager"><img src="https://img.shields.io/badge/REPOSITORY-FILE--MANAGER-090914?style=for-the-badge&logo=files&logoColor=EFADDC" alt="File Manager repository"/></a>
+  <img src="https://img.shields.io/github/languages/count/mnl-nox/file-manager?style=for-the-badge&label=LANGUAGES&color=C9A7FF&labelColor=090914" alt="File Manager language count"/>
+  <img src="https://img.shields.io/github/last-commit/mnl-nox/file-manager?style=for-the-badge&label=LAST%20COMMIT&color=EFADDC&labelColor=090914" alt="File Manager last commit"/>
+  <a href="https://github.com/mnl-nox/file-manager/issues"><img src="https://img.shields.io/github/issues/mnl-nox/file-manager?style=for-the-badge&label=OPEN%20ISSUES&color=EFADDC&labelColor=090914" alt="File Manager open issues"/></a>
+  <a href="https://github.com/mnl-nox/file-manager/pulls"><img src="https://img.shields.io/github/issues-pr/mnl-nox/file-manager?style=for-the-badge&label=OPEN%20PRS&color=C9A7FF&labelColor=090914" alt="File Manager open pull requests"/></a>
+  <img src="https://img.shields.io/github/commit-activity/m/mnl-nox/file-manager?style=for-the-badge&label=COMMITS%2FMONTH&color=EFADDC&labelColor=090914" alt="File Manager monthly commit activity"/>
 </p>
 
 ### `BINLAB` — low-level lab
 
 <p>
-  <a href="https://github.com/mnl-nox/BinLab"><img src="https://img.shields.io/badge/REPOSITORY-BINLAB-0A0A0A?style=for-the-badge&logo=gnubash&logoColor=00FF9C" alt="BinLab repository"/></a>
-  <img src="https://img.shields.io/github/languages/count/mnl-nox/BinLab?style=for-the-badge&label=LANGUAGES&color=00FF9C&labelColor=0A0A0A" alt="BinLab language count"/>
-  <img src="https://img.shields.io/github/last-commit/mnl-nox/BinLab?style=for-the-badge&label=LAST%20COMMIT&color=FF2B2B&labelColor=0A0A0A" alt="BinLab last commit"/>
-  <a href="https://github.com/mnl-nox/BinLab/issues"><img src="https://img.shields.io/github/issues/mnl-nox/BinLab?style=for-the-badge&label=OPEN%20ISSUES&color=FF2B2B&labelColor=0A0A0A" alt="BinLab open issues"/></a>
-  <a href="https://github.com/mnl-nox/BinLab/pulls"><img src="https://img.shields.io/github/issues-pr/mnl-nox/BinLab?style=for-the-badge&label=OPEN%20PRS&color=00FF9C&labelColor=0A0A0A" alt="BinLab open pull requests"/></a>
-  <img src="https://img.shields.io/github/commit-activity/m/mnl-nox/BinLab?style=for-the-badge&label=COMMITS%2FMONTH&color=FF2B2B&labelColor=0A0A0A" alt="BinLab monthly commit activity"/>
+  <a href="https://github.com/mnl-nox/BinLab"><img src="https://img.shields.io/badge/REPOSITORY-BINLAB-090914?style=for-the-badge&logo=gnubash&logoColor=C9A7FF" alt="BinLab repository"/></a>
+  <img src="https://img.shields.io/github/languages/count/mnl-nox/BinLab?style=for-the-badge&label=LANGUAGES&color=C9A7FF&labelColor=090914" alt="BinLab language count"/>
+  <img src="https://img.shields.io/github/last-commit/mnl-nox/BinLab?style=for-the-badge&label=LAST%20COMMIT&color=EFADDC&labelColor=090914" alt="BinLab last commit"/>
+  <a href="https://github.com/mnl-nox/BinLab/issues"><img src="https://img.shields.io/github/issues/mnl-nox/BinLab?style=for-the-badge&label=OPEN%20ISSUES&color=EFADDC&labelColor=090914" alt="BinLab open issues"/></a>
+  <a href="https://github.com/mnl-nox/BinLab/pulls"><img src="https://img.shields.io/github/issues-pr/mnl-nox/BinLab?style=for-the-badge&label=OPEN%20PRS&color=C9A7FF&labelColor=090914" alt="BinLab open pull requests"/></a>
+  <img src="https://img.shields.io/github/commit-activity/m/mnl-nox/BinLab?style=for-the-badge&label=COMMITS%2FMONTH&color=EFADDC&labelColor=090914" alt="BinLab monthly commit activity"/>
 </p>
 
 ### `SIMPLEBASH` — shell scripting
 
 <p>
-  <a href="https://github.com/mnl-nox/simpleBash"><img src="https://img.shields.io/badge/REPOSITORY-SIMPLEBASH-0A0A0A?style=for-the-badge&logo=gnubash&logoColor=FF2B2B" alt="simpleBash repository"/></a>
-  <img src="https://img.shields.io/github/languages/count/mnl-nox/simpleBash?style=for-the-badge&label=LANGUAGES&color=00FF9C&labelColor=0A0A0A" alt="simpleBash language count"/>
-  <img src="https://img.shields.io/github/last-commit/mnl-nox/simpleBash?style=for-the-badge&label=LAST%20COMMIT&color=FF2B2B&labelColor=0A0A0A" alt="simpleBash last commit"/>
-  <a href="https://github.com/mnl-nox/simpleBash/issues"><img src="https://img.shields.io/github/issues/mnl-nox/simpleBash?style=for-the-badge&label=OPEN%20ISSUES&color=FF2B2B&labelColor=0A0A0A" alt="simpleBash open issues"/></a>
-  <a href="https://github.com/mnl-nox/simpleBash/pulls"><img src="https://img.shields.io/github/issues-pr/mnl-nox/simpleBash?style=for-the-badge&label=OPEN%20PRS&color=00FF9C&labelColor=0A0A0A" alt="simpleBash open pull requests"/></a>
-  <img src="https://img.shields.io/github/commit-activity/m/mnl-nox/simpleBash?style=for-the-badge&label=COMMITS%2FMONTH&color=FF2B2B&labelColor=0A0A0A" alt="simpleBash monthly commit activity"/>
+  <a href="https://github.com/mnl-nox/simpleBash"><img src="https://img.shields.io/badge/REPOSITORY-SIMPLEBASH-090914?style=for-the-badge&logo=gnubash&logoColor=EFADDC" alt="simpleBash repository"/></a>
+  <img src="https://img.shields.io/github/languages/count/mnl-nox/simpleBash?style=for-the-badge&label=LANGUAGES&color=C9A7FF&labelColor=090914" alt="simpleBash language count"/>
+  <img src="https://img.shields.io/github/last-commit/mnl-nox/simpleBash?style=for-the-badge&label=LAST%20COMMIT&color=EFADDC&labelColor=090914" alt="simpleBash last commit"/>
+  <a href="https://github.com/mnl-nox/simpleBash/issues"><img src="https://img.shields.io/github/issues/mnl-nox/simpleBash?style=for-the-badge&label=OPEN%20ISSUES&color=EFADDC&labelColor=090914" alt="simpleBash open issues"/></a>
+  <a href="https://github.com/mnl-nox/simpleBash/pulls"><img src="https://img.shields.io/github/issues-pr/mnl-nox/simpleBash?style=for-the-badge&label=OPEN%20PRS&color=C9A7FF&labelColor=090914" alt="simpleBash open pull requests"/></a>
+  <img src="https://img.shields.io/github/commit-activity/m/mnl-nox/simpleBash?style=for-the-badge&label=COMMITS%2FMONTH&color=EFADDC&labelColor=090914" alt="simpleBash monthly commit activity"/>
 </p>
 
 <p align="center">
-  <a href="https://github.com/mnl-nox?tab=repositories"><img src="https://img.shields.io/badge/ALL_REPOSITORIES-OPEN_INDEX-0A0A0A?style=for-the-badge&logo=github&logoColor=00FF9C" alt="All repositories"/></a>
-  <a href="https://github.com/mnl-nox?tab=issues"><img src="https://img.shields.io/badge/ISSUE_TRACKER-ACCOUNT_QUEUE-0A0A0A?style=for-the-badge&logo=github&logoColor=FF2B2B" alt="Account issue tracker"/></a>
+  <a href="https://github.com/mnl-nox?tab=repositories"><img src="https://img.shields.io/badge/ALL_REPOSITORIES-OPEN_INDEX-090914?style=for-the-badge&logo=github&logoColor=C9A7FF" alt="All repositories"/></a>
+  <a href="https://github.com/mnl-nox?tab=issues"><img src="https://img.shields.io/badge/ISSUE_TRACKER-ACCOUNT_QUEUE-090914?style=for-the-badge&logo=github&logoColor=EFADDC" alt="Account issue tracker"/></a>
 </p>
 
 ---
@@ -202,78 +202,78 @@ A C99 library and monitor for Linux that reads CPU model and topology, calculate
 ### `LANGUAGES & MARKUP`
 
 <p align="center">
-  <img src="https://img.shields.io/badge/C-0A0A0A?style=for-the-badge&logo=c&logoColor=00FF9C" alt="C"/>
-  <img src="https://img.shields.io/badge/C99-0A0A0A?style=for-the-badge&logo=c&logoColor=FF2B2B" alt="C99"/>
-  <img src="https://img.shields.io/badge/C%2B%2B-0A0A0A?style=for-the-badge&logo=cplusplus&logoColor=00FF9C" alt="C++"/>
-  <img src="https://img.shields.io/badge/C%23-0A0A0A?style=for-the-badge&logo=csharp&logoColor=FF2B2B" alt="C sharp"/>
-  <img src="https://img.shields.io/badge/PYTHON-0A0A0A?style=for-the-badge&logo=python&logoColor=00FF9C" alt="Python"/>
-  <img src="https://img.shields.io/badge/JAVASCRIPT-0A0A0A?style=for-the-badge&logo=javascript&logoColor=FF2B2B" alt="JavaScript"/>
-  <img src="https://img.shields.io/badge/HTML5-0A0A0A?style=for-the-badge&logo=html5&logoColor=00FF9C" alt="HTML5"/>
-  <img src="https://img.shields.io/badge/CSS3-0A0A0A?style=for-the-badge&logo=css3&logoColor=FF2B2B" alt="CSS3"/>
-  <img src="https://img.shields.io/badge/SQL-0A0A0A?style=for-the-badge&logo=sqlite&logoColor=00FF9C" alt="SQL"/>
-  <img src="https://img.shields.io/badge/MARKDOWN-0A0A0A?style=for-the-badge&logo=markdown&logoColor=FF2B2B" alt="Markdown"/>
-  <img src="https://img.shields.io/badge/JSON-0A0A0A?style=for-the-badge&logo=json&logoColor=00FF9C" alt="JSON"/>
-  <img src="https://img.shields.io/badge/REGEX-0A0A0A?style=for-the-badge&logo=regex&logoColor=FF2B2B" alt="Regular expressions"/>
+  <img src="https://img.shields.io/badge/C-090914?style=for-the-badge&logo=c&logoColor=C9A7FF" alt="C"/>
+  <img src="https://img.shields.io/badge/C99-090914?style=for-the-badge&logo=c&logoColor=EFADDC" alt="C99"/>
+  <img src="https://img.shields.io/badge/C%2B%2B-090914?style=for-the-badge&logo=cplusplus&logoColor=C9A7FF" alt="C++"/>
+  <img src="https://img.shields.io/badge/C%23-090914?style=for-the-badge&logo=csharp&logoColor=EFADDC" alt="C sharp"/>
+  <img src="https://img.shields.io/badge/PYTHON-090914?style=for-the-badge&logo=python&logoColor=C9A7FF" alt="Python"/>
+  <img src="https://img.shields.io/badge/JAVASCRIPT-090914?style=for-the-badge&logo=javascript&logoColor=EFADDC" alt="JavaScript"/>
+  <img src="https://img.shields.io/badge/HTML5-090914?style=for-the-badge&logo=html5&logoColor=C9A7FF" alt="HTML5"/>
+  <img src="https://img.shields.io/badge/CSS3-090914?style=for-the-badge&logo=css3&logoColor=EFADDC" alt="CSS3"/>
+  <img src="https://img.shields.io/badge/SQL-090914?style=for-the-badge&logo=sqlite&logoColor=C9A7FF" alt="SQL"/>
+  <img src="https://img.shields.io/badge/MARKDOWN-090914?style=for-the-badge&logo=markdown&logoColor=EFADDC" alt="Markdown"/>
+  <img src="https://img.shields.io/badge/JSON-090914?style=for-the-badge&logo=json&logoColor=C9A7FF" alt="JSON"/>
+  <img src="https://img.shields.io/badge/REGEX-090914?style=for-the-badge&logo=regex&logoColor=EFADDC" alt="Regular expressions"/>
 </p>
 
 ### `COMPILERS, BUILD & DEBUGGING`
 
 <p align="center">
-  <img src="https://img.shields.io/badge/GCC-0A0A0A?style=for-the-badge&logo=gnu&logoColor=00FF9C" alt="GCC"/>
-  <img src="https://img.shields.io/badge/G%2B%2B-0A0A0A?style=for-the-badge&logo=cplusplus&logoColor=FF2B2B" alt="G++"/>
-  <img src="https://img.shields.io/badge/CLANG-0A0A0A?style=for-the-badge&logo=llvm&logoColor=00FF9C" alt="Clang"/>
-  <img src="https://img.shields.io/badge/LLVM-0A0A0A?style=for-the-badge&logo=llvm&logoColor=FF2B2B" alt="LLVM"/>
-  <img src="https://img.shields.io/badge/GDB-0A0A0A?style=for-the-badge&logo=gnu&logoColor=00FF9C" alt="GDB"/>
-  <img src="https://img.shields.io/badge/CMAKE-0A0A0A?style=for-the-badge&logo=cmake&logoColor=FF2B2B" alt="CMake"/>
-  <img src="https://img.shields.io/badge/MAKEFILES-0A0A0A?style=for-the-badge&logo=gnubash&logoColor=00FF9C" alt="Makefiles"/>
-  <img src="https://img.shields.io/badge/DEBUGGING-0A0A0A?style=for-the-badge&logo=gnu&logoColor=FF2B2B" alt="Debugging"/>
-  <img src="https://img.shields.io/badge/SANITIZERS-0A0A0A?style=for-the-badge&logo=checkmarx&logoColor=00FF9C" alt="Sanitizers"/>
-  <img src="https://img.shields.io/badge/STATIC_ANALYSIS-0A0A0A?style=for-the-badge&logo=sonarqube&logoColor=FF2B2B" alt="Static analysis"/>
-  <img src="https://img.shields.io/badge/VALGRIND-0A0A0A?style=for-the-badge&logo=linux&logoColor=00FF9C" alt="Valgrind"/>
+  <img src="https://img.shields.io/badge/GCC-090914?style=for-the-badge&logo=gnu&logoColor=C9A7FF" alt="GCC"/>
+  <img src="https://img.shields.io/badge/G%2B%2B-090914?style=for-the-badge&logo=cplusplus&logoColor=EFADDC" alt="G++"/>
+  <img src="https://img.shields.io/badge/CLANG-090914?style=for-the-badge&logo=llvm&logoColor=C9A7FF" alt="Clang"/>
+  <img src="https://img.shields.io/badge/LLVM-090914?style=for-the-badge&logo=llvm&logoColor=EFADDC" alt="LLVM"/>
+  <img src="https://img.shields.io/badge/GDB-090914?style=for-the-badge&logo=gnu&logoColor=C9A7FF" alt="GDB"/>
+  <img src="https://img.shields.io/badge/CMAKE-090914?style=for-the-badge&logo=cmake&logoColor=EFADDC" alt="CMake"/>
+  <img src="https://img.shields.io/badge/MAKEFILES-090914?style=for-the-badge&logo=gnubash&logoColor=C9A7FF" alt="Makefiles"/>
+  <img src="https://img.shields.io/badge/DEBUGGING-090914?style=for-the-badge&logo=gnu&logoColor=EFADDC" alt="Debugging"/>
+  <img src="https://img.shields.io/badge/SANITIZERS-090914?style=for-the-badge&logo=checkmarx&logoColor=C9A7FF" alt="Sanitizers"/>
+  <img src="https://img.shields.io/badge/STATIC_ANALYSIS-090914?style=for-the-badge&logo=sonarqube&logoColor=EFADDC" alt="Static analysis"/>
+  <img src="https://img.shields.io/badge/VALGRIND-090914?style=for-the-badge&logo=linux&logoColor=C9A7FF" alt="Valgrind"/>
 </p>
 
 ### `LINUX & SYSTEMS`
 
 <p align="center">
-  <img src="https://img.shields.io/badge/LINUX-0A0A0A?style=for-the-badge&logo=linux&logoColor=00FF9C" alt="Linux"/>
-  <img src="https://img.shields.io/badge/DEBIAN-0A0A0A?style=for-the-badge&logo=debian&logoColor=FF2B2B" alt="Debian"/>
-  <img src="https://img.shields.io/badge/UBUNTU-0A0A0A?style=for-the-badge&logo=ubuntu&logoColor=00FF9C" alt="Ubuntu"/>
-  <img src="https://img.shields.io/badge/BASH-0A0A0A?style=for-the-badge&logo=gnubash&logoColor=FF2B2B" alt="Bash"/>
-  <img src="https://img.shields.io/badge/POSIX_FUNDAMENTALS-0A0A0A?style=for-the-badge&logo=linux&logoColor=00FF9C" alt="POSIX fundamentals"/>
-  <img src="https://img.shields.io/badge/PROCFS-0A0A0A?style=for-the-badge&logo=linux&logoColor=FF2B2B" alt="/proc"/>
-  <img src="https://img.shields.io/badge/SYSFS-0A0A0A?style=for-the-badge&logo=linux&logoColor=00FF9C" alt="/sys"/>
-  <img src="https://img.shields.io/badge/PROCESS_MONITORING-0A0A0A?style=for-the-badge&logo=gnometerminal&logoColor=FF2B2B" alt="Process monitoring"/>
-  <img src="https://img.shields.io/badge/PACKAGING_DEB-0A0A0A?style=for-the-badge&logo=debian&logoColor=00FF9C" alt="Debian packaging"/>
-  <img src="https://img.shields.io/badge/GTK4-0A0A0A?style=for-the-badge&logo=gnome&logoColor=FF2B2B" alt="GTK4"/>
+  <img src="https://img.shields.io/badge/LINUX-090914?style=for-the-badge&logo=linux&logoColor=C9A7FF" alt="Linux"/>
+  <img src="https://img.shields.io/badge/DEBIAN-090914?style=for-the-badge&logo=debian&logoColor=EFADDC" alt="Debian"/>
+  <img src="https://img.shields.io/badge/UBUNTU-090914?style=for-the-badge&logo=ubuntu&logoColor=C9A7FF" alt="Ubuntu"/>
+  <img src="https://img.shields.io/badge/BASH-090914?style=for-the-badge&logo=gnubash&logoColor=EFADDC" alt="Bash"/>
+  <img src="https://img.shields.io/badge/POSIX_FUNDAMENTALS-090914?style=for-the-badge&logo=linux&logoColor=C9A7FF" alt="POSIX fundamentals"/>
+  <img src="https://img.shields.io/badge/PROCFS-090914?style=for-the-badge&logo=linux&logoColor=EFADDC" alt="/proc"/>
+  <img src="https://img.shields.io/badge/SYSFS-090914?style=for-the-badge&logo=linux&logoColor=C9A7FF" alt="/sys"/>
+  <img src="https://img.shields.io/badge/PROCESS_MONITORING-090914?style=for-the-badge&logo=gnometerminal&logoColor=EFADDC" alt="Process monitoring"/>
+  <img src="https://img.shields.io/badge/PACKAGING_DEB-090914?style=for-the-badge&logo=debian&logoColor=C9A7FF" alt="Debian packaging"/>
+  <img src="https://img.shields.io/badge/GTK4-090914?style=for-the-badge&logo=gnome&logoColor=EFADDC" alt="GTK4"/>
 </p>
 
 ### `QUALITY, WORKFLOW & DOCUMENTATION`
 
 <p align="center">
-  <img src="https://img.shields.io/badge/GIT-0A0A0A?style=for-the-badge&logo=git&logoColor=00FF9C" alt="Git"/>
-  <img src="https://img.shields.io/badge/GITHUB-0A0A0A?style=for-the-badge&logo=github&logoColor=FF2B2B" alt="GitHub"/>
-  <img src="https://img.shields.io/badge/GITHUB_ACTIONS-0A0A0A?style=for-the-badge&logo=githubactions&logoColor=00FF9C" alt="GitHub Actions"/>
-  <img src="https://img.shields.io/badge/CI_CD-0A0A0A?style=for-the-badge&logo=githubactions&logoColor=FF2B2B" alt="CI/CD"/>
-  <img src="https://img.shields.io/badge/UNIT_TESTING-0A0A0A?style=for-the-badge&logo=testinglibrary&logoColor=00FF9C" alt="Unit testing"/>
-  <img src="https://img.shields.io/badge/API_DESIGN-0A0A0A?style=for-the-badge&logo=swagger&logoColor=FF2B2B" alt="API design"/>
-  <img src="https://img.shields.io/badge/ERROR_HANDLING-0A0A0A?style=for-the-badge&logo=gnubash&logoColor=00FF9C" alt="Error handling"/>
-  <img src="https://img.shields.io/badge/TECHNICAL_DOCS-0A0A0A?style=for-the-badge&logo=readthedocs&logoColor=FF2B2B" alt="Technical documentation"/>
-  <img src="https://img.shields.io/badge/UML-0A0A0A?style=for-the-badge&logo=diagramsdotnet&logoColor=00FF9C" alt="UML"/>
-  <img src="https://img.shields.io/badge/REPRODUCIBLE_BUILDS-0A0A0A?style=for-the-badge&logo=cmake&logoColor=FF2B2B" alt="Reproducible builds"/>
+  <img src="https://img.shields.io/badge/GIT-090914?style=for-the-badge&logo=git&logoColor=C9A7FF" alt="Git"/>
+  <img src="https://img.shields.io/badge/GITHUB-090914?style=for-the-badge&logo=github&logoColor=EFADDC" alt="GitHub"/>
+  <img src="https://img.shields.io/badge/GITHUB_ACTIONS-090914?style=for-the-badge&logo=githubactions&logoColor=C9A7FF" alt="GitHub Actions"/>
+  <img src="https://img.shields.io/badge/CI_CD-090914?style=for-the-badge&logo=githubactions&logoColor=EFADDC" alt="CI/CD"/>
+  <img src="https://img.shields.io/badge/UNIT_TESTING-090914?style=for-the-badge&logo=testinglibrary&logoColor=C9A7FF" alt="Unit testing"/>
+  <img src="https://img.shields.io/badge/API_DESIGN-090914?style=for-the-badge&logo=swagger&logoColor=EFADDC" alt="API design"/>
+  <img src="https://img.shields.io/badge/ERROR_HANDLING-090914?style=for-the-badge&logo=gnubash&logoColor=C9A7FF" alt="Error handling"/>
+  <img src="https://img.shields.io/badge/TECHNICAL_DOCS-090914?style=for-the-badge&logo=readthedocs&logoColor=EFADDC" alt="Technical documentation"/>
+  <img src="https://img.shields.io/badge/UML-090914?style=for-the-badge&logo=diagramsdotnet&logoColor=C9A7FF" alt="UML"/>
+  <img src="https://img.shields.io/badge/REPRODUCIBLE_BUILDS-090914?style=for-the-badge&logo=cmake&logoColor=EFADDC" alt="Reproducible builds"/>
 </p>
 
 ### `COMPUTER SCIENCE & AREAS UNDER EXPLORATION`
 
 <p align="center">
-  <img src="https://img.shields.io/badge/COMPUTER_ARCHITECTURE-0A0A0A?style=for-the-badge&logo=raspberrypi&logoColor=00FF9C" alt="Computer architecture"/>
-  <img src="https://img.shields.io/badge/CPU_TOPOLOGY-0A0A0A?style=for-the-badge&logo=linux&logoColor=FF2B2B" alt="CPU topology"/>
-  <img src="https://img.shields.io/badge/MEMORY_FUNDAMENTALS-0A0A0A?style=for-the-badge&logo=opensourceinitiative&logoColor=00FF9C" alt="Memory fundamentals"/>
-  <img src="https://img.shields.io/badge/NETWORKING-0A0A0A?style=for-the-badge&logo=wireshark&logoColor=FF2B2B" alt="Networking"/>
-  <img src="https://img.shields.io/badge/SECURITY_FUNDAMENTALS-0A0A0A?style=for-the-badge&logo=owasp&logoColor=00FF9C" alt="Security fundamentals"/>
-  <img src="https://img.shields.io/badge/ARTIFICIAL_INTELLIGENCE-0A0A0A?style=for-the-badge&logo=openai&logoColor=FF2B2B" alt="Artificial intelligence"/>
-  <img src="https://img.shields.io/badge/DATA_STRUCTURES-0A0A0A?style=for-the-badge&logo=leetcode&logoColor=00FF9C" alt="Data structures"/>
-  <img src="https://img.shields.io/badge/ALGORITHMS-0A0A0A?style=for-the-badge&logo=thealgorithms&logoColor=FF2B2B" alt="Algorithms"/>
-  <img src="https://img.shields.io/badge/OPEN_SOURCE-0A0A0A?style=for-the-badge&logo=opensourceinitiative&logoColor=00FF9C" alt="Open source"/>
+  <img src="https://img.shields.io/badge/COMPUTER_ARCHITECTURE-090914?style=for-the-badge&logo=raspberrypi&logoColor=C9A7FF" alt="Computer architecture"/>
+  <img src="https://img.shields.io/badge/CPU_TOPOLOGY-090914?style=for-the-badge&logo=linux&logoColor=EFADDC" alt="CPU topology"/>
+  <img src="https://img.shields.io/badge/MEMORY_FUNDAMENTALS-090914?style=for-the-badge&logo=opensourceinitiative&logoColor=C9A7FF" alt="Memory fundamentals"/>
+  <img src="https://img.shields.io/badge/NETWORKING-090914?style=for-the-badge&logo=wireshark&logoColor=EFADDC" alt="Networking"/>
+  <img src="https://img.shields.io/badge/SECURITY_FUNDAMENTALS-090914?style=for-the-badge&logo=owasp&logoColor=C9A7FF" alt="Security fundamentals"/>
+  <img src="https://img.shields.io/badge/ARTIFICIAL_INTELLIGENCE-090914?style=for-the-badge&logo=openai&logoColor=EFADDC" alt="Artificial intelligence"/>
+  <img src="https://img.shields.io/badge/DATA_STRUCTURES-090914?style=for-the-badge&logo=leetcode&logoColor=C9A7FF" alt="Data structures"/>
+  <img src="https://img.shields.io/badge/ALGORITHMS-090914?style=for-the-badge&logo=thealgorithms&logoColor=EFADDC" alt="Algorithms"/>
+  <img src="https://img.shields.io/badge/OPEN_SOURCE-090914?style=for-the-badge&logo=opensourceinitiative&logoColor=C9A7FF" alt="Open source"/>
 </p>
 
 ---
@@ -305,7 +305,7 @@ A C99 library and monitor for Linux that reads CPU model and topology, calculate
 ---
 
 <p align="center">
-  <img src="https://ghchart.xqsit94.in/dark:00ff9c/mnl-nox" width="100%" alt="GitHub contribution calendar in terminal green"/>
+  <img src="https://ghchart.xqsit94.in/dark:C9A7FF/mnl-nox" width="100%" alt="GitHub contribution calendar in terminal green"/>
 </p>
 
 <p align="center">
