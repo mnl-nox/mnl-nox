@@ -24,7 +24,8 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500;600&family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="./assets/css/site.css?v=mnl-nox-stack-20261101">
+  <link rel="stylesheet" href="./assets/css/site.css?v=20261102">
+  <link rel="stylesheet" href="./assets/css/components/assistant.css?v=20261102">
   <script type="application/ld+json">
   {
     "@context": "https://schema.org",
@@ -199,10 +200,10 @@
     </section>
   </main>
   <footer><div class="wrap footer-line"><span>© <span id="year"></span> <strong>mnl-nox</strong> // INDEPENDENT COMPUTER SCIENCE STUDY.</span><div class="footer-links"><a href="#inicio">VOLTAR AO TOPO ↑</a><a href="https://github.com/mnl-nox/mnl-nox" target="_blank" rel="noreferrer">SOURCE CODE ↗</a></div><span>STATUS: <span class="green">LEARNING</span></span></div></footer>
-  <aside class="nox-assistant" id="noxAssistant" aria-label="Assistente interativo do site">
+  <aside class="nox-assistant" id="noxAssistant" aria-label="Guia interativo NOX">
     <div class="assistant-panel" id="assistantPanel" hidden>
-      <div class="assistant-panel-head"><span><i class="assistant-live"></i> NOX / STUDY GUIDE</span><button type="button" id="assistantClose" aria-label="Fechar assistente">×</button></div>
-      <p class="assistant-disclaimer">Avatar interativo local. Respostas demonstrativas, sem conexão com modelo de IA ou serviço externo.</p>
+      <div class="assistant-panel-head"><span><i class="assistant-live"></i> NOX / STUDY GUIDE</span><button type="button" id="assistantClose" aria-label="Fechar guia">×</button></div>
+      <p class="assistant-disclaimer">Guia local com conteúdo pré-programado. Não é um agente de IA e não envia dados a serviços externos.</p>
       <div class="assistant-message" id="assistantMessage" aria-live="polite">Sou o guia do caderno mnl-nox. Escolha um tópico para explorar.</div>
       <div class="assistant-choices">
         <button type="button" data-assistant-topic="study">O que é estudado?</button>
@@ -217,6 +218,6 @@
   </aside>
   <button class="theme-toggle theme-toggle-floating" id="themeToggle" type="button" aria-label="Ativar tema claro" aria-pressed="false" title="Alternar tema">☼ <span>TEMA CLARO</span></button>
   <script src="./assets/js/analytics.js" defer></script>
-  <script src="./assets/js/site.js?v=mnl-nox-stack-20261101" defer></script>
+  <script type="module" src="./assets/js/app.js?v=20261102"></script>
 </body>
 </html>
