@@ -25,6 +25,13 @@ jobs:
       - name: Check links
         uses: lycheeverse/lychee-action@v2
         with:
-          args: --verbose --no-progress README.md index.html
+          # Dynamic profile widgets and anti-bot protected social sites are
+          # not reliable CI targets. First-party and ordinary external links
+          # remain checked.
+          args: >-
+            --verbose
+            --no-progress
+            --exclude 'https://(github-profile-trophy\\.vercel\\.app|github-readme-stats\\.vercel\\.app|github-readme-activity-graph\\.vercel\\.app|streak-stats\\.demolab\\.com|www\\.linkedin\\.com)/.*'
+            README.md index.html
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
