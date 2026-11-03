@@ -7,28 +7,26 @@ The portfolio is a static GitHub Pages application. It uses native HTML, CSS and
 ```text
 index.html
 ├── assets/css/site.css
-├── assets/css/components/assistant.css
 └── assets/js/app.js
     ├── modules/theme.js       # theme state and persistence
     ├── modules/navigation.js  # responsive navigation and Escape handling
-    ├── modules/assistant.js   # isolated local study guide
     └── modules/reveal.js      # progressive reveal and reduced-motion fallback
 ```
 
-Each module owns one UI responsibility. The theme controller does not import, query or mutate assistant state. The guide does not read or write theme preferences. `app.js` is the composition root and initializes each feature independently.
+Each module owns one UI responsibility. `app.js` is the composition root and initializes the theme, navigation and reveal effects.
 
 ## Components and capabilities
 
 - **Theme control:** toggles light/dark mode and persists the preference in local storage. When storage is unavailable, the page still works and falls back to the system preference.
-- **NOX study guide:** provides prewritten, local help topics. It is not an LLM/AI agent, makes no network requests and does not transmit visitor data.
 - **Navigation:** supports mobile menu state, closes after selecting a link and handles Escape.
 - **Reveal effects:** uses IntersectionObserver when available and respects reduced-motion preferences.
+
+The former NOX study-guide widget has been removed, including its markup, styles, JavaScript module and initialization hook. The site does not include an embedded AI chatbot or local guide widget.
 
 ## Editing guide
 
 - **Content and semantics:** edit `index.html`; keep headings hierarchical, links descriptive and images supplied with useful alt text.
 - **Global visual system:** edit `assets/css/site.css`.
-- **Component styles:** place feature-specific rules under `assets/css/components/`.
 - **Interactions:** add a focused module under `assets/js/modules/`, export an `initFeature()` function, then register it in `assets/js/app.js`.
 - **Artwork:** store reusable illustrations in `assets/img/` and reference them with relative paths.
 - **Deployment:** `.github/workflows/pages.yml` publishes the static site. GitHub Pages must use GitHub Actions as its source.
