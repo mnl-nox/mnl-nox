@@ -431,3 +431,112 @@ button,a{touch-action:manipulation}
 
 /* Project metadata label; keeps presentation out of HTML markup. */
 .project-kind{font-size:.68rem}
+
+
+/* Responsive refinement — typography, navigation, spacing and touch targets. */
+:root{
+  --sans:"Inter",system-ui,-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;
+  --display:"Space Grotesk","Inter",system-ui,sans-serif;
+  --mono:"JetBrains Mono","DM Mono",ui-monospace,SFMono-Regular,monospace;
+  --content:1240px;
+}
+body{font-family:var(--sans);font-size:clamp(15px,1vw,17px);line-height:1.72;letter-spacing:-.012em}
+h1,h2,h3,.brand{font-family:var(--display);text-wrap:balance}
+h1{font-size:clamp(2.8rem,6.7vw,6.25rem);line-height:.98;letter-spacing:-.075em}
+h2{line-height:1.08;text-wrap:balance}
+p{ text-wrap:pretty }
+.wrap{width:min(var(--content),calc(100% - clamp(32px,6vw,96px)))}
+section{padding-block:clamp(56px,7vw,96px)}
+.section-head{margin-bottom:clamp(24px,3vw,40px)}
+.section-head h2{font-size:clamp(2rem,4.2vw,3.5rem)}
+.hero{padding-block:clamp(64px,8vw,116px) clamp(52px,6vw,82px)}
+.hero-grid{gap:clamp(28px,5vw,72px)}
+.hero-copy{font-size:clamp(1rem,1.2vw,1.12rem);line-height:1.85}
+.terminal,.about-card,.about-copy,.project-card,.skill-panel,.dashboard-card,
+.trophy-panel,.journal-entry,.reliability-card,.contact-panel{border-radius:10px}
+.terminal{overflow:hidden}
+.button,.nav-cta,.theme-toggle,.menu-toggle{min-height:44px;border-radius:6px}
+.button{padding:12px 17px}
+.project-card,.journal-entry,.skill-panel,.dashboard-card,.reliability-card{padding:clamp(18px,2.2vw,28px)}
+.project-card p,.journal-entry p{min-height:0;line-height:1.75}
+.contact-panel{gap:clamp(24px,4vw,52px)}
+.contact-actions{min-width:min(100%,210px)}
+.contact-actions .button{white-space:normal}
+.nav{position:relative}
+.nav-link{min-height:44px;display:inline-flex;align-items:center}
+.menu-toggle{display:none;cursor:pointer;padding:8px 13px;font: .7rem var(--mono);letter-spacing:.06em}
+img,svg,video{max-width:100%}
+:where(.project-card,.journal-entry,.skill-panel,.dashboard-card,.reliability-card){transition:transform .22s ease,border-color .22s ease,background-color .22s ease}
+@media(min-width:1440px){
+  .hero-grid{grid-template-columns:minmax(0,1.08fr) minmax(360px,.92fr)}
+  .terminal-body{font-size:.82rem}
+}
+@media(max-width:1100px){
+  .nav{min-height:68px}
+  .menu-toggle{display:inline-flex;align-items:center;justify-content:center}
+  .nav-links{display:none;position:absolute;z-index:30;top:calc(100% + 1px);right:0;left:auto;width:min(460px,calc(100vw - 32px));max-height:min(72vh,620px);overflow:auto;padding:18px;border:1px solid var(--line);border-radius:0 0 10px 10px;background:var(--panel);box-shadow:0 22px 55px rgba(0,0,0,.28);grid-template-columns:repeat(2,minmax(0,1fr));gap:5px}
+  .nav-links.open{display:grid}
+  .nav-link,.nav-cta{padding:10px 12px}
+  .nav-cta{text-align:center;grid-column:1/-1}
+  .hero-grid{grid-template-columns:minmax(0,1fr) minmax(280px,.9fr);gap:30px}
+  .hero h1{font-size:clamp(2.8rem,6.2vw,5.2rem)}
+}
+@media(max-width:760px){
+  .wrap{width:calc(100% - 36px)}
+  .hero-grid,.about-grid{grid-template-columns:minmax(0,1fr)}
+  .hero{padding-top:54px}
+  .hero h1{font-size:clamp(2.8rem,12vw,5rem)}
+  .terminal{max-width:100%}
+  .projects-grid,.skills-grid,.dashboard-grid,.journal-grid,.approach-grid,.reliability-grid{grid-template-columns:minmax(0,1fr)}
+  .dashboard-card-wide,.dashboard-card-streak{grid-column:auto;width:100%}
+  .metrics{grid-template-columns:repeat(2,minmax(0,1fr))}
+  .metric:nth-child(2){border-right:0}
+  .metric:nth-child(3){border-bottom:0}
+  .metric:nth-child(4){border-bottom:0}
+  .contact-panel{grid-template-columns:minmax(0,1fr)}
+  .contact-actions{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));min-width:0}
+  .contact-actions .button{width:100%;min-width:0}
+  .journal-intro{flex-direction:column;gap:12px}
+  .journal-entry p{min-height:0}
+}
+@media(max-width:520px){
+  .wrap{width:calc(100% - 28px)}
+  .nav{min-height:62px;gap:8px}
+  .brand{font-size:.9rem;gap:8px}
+  .brand-mark{width:31px;height:31px}
+  .nav-controls{margin-left:auto}
+  .nav-links{grid-template-columns:minmax(0,1fr);width:calc(100vw - 28px);right:0;max-height:calc(100dvh - 76px)}
+  .nav-cta{grid-column:auto}
+  .hero{padding-top:42px}
+  .hero h1{font-size:clamp(2.55rem,12.6vw,4.1rem);letter-spacing:-.07em}
+  .hero-copy{font-size:.97rem;line-height:1.75}
+  .hero-actions{display:grid;grid-template-columns:1fr}
+  .hero-actions .button{width:100%}
+  .hero-meta{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:14px}
+  .terminal-body{padding:16px 13px;font-size:clamp(.6rem,2.75vw,.72rem);line-height:1.85;overflow-x:auto}
+  .terminal-foot{font-size:.56rem;flex-wrap:wrap}
+  section{padding-block:52px}
+  .section-head h2{font-size:clamp(2rem,9.5vw,2.6rem)}
+  .metrics{grid-template-columns:repeat(2,minmax(0,1fr))}
+  .metric{padding:14px 12px}
+  .metric-value{font-size:clamp(1rem,5vw,1.35rem);overflow-wrap:anywhere}
+  .contact-panel{padding:22px 18px}
+  .contact-actions{grid-template-columns:1fr}
+  .footer-line{align-items:flex-start;flex-direction:column}
+  .footer-links{flex-wrap:wrap}
+}
+@media(max-width:360px){
+  .wrap{width:calc(100% - 22px)}
+  .brand small{display:none}
+  .hero h1{font-size:2.45rem}
+  .hero-meta{grid-template-columns:1fr}
+  .metric{padding:12px 9px}
+  .metric-label{font-size:.58rem}
+}
+@media(hover:hover) and (pointer:fine){
+  .project-card:hover,.journal-entry:hover,.skill-panel:hover,.dashboard-card:hover,.reliability-card:hover{transform:translateY(-3px);border-color:rgba(201,167,255,.48)}
+}
+@media(prefers-reduced-motion:reduce){
+  *,*:before,*:after{scroll-behavior:auto!important;animation:none!important;transition:none!important}
+  .project-card:hover,.journal-entry:hover,.skill-panel:hover,.dashboard-card:hover,.reliability-card:hover{transform:none}
+}
